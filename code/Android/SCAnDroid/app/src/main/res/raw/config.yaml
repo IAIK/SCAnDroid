@@ -1,0 +1,47 @@
+config:
+  #USE_ONLY_METHODS_FROM_FILE: If true, only methods from the supplied method file will be considered. Otherwise, all methods from the specified classes will be used. This includes protected and private methods. If false, parameter values can only be guessed as the parameter names are unknown for these methods
+  USE_ONLY_METHODS_FROM_FILE: true
+  #EXPLORATION_DEPTH_FOR_CLASS_RETURN_VALUES: The Service will explore returned class objects for relevant methods. The maximum exploration depth can be configured with this parameter.
+  EXPLORATION_DEPTH_FOR_CLASS_RETURN_VALUES: 2
+  #NR_OF_INIT_LOOPS: During the exploration phase, the Service calls all methods multiple times. This parameter allows configuring how often the methods should be called before moving on to the recording phase by reporting the completion of the phase to the Backend.
+  NR_OF_INIT_LOOPS: 75
+  #USE_STRING_STREAM: If true, the return values will be saved into a string stream until the Backend sends the next intent. Otherwise, the return values will be directly written to the corresponding files. Using string streams needs more memory. As a consequence, system memory can become scarce. This may lead to force closures of the Service when choosing long timeouts in the Backend and recording a lot of return values. Writing directly to files during an event on the other hand produces more system activity which could skew the results.
+  USE_STRING_STREAM: true
+  #HAR_STYLE_LOG_FILES: Different logging format
+  HAR_STYLE_LOG_FILES: false
+  #FILTER_SAME_VALUES: Defines whether or not to ignore return values which are the same as the previous one when writing to the string stream/file.
+  FILTER_SAME_VALUES: true
+  #METHOD_PREFIXES: All methods with the configured prefixes will be considered in the exploration phase. All other methods will be ignored.
+  METHOD_PREFIXES: ["get", "query", "has", "is", "nativeGet", "nativeQuery", "nativeHas", "nativeIs"] # , "current"
+  FILTER_DOUBLE_METHODS: true
+  #Some of these methods cause segfaults in Android native code
+  #getPlaybackParams, getSyncParams: JNI DETECTED ERROR IN APPLICATION: JNI NewObjectV called with pending exception java.lang.IllegalStateException
+  #getCachedDuration, getDrmInitData, getMetrics, hasCacheReachedEndOfStream: fault addr 0x0: /system/lib64/libstagefright.so
+  #get: java.util.concurrent.CompletableFuture
+  #sendDeviceStateChanged: Handler (android.os.Handler) {492b633} sending message to a Handler on a dead thread
+  #METHOD_BLACKLIST: This parameter allows blacklisting of methods. Methods with names occurring in this configuration option are ignored. This is mostly useful if USE_ONLY_METHODS_FROM_FILE is set to false, as otherwise the method can just be removed from the methods file.
+  METHOD_BLACKLIST: ["getPlaybackParams", "getSyncParams", "getCachedDuration", "getDrmInitData",
+                    "getMetrics", "hasCacheReachedEndOfStream", "get", "getChars", "getAdler",
+                    "sendDeviceStateChanged",
+                     "getAssetLength", "getAssetRemainingLength", # android.content.res.AssetManager
+                     "getThemeChangingConfigurations", "getThemeValue",
+                     "nativeIsPolling",
+                     "queryPasspointIcon",
+                     "getAppTasks", "getProcessMemoryInfo", "getRecentTasks", "getRunningAppProcesses", "getRunningServices", "getRunningTasks",
+                     "getSearchablesInGlobalSearch", "getAllCellInfo", "getNeighboringCellInfo", "getDevices", "isDefaultNetworkActive",
+                     "isUserAMonkey",
+                     "getAccessibilityServiceList", "getInstalledAccessibilityServiceList", "getAllNetworkInfo"
+                    ] #, "isTheFinalCountDown"
+ # METHOD_BLACKLIST: ["getCachedDuration", "getPlaybackParams",
+  #               "getSyncParams", "getNextFrameNumber", "get", "getClipBounds", "getHeight",
+   #              "getMatrix", "getSaveCount", "getWidth", "isOpaque", "getColorFilter",
+    #             "getRadius", "isIdentity", "isRect", "getPicture", "getKeyFrameCount",
+     #            "getColorMultiply", "isDither", "getFlags", "getAlpha", "getPaint", "getTextPath",
+      ##           "isAutoMirrored", "getStrokeCap", "getOpacity", "getIntrinsicHeight",
+        #         "getFontFeatureSettings", "getFontMetricsInt", "getFillPath", "getColorAdd",
+         #        "isAffine", "hasMipMap", "isEmpty", "getGravity", "hashCode", "getColor",
+          #       "getFontSpacing", "isElegantTextHeight", "isRunning", "getLetterSpacing",
+           #      "getValues", "getRect", "getTextWidths", "getMaskFilter", "getRed", "getValueCount",
+            #     "getOffsetForAdvance", "getFontMetrics",
+             #    "hasCacheReachedEndOfStream", "getUsageForOrigin", "getQuotaForOrigin", "getOrigins",
+              #   "getSupportActionBar", "getInstance", "getAdler", "finalize", "close"]

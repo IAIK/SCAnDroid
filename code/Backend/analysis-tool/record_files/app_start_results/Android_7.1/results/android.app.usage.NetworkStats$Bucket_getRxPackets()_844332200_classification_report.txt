@@ -1,0 +1,24 @@
+                                        precision    recall  f1-score   support
+
+                    com.airbnb.android       0.88      0.88      0.88         8
+         com.duckduckgo.mobile.android       0.54      0.88      0.67         8
+                           com.fsck.k9       1.00      0.62      0.77         8
+                 com.instagram.android       0.43      0.38      0.40         8
+com.isis_papyrus.raiffeisen_pay_eyewdg       0.88      0.88      0.88         8
+                     com.moshbit.studo       1.00      1.00      1.00         8
+          com.paypal.android.p2pmobile       0.86      0.75      0.80         8
+           com.tripadvisor.tripadvisor       0.86      0.75      0.80         8
+                   com.twitter.android       0.67      0.75      0.71         8
+                              com.waze       0.88      0.88      0.88         8
+                          com.whatsapp       0.78      0.88      0.82         8
+         de.mcdonalds.mcdonaldsinfoapp       0.58      0.88      0.70         8
+            de.pilot.newyorker.android       0.40      0.25      0.31         8
+     de.prosiebensat1digital.prosieben       0.60      0.75      0.67         8
+           de.spiegel.android.app.spon       0.86      0.75      0.80         8
+                     de.zalando.mobile       0.75      0.75      0.75         8
+                   org.chromium.chrome       0.71      0.62      0.67         8
+               org.indywidualni.fblite       0.17      0.12      0.14         8
+                   org.mozilla.firefox       1.00      1.00      1.00         8
+          org.zwanoo.android.speedtest       1.00      1.00      1.00         8
+
+                           avg / total       0.74      0.74      0.73       160

@@ -1,0 +1,24 @@
+                          precision    recall  f1-score   support
+
+       http://www.360.cn       1.00      1.00      1.00         8
+   http://www.amazon.com       0.83      0.62      0.71         8
+    http://www.baidu.com       0.75      0.75      0.75         8
+ http://www.facebook.com       1.00      1.00      1.00         8
+   http://www.google.com       0.88      0.88      0.88         8
+    http://www.imgur.com       0.88      0.88      0.88         8
+http://www.instagram.com       1.00      1.00      1.00         8
+       http://www.jd.com       1.00      1.00      1.00         8
+ http://www.linkedin.com       1.00      1.00      1.00         8
+     http://www.live.com       0.89      1.00      0.94         8
+  http://www.netflix.com       0.89      1.00      0.94         8
+       http://www.qq.com       1.00      1.00      1.00         8
+   http://www.reddit.com       0.78      0.88      0.82         8
+  http://www.sina.com.cn       0.88      0.88      0.88         8
+     http://www.sohu.com       0.67      0.75      0.71         8
+    http://www.tmall.com       1.00      0.75      0.86         8
+       http://www.vk.com       1.00      1.00      1.00         8
+http://www.wikipedia.org       1.00      1.00      1.00         8
+    http://www.yahoo.com       0.78      0.88      0.82         8
+    http://www.yandex.ru       1.00      0.88      0.93         8
+
+             avg / total       0.91      0.91      0.91       160

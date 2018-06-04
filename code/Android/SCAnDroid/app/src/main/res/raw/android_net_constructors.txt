@@ -1,0 +1,330 @@
+android.net.ConnectivityManager.OnNetworkActiveListener
+ Constructors: 0
+android.net.UrlQuerySanitizer.ValueSanitizer
+ Constructors: 0
+android.net.CaptivePortal
+ Constructors: 0
+android.net.ConnectivityManager
+ Constructors: 0
+android.net.ConnectivityManager.NetworkCallback
+ Constructors: 1
+  ConnectivityManager.NetworkCallback |
+android.net.Credentials
+ Constructors: 1
+  Credentials | pid, uid, gid
+android.net.DhcpInfo
+ Constructors: 1
+  DhcpInfo |
+android.net.IpPrefix
+ Constructors: 0
+android.net.LinkAddress
+ Constructors: 0
+android.net.LinkProperties
+ Constructors: 0
+android.net.LocalServerSocket
+ Constructors: 2
+  LocalServerSocket | name
+  LocalServerSocket | fd
+android.net.LocalSocket
+ Constructors: 2
+  LocalSocket |
+  LocalSocket | sockType
+android.net.LocalSocketAddress
+ Constructors: 2
+  LocalSocketAddress | name, namespace
+  LocalSocketAddress | name
+android.net.MailTo
+ Constructors: 0
+android.net.Network
+ Constructors: 0
+android.net.NetworkCapabilities
+ Constructors: 1
+  NetworkCapabilities | nc
+android.net.NetworkInfo
+ Constructors: 0
+android.net.NetworkRequest
+ Constructors: 0
+android.net.NetworkRequest.Builder
+ Constructors: 1
+  NetworkRequest.Builder |
+android.net.NetworkSpecifier
+ Constructors: 0
+android.net.Proxy
+ Constructors: 1
+  Proxy |
+android.net.ProxyInfo
+ Constructors: 0
+android.net.RouteInfo
+ Constructors: 0
+android.net.SSLCertificateSocketFactory
+ Constructors: 1
+  SSLCertificateSocketFactory | handshakeTimeoutMillis
+android.net.SSLSessionCache
+ Constructors: 2
+  SSLSessionCache | dir
+  SSLSessionCache | context
+android.net.TrafficStats
+ Constructors: 1
+  TrafficStats |
+android.net.Uri
+ Constructors: 0
+android.net.Uri.Builder
+ Constructors: 1
+  Uri.Builder |
+android.net.UrlQuerySanitizer
+ Constructors: 2
+  UrlQuerySanitizer |
+  UrlQuerySanitizer | url
+android.net.UrlQuerySanitizer.IllegalCharacterValueSanitizer
+ Constructors: 1
+  UrlQuerySanitizer.IllegalCharacterValueSanitizer | flags
+android.net.UrlQuerySanitizer.ParameterValuePair
+ Constructors: 1
+  UrlQuerySanitizer.ParameterValuePair | parameter, value
+android.net.VpnService
+ Constructors: 1
+  VpnService |
+android.net.VpnService.Builder
+ Constructors: 1
+  VpnService.Builder |
+android.net.LocalSocketAddress.Namespace
+ Constructors: 0
+android.net.NetworkInfo.DetailedState
+ Constructors: 0
+android.net.NetworkInfo.State
+ Constructors: 0
+android.net.ParseException
+ Constructors: 0
+android.net.http.HttpResponseCache
+ Constructors: 0
+android.net.http.SslCertificate
+ Constructors: 3
+  SslCertificate | issuedTo, issuedBy, validNotBefore, validNotAfter
+  SslCertificate | issuedTo, issuedBy, validNotBefore, validNotAfter
+  SslCertificate | certificate
+android.net.http.SslCertificate.DName
+ Constructors: 1
+  SslCertificate.DName | dName
+android.net.http.SslError
+ Constructors: 4
+  SslError | error, certificate
+  SslError | error, certificate
+  SslError | error, certificate, url
+  SslError | error, certificate, url
+android.net.http.X509TrustManagerExtensions
+ Constructors: 1
+  X509TrustManagerExtensions | tm
+android.net.nsd.NsdManager.DiscoveryListener
+ Constructors: 0
+android.net.nsd.NsdManager.RegistrationListener
+ Constructors: 0
+android.net.nsd.NsdManager.ResolveListener
+ Constructors: 0
+android.net.nsd.NsdManager
+ Constructors: 0
+android.net.nsd.NsdServiceInfo
+ Constructors: 1
+  NsdServiceInfo |
+android.net.rtp.AudioCodec
+ Constructors: 0
+android.net.rtp.AudioGroup
+ Constructors: 1
+  AudioGroup |
+android.net.rtp.AudioStream
+ Constructors: 1
+  AudioStream | address
+android.net.rtp.RtpStream
+ Constructors: 0
+android.net.sip.SipRegistrationListener
+ Constructors: 0
+android.net.sip.SipAudioCall
+ Constructors: 1
+  SipAudioCall | context, localProfile
+android.net.sip.SipAudioCall.Listener
+ Constructors: 1
+  SipAudioCall.Listener |
+android.net.sip.SipErrorCode
+ Constructors: 0
+android.net.sip.SipManager
+ Constructors: 0
+android.net.sip.SipProfile
+ Constructors: 0
+android.net.sip.SipProfile.Builder
+ Constructors: 3
+  SipProfile.Builder | profile
+  SipProfile.Builder | uriString
+  SipProfile.Builder | username, serverDomain
+android.net.sip.SipSession
+ Constructors: 0
+android.net.sip.SipSession.Listener
+ Constructors: 1
+  SipSession.Listener |
+android.net.sip.SipSession.State
+ Constructors: 0
+android.net.sip.SipException
+ Constructors: 3
+  SipException |
+  SipException | message
+  SipException | message, cause
+android.net.wifi.ScanResult
+ Constructors: 0
+android.net.wifi.WifiConfiguration
+ Constructors: 1
+  WifiConfiguration |
+android.net.wifi.WifiConfiguration.AuthAlgorithm
+ Constructors: 0
+android.net.wifi.WifiConfiguration.GroupCipher
+ Constructors: 0
+android.net.wifi.WifiConfiguration.KeyMgmt
+ Constructors: 0
+android.net.wifi.WifiConfiguration.PairwiseCipher
+ Constructors: 0
+android.net.wifi.WifiConfiguration.Protocol
+ Constructors: 0
+android.net.wifi.WifiConfiguration.Status
+ Constructors: 0
+android.net.wifi.WifiEnterpriseConfig
+ Constructors: 2
+  WifiEnterpriseConfig |
+  WifiEnterpriseConfig | source
+android.net.wifi.WifiEnterpriseConfig.Eap
+ Constructors: 0
+android.net.wifi.WifiEnterpriseConfig.Phase2
+ Constructors: 0
+android.net.wifi.WifiInfo
+ Constructors: 0
+android.net.wifi.WifiManager
+ Constructors: 0
+android.net.wifi.WifiManager.LocalOnlyHotspotCallback
+ Constructors: 1
+  WifiManager.LocalOnlyHotspotCallback |
+android.net.wifi.WifiManager.LocalOnlyHotspotReservation
+ Constructors: 0
+android.net.wifi.WifiManager.MulticastLock
+ Constructors: 0
+android.net.wifi.WifiManager.WifiLock
+ Constructors: 0
+android.net.wifi.WifiManager.WpsCallback
+ Constructors: 1
+  WifiManager.WpsCallback |
+android.net.wifi.WpsInfo
+ Constructors: 2
+  WpsInfo |
+  WpsInfo | source
+android.net.wifi.SupplicantState
+ Constructors: 0
+android.net.wifi.aware.AttachCallback
+ Constructors: 1
+  AttachCallback |
+android.net.wifi.aware.Characteristics
+ Constructors: 0
+android.net.wifi.aware.DiscoverySession
+ Constructors: 0
+android.net.wifi.aware.DiscoverySessionCallback
+ Constructors: 1
+  DiscoverySessionCallback |
+android.net.wifi.aware.IdentityChangedListener
+ Constructors: 1
+  IdentityChangedListener |
+android.net.wifi.aware.PeerHandle
+ Constructors: 0
+android.net.wifi.aware.PublishConfig
+ Constructors: 0
+android.net.wifi.aware.PublishConfig.Builder
+ Constructors: 1
+  PublishConfig.Builder |
+android.net.wifi.aware.PublishDiscoverySession
+ Constructors: 0
+android.net.wifi.aware.SubscribeConfig
+ Constructors: 0
+android.net.wifi.aware.SubscribeConfig.Builder
+ Constructors: 1
+  SubscribeConfig.Builder |
+android.net.wifi.aware.SubscribeDiscoverySession
+ Constructors: 0
+android.net.wifi.aware.WifiAwareManager
+ Constructors: 0
+android.net.wifi.aware.WifiAwareSession
+ Constructors: 0
+android.net.wifi.hotspot2.ConfigParser
+ Constructors: 0
+android.net.wifi.hotspot2.PasspointConfiguration
+ Constructors: 2
+  PasspointConfiguration |
+  PasspointConfiguration | source
+android.net.wifi.hotspot2.omadm.PpsMoParser
+ Constructors: 0
+android.net.wifi.hotspot2.pps.Credential
+ Constructors: 2
+  Credential |
+  Credential | source
+android.net.wifi.hotspot2.pps.Credential.CertificateCredential
+ Constructors: 2
+  Credential.CertificateCredential |
+  Credential.CertificateCredential | source
+android.net.wifi.hotspot2.pps.Credential.SimCredential
+ Constructors: 2
+  Credential.SimCredential |
+  Credential.SimCredential | source
+android.net.wifi.hotspot2.pps.Credential.UserCredential
+ Constructors: 2
+  Credential.UserCredential |
+  Credential.UserCredential | source
+android.net.wifi.hotspot2.pps.HomeSp
+ Constructors: 2
+  HomeSp |
+  HomeSp | source
+android.net.wifi.p2p.WifiP2pManager.ActionListener
+ Constructors: 0
+android.net.wifi.p2p.WifiP2pManager.ChannelListener
+ Constructors: 0
+android.net.wifi.p2p.WifiP2pManager.ConnectionInfoListener
+ Constructors: 0
+android.net.wifi.p2p.WifiP2pManager.DnsSdServiceResponseListener
+ Constructors: 0
+android.net.wifi.p2p.WifiP2pManager.DnsSdTxtRecordListener
+ Constructors: 0
+android.net.wifi.p2p.WifiP2pManager.GroupInfoListener
+ Constructors: 0
+android.net.wifi.p2p.WifiP2pManager.PeerListListener
+ Constructors: 0
+android.net.wifi.p2p.WifiP2pManager.ServiceResponseListener
+ Constructors: 0
+android.net.wifi.p2p.WifiP2pManager.UpnpServiceResponseListener
+ Constructors: 0
+android.net.wifi.p2p.WifiP2pConfig
+ Constructors: 2
+  WifiP2pConfig |
+  WifiP2pConfig | source
+android.net.wifi.p2p.WifiP2pDevice
+ Constructors: 2
+  WifiP2pDevice |
+  WifiP2pDevice | source
+android.net.wifi.p2p.WifiP2pDeviceList
+ Constructors: 2
+  WifiP2pDeviceList |
+  WifiP2pDeviceList | source
+android.net.wifi.p2p.WifiP2pGroup
+ Constructors: 2
+  WifiP2pGroup |
+  WifiP2pGroup | source
+android.net.wifi.p2p.WifiP2pInfo
+ Constructors: 2
+  WifiP2pInfo |
+  WifiP2pInfo | source
+android.net.wifi.p2p.WifiP2pManager
+ Constructors: 0
+android.net.wifi.p2p.WifiP2pManager.Channel
+ Constructors: 0
+android.net.wifi.p2p.nsd.WifiP2pDnsSdServiceInfo
+ Constructors: 0
+android.net.wifi.p2p.nsd.WifiP2pDnsSdServiceRequest
+ Constructors: 0
+android.net.wifi.p2p.nsd.WifiP2pServiceInfo
+ Constructors: 0
+android.net.wifi.p2p.nsd.WifiP2pServiceRequest
+ Constructors: 0
+android.net.wifi.p2p.nsd.WifiP2pUpnpServiceInfo
+ Constructors: 0
+android.net.wifi.p2p.nsd.WifiP2pUpnpServiceRequest
+ Constructors: 0

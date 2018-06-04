@@ -1,0 +1,1948 @@
+android.preference.Preference$OnPreferenceChangeListener
+ Constructors: 0
+android.preference.Preference$OnPreferenceClickListener
+ Constructors: 0
+android.preference.PreferenceDataStore
+ Constructors: 0
+android.preference.PreferenceFragment$OnPreferenceStartFragmentCallback
+ Constructors: 0
+android.preference.PreferenceManager$OnActivityDestroyListener
+ Constructors: 0
+android.preference.PreferenceManager$OnActivityResultListener
+ Constructors: 0
+android.preference.PreferenceManager$OnActivityStopListener
+ Constructors: 0
+android.preference.CheckBoxPreference
+ Constructors: 4
+  CheckBoxPreference | context, attrs, defStyleAttr
+  CheckBoxPreference | context, attrs, defStyleAttr, defStyleRes
+  CheckBoxPreference | context, attrs
+  CheckBoxPreference | context
+android.preference.DialogPreference
+ Constructors: 4
+  DialogPreference | context, attrs, defStyleAttr, defStyleRes
+  DialogPreference | context, attrs, defStyleAttr
+  DialogPreference | context, attrs
+  DialogPreference | context
+android.preference.EditTextPreference
+ Constructors: 4
+  EditTextPreference | context, attrs, defStyleAttr, defStyleRes
+  EditTextPreference | context, attrs, defStyleAttr
+  EditTextPreference | context, attrs
+  EditTextPreference | context
+android.preference.ListPreference
+ Constructors: 4
+  ListPreference | context, attrs, defStyleAttr, defStyleRes
+  ListPreference | context, attrs, defStyleAttr
+  ListPreference | context, attrs
+  ListPreference | context
+android.preference.MultiSelectListPreference
+ Constructors: 4
+  MultiSelectListPreference | context, attrs, defStyleAttr, defStyleRes
+  MultiSelectListPreference | context, attrs, defStyleAttr
+  MultiSelectListPreference | context, attrs
+  MultiSelectListPreference | context
+android.preference.Preference
+ Constructors: 4
+  Preference | context, attrs, defStyleAttr, defStyleRes
+  Preference | context, attrs, defStyleAttr
+  Preference | context, attrs
+  Preference | context
+android.preference.Preference$BaseSavedState
+ Constructors: 2
+  Preference.BaseSavedState | source
+  Preference.BaseSavedState | superState
+android.preference.PreferenceActivity
+ Constructors: 1
+  PreferenceActivity | 
+android.preference.PreferenceActivity$Header
+ Constructors: 1
+  PreferenceActivity.Header | 
+android.preference.PreferenceCategory
+ Constructors: 4
+  PreferenceCategory | context, attrs, defStyleAttr, defStyleRes
+  PreferenceCategory | context, attrs, defStyleAttr
+  PreferenceCategory | context, attrs
+  PreferenceCategory | context
+android.preference.PreferenceFragment
+ Constructors: 1
+  PreferenceFragment | 
+android.preference.PreferenceGroup
+ Constructors: 3
+  PreferenceGroup | context, attrs, defStyleAttr, defStyleRes
+  PreferenceGroup | context, attrs, defStyleAttr
+  PreferenceGroup | context, attrs
+android.preference.PreferenceManager
+ Constructors: 0
+android.preference.PreferenceScreen
+ Constructors: 0
+android.preference.RingtonePreference
+ Constructors: 4
+  RingtonePreference | context, attrs, defStyleAttr, defStyleRes
+  RingtonePreference | context, attrs, defStyleAttr
+  RingtonePreference | context, attrs
+  RingtonePreference | context
+android.preference.SwitchPreference
+ Constructors: 4
+  SwitchPreference | context, attrs, defStyleAttr, defStyleRes
+  SwitchPreference | context, attrs, defStyleAttr
+  SwitchPreference | context, attrs
+  SwitchPreference | context
+android.preference.TwoStatePreference
+ Constructors: 4
+  TwoStatePreference | context, attrs, defStyleAttr, defStyleRes
+  TwoStatePreference | context, attrs, defStyleAttr
+  TwoStatePreference | context, attrs
+  TwoStatePreference | context
+android.print.PageRange
+ Constructors: 1
+  PageRange | start, end
+android.print.PrintAttributes
+ Constructors: 0
+android.print.PrintAttributes$Builder
+ Constructors: 1
+  PrintAttributes.Builder | 
+android.print.PrintAttributes$Margins
+ Constructors: 1
+  PrintAttributes.Margins | leftMils, topMils, rightMils, bottomMils
+android.print.PrintAttributes$MediaSize
+ Constructors: 1
+  PrintAttributes.MediaSize | id, label, widthMils, heightMils
+android.print.PrintAttributes$Resolution
+ Constructors: 1
+  PrintAttributes.Resolution | id, label, horizontalDpi, verticalDpi
+android.print.PrintDocumentAdapter
+ Constructors: 1
+  PrintDocumentAdapter | 
+android.print.PrintDocumentAdapter$LayoutResultCallback
+ Constructors: 0
+android.print.PrintDocumentAdapter$WriteResultCallback
+ Constructors: 0
+android.print.PrintDocumentInfo
+ Constructors: 0
+android.print.PrintDocumentInfo$Builder
+ Constructors: 1
+  PrintDocumentInfo.Builder | name
+android.print.PrinterCapabilitiesInfo
+ Constructors: 0
+android.print.PrinterCapabilitiesInfo$Builder
+ Constructors: 1
+  PrinterCapabilitiesInfo.Builder | printerId
+android.print.PrinterId
+ Constructors: 0
+android.print.PrinterInfo
+ Constructors: 0
+android.print.PrinterInfo$Builder
+ Constructors: 2
+  PrinterInfo.Builder | printerId, name, status
+  PrinterInfo.Builder | other
+android.print.PrintJob
+ Constructors: 0
+android.print.PrintJobId
+ Constructors: 0
+android.print.PrintJobInfo
+ Constructors: 0
+android.print.PrintJobInfo$Builder
+ Constructors: 1
+  PrintJobInfo.Builder | prototype
+android.print.PrintManager
+ Constructors: 0
+android.print.pdf.PrintedPdfDocument
+ Constructors: 1
+  PrintedPdfDocument | context, attributes
+android.printservice.CustomPrinterIconCallback
+ Constructors: 0
+android.printservice.PrintDocument
+ Constructors: 0
+android.printservice.PrinterDiscoverySession
+ Constructors: 1
+  PrinterDiscoverySession | 
+android.printservice.PrintJob
+ Constructors: 0
+android.printservice.PrintService
+ Constructors: 1
+  PrintService | 
+android.provider.BaseColumns
+ Constructors: 0
+android.provider.CalendarContract$AttendeesColumns
+ Constructors: 0
+android.provider.CalendarContract$CalendarAlertsColumns
+ Constructors: 0
+android.provider.CalendarContract$CalendarCacheColumns
+ Constructors: 0
+android.provider.CalendarContract$CalendarColumns
+ Constructors: 0
+android.provider.CalendarContract$CalendarSyncColumns
+ Constructors: 0
+android.provider.CalendarContract$ColorsColumns
+ Constructors: 0
+android.provider.CalendarContract$EventDaysColumns
+ Constructors: 0
+android.provider.CalendarContract$EventsColumns
+ Constructors: 0
+android.provider.CalendarContract$ExtendedPropertiesColumns
+ Constructors: 0
+android.provider.CalendarContract$RemindersColumns
+ Constructors: 0
+android.provider.CalendarContract$SyncColumns
+ Constructors: 0
+android.provider.Contacts$ContactMethodsColumns
+ Constructors: 0
+android.provider.Contacts$ExtensionsColumns
+ Constructors: 0
+android.provider.Contacts$GroupsColumns
+ Constructors: 0
+android.provider.Contacts$OrganizationColumns
+ Constructors: 0
+android.provider.Contacts$PeopleColumns
+ Constructors: 0
+android.provider.Contacts$PhonesColumns
+ Constructors: 0
+android.provider.Contacts$PhotosColumns
+ Constructors: 0
+android.provider.Contacts$PresenceColumns
+ Constructors: 0
+android.provider.Contacts$SettingsColumns
+ Constructors: 0
+android.provider.ContactsContract$BaseSyncColumns
+ Constructors: 0
+android.provider.ContactsContract$CommonDataKinds$BaseTypes
+ Constructors: 0
+android.provider.ContactsContract$CommonDataKinds$CommonColumns
+ Constructors: 0
+android.provider.ContactsContract$ContactNameColumns
+ Constructors: 0
+android.provider.ContactsContract$ContactOptionsColumns
+ Constructors: 0
+android.provider.ContactsContract$ContactsColumns
+ Constructors: 0
+android.provider.ContactsContract$ContactStatusColumns
+ Constructors: 0
+android.provider.ContactsContract$DataColumns
+ Constructors: 0
+android.provider.ContactsContract$DataColumnsWithJoins
+ Constructors: 0
+android.provider.ContactsContract$DataUsageStatColumns
+ Constructors: 0
+android.provider.ContactsContract$DeletedContactsColumns
+ Constructors: 0
+android.provider.ContactsContract$DisplayNameSources
+ Constructors: 0
+android.provider.ContactsContract$FullNameStyle
+ Constructors: 0
+android.provider.ContactsContract$GroupsColumns
+ Constructors: 0
+android.provider.ContactsContract$PhoneLookupColumns
+ Constructors: 0
+android.provider.ContactsContract$PhoneticNameStyle
+ Constructors: 0
+android.provider.ContactsContract$PresenceColumns
+ Constructors: 0
+android.provider.ContactsContract$RawContactsColumns
+ Constructors: 0
+android.provider.ContactsContract$SettingsColumns
+ Constructors: 0
+android.provider.ContactsContract$StatusColumns
+ Constructors: 0
+android.provider.ContactsContract$SyncColumns
+ Constructors: 0
+android.provider.MediaStore$Audio$AlbumColumns
+ Constructors: 0
+android.provider.MediaStore$Audio$ArtistColumns
+ Constructors: 0
+android.provider.MediaStore$Audio$AudioColumns
+ Constructors: 0
+android.provider.MediaStore$Audio$GenresColumns
+ Constructors: 0
+android.provider.MediaStore$Audio$PlaylistsColumns
+ Constructors: 0
+android.provider.MediaStore$Files$FileColumns
+ Constructors: 0
+android.provider.MediaStore$Images$ImageColumns
+ Constructors: 0
+android.provider.MediaStore$MediaColumns
+ Constructors: 0
+android.provider.MediaStore$Video$VideoColumns
+ Constructors: 0
+android.provider.OpenableColumns
+ Constructors: 0
+android.provider.SyncStateContract$Columns
+ Constructors: 0
+android.provider.Telephony$BaseMmsColumns
+ Constructors: 0
+android.provider.Telephony$CanonicalAddressesColumns
+ Constructors: 0
+android.provider.Telephony$TextBasedSmsColumns
+ Constructors: 0
+android.provider.Telephony$ThreadsColumns
+ Constructors: 0
+android.provider.AlarmClock
+ Constructors: 1
+  AlarmClock | 
+android.provider.BlockedNumberContract
+ Constructors: 0
+android.provider.BlockedNumberContract$BlockedNumbers
+ Constructors: 0
+android.provider.Browser
+ Constructors: 1
+  Browser | 
+android.provider.CalendarContract
+ Constructors: 0
+android.provider.CalendarContract$Attendees
+ Constructors: 0
+android.provider.CalendarContract$CalendarAlerts
+ Constructors: 0
+android.provider.CalendarContract$CalendarCache
+ Constructors: 0
+android.provider.CalendarContract$CalendarEntity
+ Constructors: 0
+android.provider.CalendarContract$Calendars
+ Constructors: 0
+android.provider.CalendarContract$Colors
+ Constructors: 0
+android.provider.CalendarContract$EventDays
+ Constructors: 0
+android.provider.CalendarContract$Events
+ Constructors: 0
+android.provider.CalendarContract$EventsEntity
+ Constructors: 0
+android.provider.CalendarContract$ExtendedProperties
+ Constructors: 0
+android.provider.CalendarContract$Instances
+ Constructors: 0
+android.provider.CalendarContract$Reminders
+ Constructors: 0
+android.provider.CalendarContract$SyncState
+ Constructors: 0
+android.provider.CallLog
+ Constructors: 1
+  CallLog | 
+android.provider.CallLog$Calls
+ Constructors: 1
+  CallLog.Calls | 
+android.provider.Contacts
+ Constructors: 0
+android.provider.Contacts$ContactMethods
+ Constructors: 0
+android.provider.Contacts$Extensions
+ Constructors: 0
+android.provider.Contacts$GroupMembership
+ Constructors: 0
+android.provider.Contacts$Groups
+ Constructors: 0
+android.provider.Contacts$Intents
+ Constructors: 1
+  Contacts.Intents | 
+android.provider.Contacts$Intents$Insert
+ Constructors: 1
+  Contacts.Intents.Insert | 
+android.provider.Contacts$Intents$UI
+ Constructors: 1
+  Contacts.Intents.UI | 
+android.provider.Contacts$Organizations
+ Constructors: 0
+android.provider.Contacts$People
+ Constructors: 0
+android.provider.Contacts$People$ContactMethods
+ Constructors: 0
+android.provider.Contacts$People$Extensions
+ Constructors: 0
+android.provider.Contacts$People$Phones
+ Constructors: 0
+android.provider.Contacts$Phones
+ Constructors: 0
+android.provider.Contacts$Photos
+ Constructors: 0
+android.provider.Contacts$Settings
+ Constructors: 0
+android.provider.ContactsContract
+ Constructors: 1
+  ContactsContract | 
+android.provider.ContactsContract$AggregationExceptions
+ Constructors: 0
+android.provider.ContactsContract$CommonDataKinds
+ Constructors: 0
+android.provider.ContactsContract$CommonDataKinds$Callable
+ Constructors: 1
+  ContactsContract.CommonDataKinds.Callable | 
+android.provider.ContactsContract$CommonDataKinds$Contactables
+ Constructors: 1
+  ContactsContract.CommonDataKinds.Contactables | 
+android.provider.ContactsContract$CommonDataKinds$Email
+ Constructors: 0
+android.provider.ContactsContract$CommonDataKinds$Event
+ Constructors: 0
+android.provider.ContactsContract$CommonDataKinds$GroupMembership
+ Constructors: 0
+android.provider.ContactsContract$CommonDataKinds$Identity
+ Constructors: 0
+android.provider.ContactsContract$CommonDataKinds$Im
+ Constructors: 0
+android.provider.ContactsContract$CommonDataKinds$Nickname
+ Constructors: 0
+android.provider.ContactsContract$CommonDataKinds$Note
+ Constructors: 0
+android.provider.ContactsContract$CommonDataKinds$Organization
+ Constructors: 0
+android.provider.ContactsContract$CommonDataKinds$Phone
+ Constructors: 0
+android.provider.ContactsContract$CommonDataKinds$Photo
+ Constructors: 0
+android.provider.ContactsContract$CommonDataKinds$Relation
+ Constructors: 0
+android.provider.ContactsContract$CommonDataKinds$SipAddress
+ Constructors: 0
+android.provider.ContactsContract$CommonDataKinds$StructuredName
+ Constructors: 0
+android.provider.ContactsContract$CommonDataKinds$StructuredPostal
+ Constructors: 0
+android.provider.ContactsContract$CommonDataKinds$Website
+ Constructors: 0
+android.provider.ContactsContract$Contacts
+ Constructors: 0
+android.provider.ContactsContract$Contacts$AggregationSuggestions
+ Constructors: 0
+android.provider.ContactsContract$Contacts$AggregationSuggestions$Builder
+ Constructors: 1
+  ContactsContract.Contacts.AggregationSuggestions.Builder | 
+android.provider.ContactsContract$Contacts$Data
+ Constructors: 0
+android.provider.ContactsContract$Contacts$Entity
+ Constructors: 0
+android.provider.ContactsContract$Contacts$Photo
+ Constructors: 0
+android.provider.ContactsContract$Data
+ Constructors: 0
+android.provider.ContactsContract$DataUsageFeedback
+ Constructors: 1
+  ContactsContract.DataUsageFeedback | 
+android.provider.ContactsContract$DeletedContacts
+ Constructors: 0
+android.provider.ContactsContract$Directory
+ Constructors: 0
+android.provider.ContactsContract$DisplayPhoto
+ Constructors: 0
+android.provider.ContactsContract$Groups
+ Constructors: 0
+android.provider.ContactsContract$Intents
+ Constructors: 1
+  ContactsContract.Intents | 
+android.provider.ContactsContract$Intents$Insert
+ Constructors: 1
+  ContactsContract.Intents.Insert | 
+android.provider.ContactsContract$PhoneLookup
+ Constructors: 0
+android.provider.ContactsContract$PinnedPositions
+ Constructors: 1
+  ContactsContract.PinnedPositions | 
+android.provider.ContactsContract$Presence
+ Constructors: 1
+  ContactsContract.Presence | 
+android.provider.ContactsContract$Profile
+ Constructors: 0
+android.provider.ContactsContract$ProfileSyncState
+ Constructors: 0
+android.provider.ContactsContract$ProviderStatus
+ Constructors: 0
+android.provider.ContactsContract$QuickContact
+ Constructors: 1
+  ContactsContract.QuickContact | 
+android.provider.ContactsContract$RawContacts
+ Constructors: 0
+android.provider.ContactsContract$RawContacts$Data
+ Constructors: 0
+android.provider.ContactsContract$RawContacts$DisplayPhoto
+ Constructors: 0
+android.provider.ContactsContract$RawContacts$Entity
+ Constructors: 0
+android.provider.ContactsContract$RawContactsEntity
+ Constructors: 0
+android.provider.ContactsContract$SearchSnippets
+ Constructors: 1
+  ContactsContract.SearchSnippets | 
+android.provider.ContactsContract$Settings
+ Constructors: 0
+android.provider.ContactsContract$StatusUpdates
+ Constructors: 0
+android.provider.ContactsContract$SyncState
+ Constructors: 0
+android.provider.DocumentsContract
+ Constructors: 0
+android.provider.DocumentsContract$Document
+ Constructors: 0
+android.provider.DocumentsContract$Path
+ Constructors: 1
+  DocumentsContract.Path | rootId, path
+android.provider.DocumentsContract$Root
+ Constructors: 0
+android.provider.DocumentsProvider
+ Constructors: 1
+  DocumentsProvider | 
+android.provider.FontRequest
+ Constructors: 2
+  FontRequest | providerAuthority, providerPackage, query
+  FontRequest | providerAuthority, providerPackage, query, certificates
+android.provider.FontsContract
+ Constructors: 0
+android.provider.FontsContract$Columns
+ Constructors: 0
+android.provider.FontsContract$FontFamilyResult
+ Constructors: 0
+android.provider.FontsContract$FontInfo
+ Constructors: 0
+android.provider.FontsContract$FontRequestCallback
+ Constructors: 1
+  FontsContract.FontRequestCallback | 
+android.provider.LiveFolders
+ Constructors: 0
+android.provider.MediaStore
+ Constructors: 1
+  MediaStore | 
+android.provider.MediaStore$Audio
+ Constructors: 1
+  MediaStore.Audio | 
+android.provider.MediaStore$Audio$Albums
+ Constructors: 1
+  MediaStore.Audio.Albums | 
+android.provider.MediaStore$Audio$Artists
+ Constructors: 1
+  MediaStore.Audio.Artists | 
+android.provider.MediaStore$Audio$Artists$Albums
+ Constructors: 1
+  MediaStore.Audio.Artists.Albums | 
+android.provider.MediaStore$Audio$Genres
+ Constructors: 1
+  MediaStore.Audio.Genres | 
+android.provider.MediaStore$Audio$Genres$Members
+ Constructors: 1
+  MediaStore.Audio.Genres.Members | 
+android.provider.MediaStore$Audio$Media
+ Constructors: 1
+  MediaStore.Audio.Media | 
+android.provider.MediaStore$Audio$Playlists
+ Constructors: 1
+  MediaStore.Audio.Playlists | 
+android.provider.MediaStore$Audio$Playlists$Members
+ Constructors: 1
+  MediaStore.Audio.Playlists.Members | 
+android.provider.MediaStore$Audio$Radio
+ Constructors: 0
+android.provider.MediaStore$Files
+ Constructors: 1
+  MediaStore.Files | 
+android.provider.MediaStore$Images
+ Constructors: 1
+  MediaStore.Images | 
+android.provider.MediaStore$Images$Media
+ Constructors: 1
+  MediaStore.Images.Media | 
+android.provider.MediaStore$Images$Thumbnails
+ Constructors: 1
+  MediaStore.Images.Thumbnails | 
+android.provider.MediaStore$Video
+ Constructors: 1
+  MediaStore.Video | 
+android.provider.MediaStore$Video$Media
+ Constructors: 1
+  MediaStore.Video.Media | 
+android.provider.MediaStore$Video$Thumbnails
+ Constructors: 1
+  MediaStore.Video.Thumbnails | 
+android.provider.SearchRecentSuggestions
+ Constructors: 1
+  SearchRecentSuggestions | context, authority, mode
+android.provider.Settings
+ Constructors: 1
+  Settings | 
+android.provider.Settings$Global
+ Constructors: 1
+  Settings.Global | 
+android.provider.Settings$NameValueTable
+ Constructors: 1
+  Settings.NameValueTable | 
+android.provider.Settings$Secure
+ Constructors: 1
+  Settings.Secure | 
+android.provider.Settings$System
+ Constructors: 1
+  Settings.System | 
+android.provider.SyncStateContract
+ Constructors: 1
+  SyncStateContract | 
+android.provider.SyncStateContract$Constants
+ Constructors: 1
+  SyncStateContract.Constants | 
+android.provider.SyncStateContract$Helpers
+ Constructors: 1
+  SyncStateContract.Helpers | 
+android.provider.Telephony
+ Constructors: 0
+android.provider.Telephony$Carriers
+ Constructors: 0
+android.provider.Telephony$Mms
+ Constructors: 0
+android.provider.Telephony$Mms$Addr
+ Constructors: 0
+android.provider.Telephony$Mms$Draft
+ Constructors: 0
+android.provider.Telephony$Mms$Inbox
+ Constructors: 0
+android.provider.Telephony$Mms$Intents
+ Constructors: 0
+android.provider.Telephony$Mms$Outbox
+ Constructors: 0
+android.provider.Telephony$Mms$Part
+ Constructors: 0
+android.provider.Telephony$Mms$Rate
+ Constructors: 0
+android.provider.Telephony$Mms$Sent
+ Constructors: 0
+android.provider.Telephony$MmsSms
+ Constructors: 0
+android.provider.Telephony$MmsSms$PendingMessages
+ Constructors: 0
+android.provider.Telephony$ServiceStateTable
+ Constructors: 0
+android.provider.Telephony$Sms
+ Constructors: 0
+android.provider.Telephony$Sms$Conversations
+ Constructors: 0
+android.provider.Telephony$Sms$Draft
+ Constructors: 0
+android.provider.Telephony$Sms$Inbox
+ Constructors: 0
+android.provider.Telephony$Sms$Intents
+ Constructors: 0
+android.provider.Telephony$Sms$Outbox
+ Constructors: 0
+android.provider.Telephony$Sms$Sent
+ Constructors: 0
+android.provider.Telephony$Threads
+ Constructors: 0
+android.provider.UserDictionary
+ Constructors: 1
+  UserDictionary | 
+android.provider.UserDictionary$Words
+ Constructors: 1
+  UserDictionary.Words | 
+android.provider.VoicemailContract
+ Constructors: 0
+android.provider.VoicemailContract$Status
+ Constructors: 0
+android.provider.VoicemailContract$Voicemails
+ Constructors: 0
+android.provider.Settings$SettingNotFoundException
+ Constructors: 1
+  Settings.SettingNotFoundException | msg
+android.renderscript.Allocation$OnBufferAvailableListener
+ Constructors: 0
+android.renderscript.Allocation
+ Constructors: 0
+android.renderscript.AllocationAdapter
+ Constructors: 0
+android.renderscript.BaseObj
+ Constructors: 0
+android.renderscript.Byte2
+ Constructors: 2
+  Byte2 | 
+  Byte2 | initX, initY
+android.renderscript.Byte3
+ Constructors: 2
+  Byte3 | 
+  Byte3 | initX, initY, initZ
+android.renderscript.Byte4
+ Constructors: 2
+  Byte4 | 
+  Byte4 | initX, initY, initZ, initW
+android.renderscript.Double2
+ Constructors: 2
+  Double2 | 
+  Double2 | x, y
+android.renderscript.Double3
+ Constructors: 2
+  Double3 | 
+  Double3 | x, y, z
+android.renderscript.Double4
+ Constructors: 2
+  Double4 | 
+  Double4 | x, y, z, w
+android.renderscript.Element
+ Constructors: 0
+android.renderscript.Element$Builder
+ Constructors: 1
+  Element.Builder | rs
+android.renderscript.FieldPacker
+ Constructors: 2
+  FieldPacker | len
+  FieldPacker | data
+android.renderscript.Float2
+ Constructors: 2
+  Float2 | 
+  Float2 | x, y
+android.renderscript.Float3
+ Constructors: 2
+  Float3 | 
+  Float3 | x, y, z
+android.renderscript.Float4
+ Constructors: 2
+  Float4 | 
+  Float4 | x, y, z, w
+android.renderscript.Int2
+ Constructors: 2
+  Int2 | 
+  Int2 | x, y
+android.renderscript.Int3
+ Constructors: 2
+  Int3 | 
+  Int3 | x, y, z
+android.renderscript.Int4
+ Constructors: 2
+  Int4 | 
+  Int4 | x, y, z, w
+android.renderscript.Long2
+ Constructors: 2
+  Long2 | 
+  Long2 | x, y
+android.renderscript.Long3
+ Constructors: 2
+  Long3 | 
+  Long3 | x, y, z
+android.renderscript.Long4
+ Constructors: 2
+  Long4 | 
+  Long4 | x, y, z, w
+android.renderscript.Matrix2f
+ Constructors: 2
+  Matrix2f | 
+  Matrix2f | dataArray
+android.renderscript.Matrix3f
+ Constructors: 2
+  Matrix3f | 
+  Matrix3f | dataArray
+android.renderscript.Matrix4f
+ Constructors: 2
+  Matrix4f | 
+  Matrix4f | dataArray
+android.renderscript.RenderScript
+ Constructors: 0
+android.renderscript.RenderScript$RSErrorHandler
+ Constructors: 1
+  RenderScript.RSErrorHandler | 
+android.renderscript.RenderScript$RSMessageHandler
+ Constructors: 1
+  RenderScript.RSMessageHandler | 
+android.renderscript.Sampler
+ Constructors: 0
+android.renderscript.Sampler$Builder
+ Constructors: 1
+  Sampler.Builder | rs
+android.renderscript.Script
+ Constructors: 0
+android.renderscript.Script$Builder
+ Constructors: 0
+android.renderscript.Script$FieldBase
+ Constructors: 0
+android.renderscript.Script$FieldID
+ Constructors: 0
+android.renderscript.Script$InvokeID
+ Constructors: 0
+android.renderscript.Script$KernelID
+ Constructors: 0
+android.renderscript.Script$LaunchOptions
+ Constructors: 1
+  Script.LaunchOptions | 
+android.renderscript.ScriptC
+ Constructors: 0
+android.renderscript.ScriptGroup
+ Constructors: 0
+android.renderscript.ScriptGroup$Binding
+ Constructors: 1
+  ScriptGroup.Binding | field, value
+android.renderscript.ScriptGroup$Builder
+ Constructors: 1
+  ScriptGroup.Builder | rs
+android.renderscript.ScriptGroup$Builder2
+ Constructors: 1
+  ScriptGroup.Builder2 | rs
+android.renderscript.ScriptGroup$Closure
+ Constructors: 0
+android.renderscript.ScriptGroup$Future
+ Constructors: 0
+android.renderscript.ScriptGroup$Input
+ Constructors: 0
+android.renderscript.ScriptIntrinsic
+ Constructors: 0
+android.renderscript.ScriptIntrinsic3DLUT
+ Constructors: 0
+android.renderscript.ScriptIntrinsicBLAS
+ Constructors: 0
+android.renderscript.ScriptIntrinsicBlend
+ Constructors: 0
+android.renderscript.ScriptIntrinsicBlur
+ Constructors: 0
+android.renderscript.ScriptIntrinsicColorMatrix
+ Constructors: 0
+android.renderscript.ScriptIntrinsicConvolve3x3
+ Constructors: 0
+android.renderscript.ScriptIntrinsicConvolve5x5
+ Constructors: 0
+android.renderscript.ScriptIntrinsicHistogram
+ Constructors: 0
+android.renderscript.ScriptIntrinsicLUT
+ Constructors: 0
+android.renderscript.ScriptIntrinsicResize
+ Constructors: 0
+android.renderscript.ScriptIntrinsicYuvToRGB
+ Constructors: 0
+android.renderscript.Short2
+ Constructors: 2
+  Short2 | 
+  Short2 | x, y
+android.renderscript.Short3
+ Constructors: 2
+  Short3 | 
+  Short3 | x, y, z
+android.renderscript.Short4
+ Constructors: 2
+  Short4 | 
+  Short4 | x, y, z, w
+android.renderscript.Type
+ Constructors: 0
+android.renderscript.Type$Builder
+ Constructors: 1
+  Type.Builder | rs, e
+android.renderscript.Allocation$MipmapControl
+ Constructors: 0
+android.renderscript.Element$DataKind
+ Constructors: 0
+android.renderscript.Element$DataType
+ Constructors: 0
+android.renderscript.RenderScript$ContextType
+ Constructors: 0
+android.renderscript.RenderScript$Priority
+ Constructors: 0
+android.renderscript.Sampler$Value
+ Constructors: 0
+android.renderscript.Type$CubemapFace
+ Constructors: 0
+android.renderscript.RSDriverException
+ Constructors: 1
+  RSDriverException | string
+android.renderscript.RSIllegalArgumentException
+ Constructors: 1
+  RSIllegalArgumentException | string
+android.renderscript.RSInvalidStateException
+ Constructors: 1
+  RSInvalidStateException | string
+android.renderscript.RSRuntimeException
+ Constructors: 1
+  RSRuntimeException | string
+android.sax.ElementListener
+ Constructors: 0
+android.sax.EndElementListener
+ Constructors: 0
+android.sax.EndTextElementListener
+ Constructors: 0
+android.sax.StartElementListener
+ Constructors: 0
+android.sax.TextElementListener
+ Constructors: 0
+android.sax.Element
+ Constructors: 0
+android.sax.RootElement
+ Constructors: 2
+  RootElement | uri, localName
+  RootElement | localName
+android.security.KeyChainAliasCallback
+ Constructors: 0
+android.security.KeyChain
+ Constructors: 1
+  KeyChain | 
+android.security.KeyPairGeneratorSpec
+ Constructors: 0
+android.security.KeyPairGeneratorSpec$Builder
+ Constructors: 1
+  KeyPairGeneratorSpec.Builder | context
+android.security.KeyStoreParameter
+ Constructors: 0
+android.security.KeyStoreParameter$Builder
+ Constructors: 1
+  KeyStoreParameter.Builder | context
+android.security.NetworkSecurityPolicy
+ Constructors: 0
+android.security.KeyChainException
+ Constructors: 4
+  KeyChainException | 
+  KeyChainException | detailMessage
+  KeyChainException | message, cause
+  KeyChainException | cause
+android.security.keystore.KeyGenParameterSpec
+ Constructors: 0
+android.security.keystore.KeyGenParameterSpec$Builder
+ Constructors: 1
+  KeyGenParameterSpec.Builder | keystoreAlias, purposes
+android.security.keystore.KeyInfo
+ Constructors: 0
+android.security.keystore.KeyProperties
+ Constructors: 0
+android.security.keystore.KeyProtection
+ Constructors: 0
+android.security.keystore.KeyProtection$Builder
+ Constructors: 1
+  KeyProtection.Builder | purposes
+android.security.keystore.KeyExpiredException
+ Constructors: 3
+  KeyExpiredException | 
+  KeyExpiredException | message
+  KeyExpiredException | message, cause
+android.security.keystore.KeyNotYetValidException
+ Constructors: 3
+  KeyNotYetValidException | 
+  KeyNotYetValidException | message
+  KeyNotYetValidException | message, cause
+android.security.keystore.KeyPermanentlyInvalidatedException
+ Constructors: 3
+  KeyPermanentlyInvalidatedException | 
+  KeyPermanentlyInvalidatedException | message
+  KeyPermanentlyInvalidatedException | message, cause
+android.security.keystore.UserNotAuthenticatedException
+ Constructors: 3
+  UserNotAuthenticatedException | 
+  UserNotAuthenticatedException | message
+  UserNotAuthenticatedException | message, cause
+android.service.autofill.Transformation
+ Constructors: 0
+android.service.autofill.Validator
+ Constructors: 0
+android.service.autofill.AutofillService
+ Constructors: 1
+  AutofillService | 
+android.service.autofill.CharSequenceTransformation
+ Constructors: 0
+android.service.autofill.CharSequenceTransformation$Builder
+ Constructors: 1
+  CharSequenceTransformation.Builder | id, regex, subst
+android.service.autofill.CustomDescription
+ Constructors: 0
+android.service.autofill.CustomDescription$Builder
+ Constructors: 1
+  CustomDescription.Builder | parentPresentation
+android.service.autofill.Dataset
+ Constructors: 0
+android.service.autofill.Dataset$Builder
+ Constructors: 2
+  Dataset.Builder | presentation
+  Dataset.Builder | 
+android.service.autofill.FillCallback
+ Constructors: 0
+android.service.autofill.FillContext
+ Constructors: 0
+android.service.autofill.FillEventHistory
+ Constructors: 0
+android.service.autofill.FillEventHistory$Event
+ Constructors: 0
+android.service.autofill.FillRequest
+ Constructors: 0
+android.service.autofill.FillResponse
+ Constructors: 0
+android.service.autofill.FillResponse$Builder
+ Constructors: 1
+  FillResponse.Builder | 
+android.service.autofill.ImageTransformation
+ Constructors: 0
+android.service.autofill.ImageTransformation$Builder
+ Constructors: 1
+  ImageTransformation.Builder | id, regex, resId
+android.service.autofill.LuhnChecksumValidator
+ Constructors: 1
+  LuhnChecksumValidator | ids
+android.service.autofill.RegexValidator
+ Constructors: 1
+  RegexValidator | id, regex
+android.service.autofill.SaveCallback
+ Constructors: 0
+android.service.autofill.SaveInfo
+ Constructors: 0
+android.service.autofill.SaveInfo$Builder
+ Constructors: 2
+  SaveInfo.Builder | type, requiredIds
+  SaveInfo.Builder | type
+android.service.autofill.SaveRequest
+ Constructors: 0
+android.service.autofill.Validators
+ Constructors: 0
+android.service.carrier.CarrierMessagingService$ResultCallback
+ Constructors: 0
+android.service.carrier.CarrierIdentifier
+ Constructors: 1
+  CarrierIdentifier | mcc, mnc, spn, imsi, gid1, gid2
+android.service.carrier.CarrierMessagingService
+ Constructors: 1
+  CarrierMessagingService | 
+android.service.carrier.CarrierMessagingService$SendMmsResult
+ Constructors: 1
+  CarrierMessagingService.SendMmsResult | sendStatus, sendConfPdu
+android.service.carrier.CarrierMessagingService$SendMultipartSmsResult
+ Constructors: 1
+  CarrierMessagingService.SendMultipartSmsResult | sendStatus, messageRefs
+android.service.carrier.CarrierMessagingService$SendSmsResult
+ Constructors: 1
+  CarrierMessagingService.SendSmsResult | sendStatus, messageRef
+android.service.carrier.CarrierService
+ Constructors: 1
+  CarrierService | 
+android.service.carrier.MessagePdu
+ Constructors: 1
+  MessagePdu | pduList
+android.service.chooser.ChooserTarget
+ Constructors: 1
+  ChooserTarget | title, icon, score, componentName, intentExtras
+android.service.chooser.ChooserTargetService
+ Constructors: 1
+  ChooserTargetService | 
+android.service.dreams.DreamService
+ Constructors: 1
+  DreamService | 
+android.service.media.CameraPrewarmService
+ Constructors: 1
+  CameraPrewarmService | 
+android.service.media.MediaBrowserService
+ Constructors: 1
+  MediaBrowserService | 
+android.service.media.MediaBrowserService$BrowserRoot
+ Constructors: 1
+  MediaBrowserService.BrowserRoot | rootId, extras
+android.service.media.MediaBrowserService$Result
+ Constructors: 0
+android.service.notification.Condition
+ Constructors: 3
+  Condition | id, summary, state
+  Condition | id, summary, line1, line2, icon, state, flags
+  Condition | source
+android.service.notification.ConditionProviderService
+ Constructors: 1
+  ConditionProviderService | 
+android.service.notification.NotificationListenerService
+ Constructors: 1
+  NotificationListenerService | 
+android.service.notification.NotificationListenerService$Ranking
+ Constructors: 1
+  NotificationListenerService.Ranking | 
+android.service.notification.NotificationListenerService$RankingMap
+ Constructors: 0
+android.service.notification.StatusBarNotification
+ Constructors: 2
+  StatusBarNotification | pkg, opPkg, id, tag, uid, initialPid, score, notification, user, postTime
+  StatusBarNotification | in
+android.service.quicksettings.Tile
+ Constructors: 0
+android.service.quicksettings.TileService
+ Constructors: 1
+  TileService | 
+android.service.restrictions.RestrictionsReceiver
+ Constructors: 1
+  RestrictionsReceiver | 
+android.service.textservice.SpellCheckerService
+ Constructors: 1
+  SpellCheckerService | 
+android.service.textservice.SpellCheckerService$Session
+ Constructors: 1
+  SpellCheckerService.Session | 
+android.service.voice.AlwaysOnHotwordDetector
+ Constructors: 0
+android.service.voice.AlwaysOnHotwordDetector$Callback
+ Constructors: 1
+  AlwaysOnHotwordDetector.Callback | 
+android.service.voice.AlwaysOnHotwordDetector$EventPayload
+ Constructors: 0
+android.service.voice.VoiceInteractionService
+ Constructors: 1
+  VoiceInteractionService | 
+android.service.voice.VoiceInteractionSession
+ Constructors: 2
+  VoiceInteractionSession | context
+  VoiceInteractionSession | context, handler
+android.service.voice.VoiceInteractionSession$AbortVoiceRequest
+ Constructors: 0
+android.service.voice.VoiceInteractionSession$CommandRequest
+ Constructors: 0
+android.service.voice.VoiceInteractionSession$CompleteVoiceRequest
+ Constructors: 0
+android.service.voice.VoiceInteractionSession$ConfirmationRequest
+ Constructors: 0
+android.service.voice.VoiceInteractionSession$Insets
+ Constructors: 1
+  VoiceInteractionSession.Insets | 
+android.service.voice.VoiceInteractionSession$PickOptionRequest
+ Constructors: 0
+android.service.voice.VoiceInteractionSession$Request
+ Constructors: 0
+android.service.voice.VoiceInteractionSessionService
+ Constructors: 1
+  VoiceInteractionSessionService | 
+android.service.vr.VrListenerService
+ Constructors: 1
+  VrListenerService | 
+android.service.wallpaper.WallpaperService
+ Constructors: 1
+  WallpaperService | 
+android.service.wallpaper.WallpaperService$Engine
+ Constructors: 1
+  WallpaperService.Engine | 
+android.speech.RecognitionListener
+ Constructors: 0
+android.speech.RecognitionService
+ Constructors: 1
+  RecognitionService | 
+android.speech.RecognitionService$Callback
+ Constructors: 0
+android.speech.RecognizerIntent
+ Constructors: 0
+android.speech.RecognizerResultsIntent
+ Constructors: 0
+android.speech.SpeechRecognizer
+ Constructors: 0
+android.speech.tts.SynthesisCallback
+ Constructors: 0
+android.speech.tts.TextToSpeech$OnInitListener
+ Constructors: 0
+android.speech.tts.TextToSpeech$OnUtteranceCompletedListener
+ Constructors: 0
+android.speech.tts.SynthesisRequest
+ Constructors: 2
+  SynthesisRequest | text, params
+  SynthesisRequest | text, params
+android.speech.tts.TextToSpeech
+ Constructors: 2
+  TextToSpeech | context, listener
+  TextToSpeech | context, listener, engine
+android.speech.tts.TextToSpeech$Engine
+ Constructors: 1
+  TextToSpeech.Engine | 
+android.speech.tts.TextToSpeech$EngineInfo
+ Constructors: 1
+  TextToSpeech.EngineInfo | 
+android.speech.tts.TextToSpeechService
+ Constructors: 1
+  TextToSpeechService | 
+android.speech.tts.UtteranceProgressListener
+ Constructors: 1
+  UtteranceProgressListener | 
+android.speech.tts.Voice
+ Constructors: 1
+  Voice | name, locale, quality, latency, requiresNetworkConnection, features
+android.system.Os
+ Constructors: 0
+android.system.OsConstants
+ Constructors: 0
+android.system.StructPollfd
+ Constructors: 1
+  StructPollfd | 
+android.system.StructStat
+ Constructors: 2
+  StructStat | st_dev, st_ino, st_mode, st_nlink, st_uid, st_gid, st_rdev, st_size, st_atime, st_mtime, st_ctime, st_blksize, st_blocks
+  StructStat | st_dev, st_ino, st_mode, st_nlink, st_uid, st_gid, st_rdev, st_size, st_atim, st_mtim, st_ctim, st_blksize, st_blocks
+android.system.StructStatVfs
+ Constructors: 1
+  StructStatVfs | f_bsize, f_frsize, f_blocks, f_bfree, f_bavail, f_files, f_ffree, f_favail, f_fsid, f_flag, f_namemax
+android.system.StructTimespec
+ Constructors: 1
+  StructTimespec | tv_sec, tv_nsec
+android.system.StructUtsname
+ Constructors: 1
+  StructUtsname | sysname, nodename, release, version, machine
+android.system.ErrnoException
+ Constructors: 2
+  ErrnoException | functionName, errno
+  ErrnoException | functionName, errno, cause
+android.telecom.Call
+ Constructors: 0
+android.telecom.Call$Callback
+ Constructors: 1
+  Call.Callback | 
+android.telecom.Call$Details
+ Constructors: 0
+android.telecom.Call$RttCall
+ Constructors: 0
+android.telecom.CallAudioState
+ Constructors: 1
+  CallAudioState | muted, route, supportedRouteMask
+android.telecom.CallScreeningService
+ Constructors: 1
+  CallScreeningService | 
+android.telecom.CallScreeningService$CallResponse
+ Constructors: 0
+android.telecom.CallScreeningService$CallResponse$Builder
+ Constructors: 1
+  CallScreeningService.CallResponse.Builder | 
+android.telecom.Conference
+ Constructors: 1
+  Conference | phoneAccount
+android.telecom.Conferenceable
+ Constructors: 0
+android.telecom.Connection
+ Constructors: 1
+  Connection | 
+android.telecom.Connection$RttModifyStatus
+ Constructors: 0
+android.telecom.Connection$VideoProvider
+ Constructors: 1
+  Connection.VideoProvider | 
+android.telecom.ConnectionRequest
+ Constructors: 2
+  ConnectionRequest | accountHandle, handle, extras
+  ConnectionRequest | accountHandle, handle, extras, videoState
+android.telecom.ConnectionService
+ Constructors: 1
+  ConnectionService | 
+android.telecom.DisconnectCause
+ Constructors: 4
+  DisconnectCause | code
+  DisconnectCause | code, reason
+  DisconnectCause | code, label, description, reason
+  DisconnectCause | code, label, description, reason, toneToPlay
+android.telecom.GatewayInfo
+ Constructors: 1
+  GatewayInfo | packageName, gatewayUri, originalAddress
+android.telecom.InCallService
+ Constructors: 1
+  InCallService | 
+android.telecom.InCallService$VideoCall
+ Constructors: 1
+  InCallService.VideoCall | 
+android.telecom.InCallService$VideoCall$Callback
+ Constructors: 1
+  InCallService.VideoCall.Callback | 
+android.telecom.PhoneAccount
+ Constructors: 0
+android.telecom.PhoneAccount$Builder
+ Constructors: 2
+  PhoneAccount.Builder | accountHandle, label
+  PhoneAccount.Builder | phoneAccount
+android.telecom.PhoneAccountHandle
+ Constructors: 2
+  PhoneAccountHandle | componentName, id
+  PhoneAccountHandle | componentName, id, userHandle
+android.telecom.RemoteConference
+ Constructors: 0
+android.telecom.RemoteConference$Callback
+ Constructors: 1
+  RemoteConference.Callback | 
+android.telecom.RemoteConnection
+ Constructors: 0
+android.telecom.RemoteConnection$Callback
+ Constructors: 1
+  RemoteConnection.Callback | 
+android.telecom.RemoteConnection$VideoProvider
+ Constructors: 0
+android.telecom.RemoteConnection$VideoProvider$Callback
+ Constructors: 1
+  RemoteConnection.VideoProvider.Callback | 
+android.telecom.StatusHints
+ Constructors: 1
+  StatusHints | label, icon, extras
+android.telecom.TelecomManager
+ Constructors: 0
+android.telecom.VideoProfile
+ Constructors: 2
+  VideoProfile | videoState
+  VideoProfile | videoState, quality
+android.telecom.VideoProfile$CameraCapabilities
+ Constructors: 1
+  VideoProfile.CameraCapabilities | width, height
+android.telephony.CarrierConfigManager
+ Constructors: 0
+android.telephony.CellIdentityCdma
+ Constructors: 0
+android.telephony.CellIdentityGsm
+ Constructors: 0
+android.telephony.CellIdentityLte
+ Constructors: 0
+android.telephony.CellIdentityWcdma
+ Constructors: 0
+android.telephony.CellInfo
+ Constructors: 0
+android.telephony.CellInfoCdma
+ Constructors: 0
+android.telephony.CellInfoGsm
+ Constructors: 0
+android.telephony.CellInfoLte
+ Constructors: 0
+android.telephony.CellInfoWcdma
+ Constructors: 0
+android.telephony.CellLocation
+ Constructors: 1
+  CellLocation | 
+android.telephony.CellSignalStrength
+ Constructors: 0
+android.telephony.CellSignalStrengthCdma
+ Constructors: 0
+android.telephony.CellSignalStrengthGsm
+ Constructors: 0
+android.telephony.CellSignalStrengthLte
+ Constructors: 0
+android.telephony.CellSignalStrengthWcdma
+ Constructors: 0
+android.telephony.IccOpenLogicalChannelResponse
+ Constructors: 0
+android.telephony.NeighboringCellInfo
+ Constructors: 4
+  NeighboringCellInfo | 
+  NeighboringCellInfo | rssi, cid
+  NeighboringCellInfo | rssi, location, radioType
+  NeighboringCellInfo | in
+android.telephony.PhoneNumberFormattingTextWatcher
+ Constructors: 2
+  PhoneNumberFormattingTextWatcher | 
+  PhoneNumberFormattingTextWatcher | countryCode
+android.telephony.PhoneNumberUtils
+ Constructors: 1
+  PhoneNumberUtils | 
+android.telephony.PhoneStateListener
+ Constructors: 1
+  PhoneStateListener | 
+android.telephony.ServiceState
+ Constructors: 3
+  ServiceState | 
+  ServiceState | s
+  ServiceState | in
+android.telephony.SignalStrength
+ Constructors: 0
+android.telephony.SmsManager
+ Constructors: 0
+android.telephony.SmsMessage
+ Constructors: 0
+android.telephony.SmsMessage$SubmitPdu
+ Constructors: 0
+android.telephony.SubscriptionInfo
+ Constructors: 0
+android.telephony.SubscriptionManager
+ Constructors: 0
+android.telephony.SubscriptionManager$OnSubscriptionsChangedListener
+ Constructors: 1
+  SubscriptionManager.OnSubscriptionsChangedListener | 
+android.telephony.TelephonyManager
+ Constructors: 0
+android.telephony.TelephonyManager$UssdResponseCallback
+ Constructors: 1
+  TelephonyManager.UssdResponseCallback | 
+android.telephony.VisualVoicemailService
+ Constructors: 1
+  VisualVoicemailService | 
+android.telephony.VisualVoicemailService$VisualVoicemailTask
+ Constructors: 0
+android.telephony.VisualVoicemailSms
+ Constructors: 0
+android.telephony.VisualVoicemailSmsFilterSettings
+ Constructors: 0
+android.telephony.VisualVoicemailSmsFilterSettings$Builder
+ Constructors: 1
+  VisualVoicemailSmsFilterSettings.Builder | 
+android.telephony.SmsMessage$MessageClass
+ Constructors: 0
+android.telephony.cdma.CdmaCellLocation
+ Constructors: 2
+  CdmaCellLocation | 
+  CdmaCellLocation | bundle
+android.telephony.gsm.GsmCellLocation
+ Constructors: 2
+  GsmCellLocation | 
+  GsmCellLocation | bundle
+android.telephony.gsm.SmsManager
+ Constructors: 0
+android.telephony.gsm.SmsMessage
+ Constructors: 1
+  SmsMessage | 
+android.telephony.gsm.SmsMessage$SubmitPdu
+ Constructors: 1
+  SmsMessage.SubmitPdu | 
+android.telephony.gsm.SmsMessage$MessageClass
+ Constructors: 0
+android.test.FlakyTest
+ Constructors: 0
+android.test.UiThreadTest
+ Constructors: 0
+android.test.PerformanceTestCase
+ Constructors: 0
+android.test.PerformanceTestCase$Intermediates
+ Constructors: 0
+android.test.TestSuiteProvider
+ Constructors: 0
+android.test.ActivityInstrumentationTestCase
+ Constructors: 2
+  ActivityInstrumentationTestCase | pkg, activityClass
+  ActivityInstrumentationTestCase | pkg, activityClass, initialTouchMode
+android.test.ActivityInstrumentationTestCase2
+ Constructors: 2
+  ActivityInstrumentationTestCase2 | pkg, activityClass
+  ActivityInstrumentationTestCase2 | activityClass
+android.test.ActivityTestCase
+ Constructors: 1
+  ActivityTestCase | 
+android.test.ActivityUnitTestCase
+ Constructors: 1
+  ActivityUnitTestCase | activityClass
+android.test.AndroidTestCase
+ Constructors: 1
+  AndroidTestCase | 
+android.test.AndroidTestRunner
+ Constructors: 1
+  AndroidTestRunner | 
+android.test.ApplicationTestCase
+ Constructors: 1
+  ApplicationTestCase | applicationClass
+android.test.InstrumentationTestCase
+ Constructors: 1
+  InstrumentationTestCase | 
+android.test.InstrumentationTestRunner
+ Constructors: 1
+  InstrumentationTestRunner | 
+android.test.InstrumentationTestSuite
+ Constructors: 3
+  InstrumentationTestSuite | instr
+  InstrumentationTestSuite | name, instr
+  InstrumentationTestSuite | theClass, instr
+android.test.IsolatedContext
+ Constructors: 1
+  IsolatedContext | resolver, targetContext
+android.test.LoaderTestCase
+ Constructors: 1
+  LoaderTestCase | 
+android.test.MoreAsserts
+ Constructors: 0
+android.test.ProviderTestCase
+ Constructors: 1
+  ProviderTestCase | providerClass, providerAuthority
+android.test.ProviderTestCase2
+ Constructors: 1
+  ProviderTestCase2 | providerClass, providerAuthority
+android.test.RenamingDelegatingContext
+ Constructors: 2
+  RenamingDelegatingContext | context, filePrefix
+  RenamingDelegatingContext | context, fileContext, filePrefix
+android.test.ServiceTestCase
+ Constructors: 1
+  ServiceTestCase | serviceClass
+android.test.SingleLaunchActivityTestCase
+ Constructors: 1
+  SingleLaunchActivityTestCase | pkg, activityClass
+android.test.SyncBaseInstrumentation
+ Constructors: 1
+  SyncBaseInstrumentation | 
+android.test.TouchUtils
+ Constructors: 1
+  TouchUtils | 
+android.test.ViewAsserts
+ Constructors: 0
+android.test.AssertionFailedError
+ Constructors: 2
+  AssertionFailedError | 
+  AssertionFailedError | errorMessage
+android.test.ComparisonFailure
+ Constructors: 1
+  ComparisonFailure | message, expected, actual
+android.test.mock.MockApplication
+ Constructors: 1
+  MockApplication | 
+android.test.mock.MockContentProvider
+ Constructors: 2
+  MockContentProvider | context
+  MockContentProvider | context, readPermission, writePermission, pathPermissions
+android.test.mock.MockContentResolver
+ Constructors: 2
+  MockContentResolver | 
+  MockContentResolver | context
+android.test.mock.MockContext
+ Constructors: 1
+  MockContext | 
+android.test.mock.MockCursor
+ Constructors: 1
+  MockCursor | 
+android.test.mock.MockDialogInterface
+ Constructors: 1
+  MockDialogInterface | 
+android.test.mock.MockPackageManager
+ Constructors: 1
+  MockPackageManager | 
+android.test.mock.MockResources
+ Constructors: 1
+  MockResources | 
+android.test.suitebuilder.TestMethod
+ Constructors: 3
+  TestMethod | method, enclosingClass
+  TestMethod | methodName, enclosingClass
+  TestMethod | testCase
+android.test.suitebuilder.TestSuiteBuilder
+ Constructors: 2
+  TestSuiteBuilder | clazz
+  TestSuiteBuilder | name, classLoader
+android.test.suitebuilder.TestSuiteBuilder$FailedToCreateTests
+ Constructors: 1
+  TestSuiteBuilder.FailedToCreateTests | exception
+android.test.suitebuilder.annotation.LargeTest
+ Constructors: 0
+android.test.suitebuilder.annotation.MediumTest
+ Constructors: 0
+android.test.suitebuilder.annotation.SmallTest
+ Constructors: 0
+android.test.suitebuilder.annotation.Smoke
+ Constructors: 0
+android.test.suitebuilder.annotation.Suppress
+ Constructors: 0
+android.text.Editable
+ Constructors: 0
+android.text.GetChars
+ Constructors: 0
+android.text.Html$ImageGetter
+ Constructors: 0
+android.text.Html$TagHandler
+ Constructors: 0
+android.text.InputFilter
+ Constructors: 0
+android.text.InputType
+ Constructors: 0
+android.text.NoCopySpan
+ Constructors: 0
+android.text.ParcelableSpan
+ Constructors: 0
+android.text.Spannable
+ Constructors: 0
+android.text.Spanned
+ Constructors: 0
+android.text.SpanWatcher
+ Constructors: 0
+android.text.TextDirectionHeuristic
+ Constructors: 0
+android.text.TextUtils$EllipsizeCallback
+ Constructors: 0
+android.text.TextUtils$StringSplitter
+ Constructors: 0
+android.text.TextWatcher
+ Constructors: 0
+android.text.AlteredCharSequence
+ Constructors: 0
+android.text.AndroidCharacter
+ Constructors: 1
+  AndroidCharacter | 
+android.text.Annotation
+ Constructors: 2
+  Annotation | key, value
+  Annotation | src
+android.text.AutoText
+ Constructors: 0
+android.text.BidiFormatter
+ Constructors: 0
+android.text.BidiFormatter$Builder
+ Constructors: 3
+  BidiFormatter.Builder | 
+  BidiFormatter.Builder | rtlContext
+  BidiFormatter.Builder | locale
+android.text.BoringLayout
+ Constructors: 2
+  BoringLayout | source, paint, outerwidth, align, spacingmult, spacingadd, metrics, includepad
+  BoringLayout | source, paint, outerwidth, align, spacingmult, spacingadd, metrics, includepad, ellipsize, ellipsizedWidth
+android.text.BoringLayout$Metrics
+ Constructors: 1
+  BoringLayout.Metrics | 
+android.text.ClipboardManager
+ Constructors: 1
+  ClipboardManager | 
+android.text.DynamicLayout
+ Constructors: 3
+  DynamicLayout | base, paint, width, align, spacingmult, spacingadd, includepad
+  DynamicLayout | base, display, paint, width, align, spacingmult, spacingadd, includepad
+  DynamicLayout | base, display, paint, width, align, spacingmult, spacingadd, includepad, ellipsize, ellipsizedWidth
+android.text.Editable$Factory
+ Constructors: 1
+  Editable.Factory | 
+android.text.Html
+ Constructors: 0
+android.text.InputFilter$AllCaps
+ Constructors: 2
+  InputFilter.AllCaps | 
+  InputFilter.AllCaps | locale
+android.text.InputFilter$LengthFilter
+ Constructors: 1
+  InputFilter.LengthFilter | max
+android.text.Layout
+ Constructors: 0
+android.text.Layout$Directions
+ Constructors: 0
+android.text.LoginFilter
+ Constructors: 0
+android.text.LoginFilter$PasswordFilterGMail
+ Constructors: 2
+  LoginFilter.PasswordFilterGMail | 
+  LoginFilter.PasswordFilterGMail | appendInvalid
+android.text.LoginFilter$UsernameFilterGeneric
+ Constructors: 2
+  LoginFilter.UsernameFilterGeneric | 
+  LoginFilter.UsernameFilterGeneric | appendInvalid
+android.text.LoginFilter$UsernameFilterGMail
+ Constructors: 2
+  LoginFilter.UsernameFilterGMail | 
+  LoginFilter.UsernameFilterGMail | appendInvalid
+android.text.NoCopySpan$Concrete
+ Constructors: 1
+  NoCopySpan.Concrete | 
+android.text.Selection
+ Constructors: 0
+android.text.Spannable$Factory
+ Constructors: 1
+  Spannable.Factory | 
+android.text.SpannableString
+ Constructors: 1
+  SpannableString | source
+android.text.SpannableStringBuilder
+ Constructors: 3
+  SpannableStringBuilder | 
+  SpannableStringBuilder | text
+  SpannableStringBuilder | text, start, end
+android.text.SpannedString
+ Constructors: 1
+  SpannedString | source
+android.text.StaticLayout
+ Constructors: 3
+  StaticLayout | source, paint, width, align, spacingmult, spacingadd, includepad
+  StaticLayout | source, bufstart, bufend, paint, outerwidth, align, spacingmult, spacingadd, includepad
+  StaticLayout | source, bufstart, bufend, paint, outerwidth, align, spacingmult, spacingadd, includepad, ellipsize, ellipsizedWidth
+android.text.StaticLayout$Builder
+ Constructors: 0
+android.text.TextDirectionHeuristics
+ Constructors: 1
+  TextDirectionHeuristics | 
+android.text.TextPaint
+ Constructors: 3
+  TextPaint | 
+  TextPaint | flags
+  TextPaint | p
+android.text.TextUtils
+ Constructors: 0
+android.text.TextUtils$SimpleStringSplitter
+ Constructors: 1
+  TextUtils.SimpleStringSplitter | delimiter
+android.text.Layout$Alignment
+ Constructors: 0
+android.text.TextUtils$TruncateAt
+ Constructors: 0
+android.text.format.DateFormat
+ Constructors: 1
+  DateFormat | 
+android.text.format.DateUtils
+ Constructors: 1
+  DateUtils | 
+android.text.format.Formatter
+ Constructors: 1
+  Formatter | 
+android.text.format.Time
+ Constructors: 3
+  Time | timezoneId
+  Time | 
+  Time | other
+android.text.method.KeyListener
+ Constructors: 0
+android.text.method.MovementMethod
+ Constructors: 0
+android.text.method.TransformationMethod
+ Constructors: 0
+android.text.method.ArrowKeyMovementMethod
+ Constructors: 1
+  ArrowKeyMovementMethod | 
+android.text.method.BaseKeyListener
+ Constructors: 1
+  BaseKeyListener | 
+android.text.method.BaseMovementMethod
+ Constructors: 1
+  BaseMovementMethod | 
+android.text.method.CharacterPickerDialog
+ Constructors: 1
+  CharacterPickerDialog | context, view, text, options, insert
+android.text.method.DateKeyListener
+ Constructors: 2
+  DateKeyListener | 
+  DateKeyListener | locale
+android.text.method.DateTimeKeyListener
+ Constructors: 2
+  DateTimeKeyListener | 
+  DateTimeKeyListener | locale
+android.text.method.DialerKeyListener
+ Constructors: 1
+  DialerKeyListener | 
+android.text.method.DigitsKeyListener
+ Constructors: 4
+  DigitsKeyListener | 
+  DigitsKeyListener | sign, decimal
+  DigitsKeyListener | locale
+  DigitsKeyListener | locale, sign, decimal
+android.text.method.HideReturnsTransformationMethod
+ Constructors: 1
+  HideReturnsTransformationMethod | 
+android.text.method.LinkMovementMethod
+ Constructors: 1
+  LinkMovementMethod | 
+android.text.method.MetaKeyKeyListener
+ Constructors: 1
+  MetaKeyKeyListener | 
+android.text.method.MultiTapKeyListener
+ Constructors: 1
+  MultiTapKeyListener | cap, autotext
+android.text.method.NumberKeyListener
+ Constructors: 1
+  NumberKeyListener | 
+android.text.method.PasswordTransformationMethod
+ Constructors: 1
+  PasswordTransformationMethod | 
+android.text.method.QwertyKeyListener
+ Constructors: 1
+  QwertyKeyListener | cap, autoText
+android.text.method.ReplacementTransformationMethod
+ Constructors: 1
+  ReplacementTransformationMethod | 
+android.text.method.ScrollingMovementMethod
+ Constructors: 1
+  ScrollingMovementMethod | 
+android.text.method.SingleLineTransformationMethod
+ Constructors: 1
+  SingleLineTransformationMethod | 
+android.text.method.TextKeyListener
+ Constructors: 1
+  TextKeyListener | cap, autotext
+android.text.method.TimeKeyListener
+ Constructors: 2
+  TimeKeyListener | 
+  TimeKeyListener | locale
+android.text.method.Touch
+ Constructors: 0
+android.text.method.TextKeyListener$Capitalize
+ Constructors: 0
+android.text.style.AlignmentSpan
+ Constructors: 0
+android.text.style.LeadingMarginSpan
+ Constructors: 0
+android.text.style.LeadingMarginSpan$LeadingMarginSpan2
+ Constructors: 0
+android.text.style.LineBackgroundSpan
+ Constructors: 0
+android.text.style.LineHeightSpan
+ Constructors: 0
+android.text.style.LineHeightSpan$WithDensity
+ Constructors: 0
+android.text.style.ParagraphStyle
+ Constructors: 0
+android.text.style.TabStopSpan
+ Constructors: 0
+android.text.style.UpdateAppearance
+ Constructors: 0
+android.text.style.UpdateLayout
+ Constructors: 0
+android.text.style.WrapTogetherSpan
+ Constructors: 0
+android.text.style.AbsoluteSizeSpan
+ Constructors: 3
+  AbsoluteSizeSpan | size
+  AbsoluteSizeSpan | size, dip
+  AbsoluteSizeSpan | src
+android.text.style.AlignmentSpan$Standard
+ Constructors: 2
+  AlignmentSpan.Standard | align
+  AlignmentSpan.Standard | src
+android.text.style.BackgroundColorSpan
+ Constructors: 2
+  BackgroundColorSpan | color
+  BackgroundColorSpan | src
+android.text.style.BulletSpan
+ Constructors: 4
+  BulletSpan | 
+  BulletSpan | gapWidth
+  BulletSpan | gapWidth, color
+  BulletSpan | src
+android.text.style.CharacterStyle
+ Constructors: 1
+  CharacterStyle | 
+android.text.style.ClickableSpan
+ Constructors: 1
+  ClickableSpan | 
+android.text.style.DrawableMarginSpan
+ Constructors: 2
+  DrawableMarginSpan | b
+  DrawableMarginSpan | b, pad
+android.text.style.DynamicDrawableSpan
+ Constructors: 1
+  DynamicDrawableSpan | 
+android.text.style.EasyEditSpan
+ Constructors: 3
+  EasyEditSpan | 
+  EasyEditSpan | pendingIntent
+  EasyEditSpan | source
+android.text.style.ForegroundColorSpan
+ Constructors: 2
+  ForegroundColorSpan | color
+  ForegroundColorSpan | src
+android.text.style.IconMarginSpan
+ Constructors: 2
+  IconMarginSpan | b
+  IconMarginSpan | b, pad
+android.text.style.ImageSpan
+ Constructors: 12
+  ImageSpan | b
+  ImageSpan | b, verticalAlignment
+  ImageSpan | context, b
+  ImageSpan | context, b, verticalAlignment
+  ImageSpan | d
+  ImageSpan | d, verticalAlignment
+  ImageSpan | d, source
+  ImageSpan | d, source, verticalAlignment
+  ImageSpan | context, uri
+  ImageSpan | context, uri, verticalAlignment
+  ImageSpan | context, resourceId
+  ImageSpan | context, resourceId, verticalAlignment
+android.text.style.LeadingMarginSpan$Standard
+ Constructors: 3
+  LeadingMarginSpan.Standard | first, rest
+  LeadingMarginSpan.Standard | every
+  LeadingMarginSpan.Standard | src
+android.text.style.LocaleSpan
+ Constructors: 3
+  LocaleSpan | locale
+  LocaleSpan | locales
+  LocaleSpan | source
+android.text.style.MaskFilterSpan
+ Constructors: 1
+  MaskFilterSpan | filter
+android.text.style.MetricAffectingSpan
+ Constructors: 1
+  MetricAffectingSpan | 
+android.text.style.QuoteSpan
+ Constructors: 3
+  QuoteSpan | 
+  QuoteSpan | color
+  QuoteSpan | src
+android.text.style.RelativeSizeSpan
+ Constructors: 2
+  RelativeSizeSpan | proportion
+  RelativeSizeSpan | src
+android.text.style.ReplacementSpan
+ Constructors: 1
+  ReplacementSpan | 
+android.text.style.ScaleXSpan
+ Constructors: 2
+  ScaleXSpan | proportion
+  ScaleXSpan | src
+android.text.style.StrikethroughSpan
+ Constructors: 2
+  StrikethroughSpan | 
+  StrikethroughSpan | src
+android.text.style.StyleSpan
+ Constructors: 2
+  StyleSpan | style
+  StyleSpan | src
+android.text.style.SubscriptSpan
+ Constructors: 2
+  SubscriptSpan | 
+  SubscriptSpan | src
+android.text.style.SuggestionSpan
+ Constructors: 4
+  SuggestionSpan | context, suggestions, flags
+  SuggestionSpan | locale, suggestions, flags
+  SuggestionSpan | context, locale, suggestions, flags, notificationTargetClass
+  SuggestionSpan | src
+android.text.style.SuperscriptSpan
+ Constructors: 2
+  SuperscriptSpan | 
+  SuperscriptSpan | src
+android.text.style.TabStopSpan$Standard
+ Constructors: 1
+  TabStopSpan.Standard | where
+android.text.style.TextAppearanceSpan
+ Constructors: 4
+  TextAppearanceSpan | context, appearance
+  TextAppearanceSpan | context, appearance, colorList
+  TextAppearanceSpan | family, style, size, color, linkColor
+  TextAppearanceSpan | src
+android.text.style.TtsSpan
+ Constructors: 2
+  TtsSpan | type, args
+  TtsSpan | src
+android.text.style.TtsSpan$Builder
+ Constructors: 1
+  TtsSpan.Builder | type
+android.text.style.TtsSpan$CardinalBuilder
+ Constructors: 3
+  TtsSpan.CardinalBuilder | 
+  TtsSpan.CardinalBuilder | number
+  TtsSpan.CardinalBuilder | number
+android.text.style.TtsSpan$DateBuilder
+ Constructors: 2
+  TtsSpan.DateBuilder | 
+  TtsSpan.DateBuilder | weekday, day, month, year
+android.text.style.TtsSpan$DecimalBuilder
+ Constructors: 3
+  TtsSpan.DecimalBuilder | 
+  TtsSpan.DecimalBuilder | number, minimumFractionDigits, maximumFractionDigits
+  TtsSpan.DecimalBuilder | integerPart, fractionalPart
+android.text.style.TtsSpan$DigitsBuilder
+ Constructors: 2
+  TtsSpan.DigitsBuilder | 
+  TtsSpan.DigitsBuilder | digits
+android.text.style.TtsSpan$ElectronicBuilder
+ Constructors: 1
+  TtsSpan.ElectronicBuilder | 
+android.text.style.TtsSpan$FractionBuilder
+ Constructors: 2
+  TtsSpan.FractionBuilder | 
+  TtsSpan.FractionBuilder | integerPart, numerator, denominator
+android.text.style.TtsSpan$MeasureBuilder
+ Constructors: 1
+  TtsSpan.MeasureBuilder | 
+android.text.style.TtsSpan$MoneyBuilder
+ Constructors: 1
+  TtsSpan.MoneyBuilder | 
+android.text.style.TtsSpan$OrdinalBuilder
+ Constructors: 3
+  TtsSpan.OrdinalBuilder | 
+  TtsSpan.OrdinalBuilder | number
+  TtsSpan.OrdinalBuilder | number
+android.text.style.TtsSpan$SemioticClassBuilder
+ Constructors: 1
+  TtsSpan.SemioticClassBuilder | type
+android.text.style.TtsSpan$TelephoneBuilder
+ Constructors: 2
+  TtsSpan.TelephoneBuilder | 
+  TtsSpan.TelephoneBuilder | numberParts
+android.text.style.TtsSpan$TextBuilder
+ Constructors: 2
+  TtsSpan.TextBuilder | 
+  TtsSpan.TextBuilder | text
+android.text.style.TtsSpan$TimeBuilder
+ Constructors: 2
+  TtsSpan.TimeBuilder | 
+  TtsSpan.TimeBuilder | hours, minutes
+android.text.style.TtsSpan$VerbatimBuilder
+ Constructors: 2
+  TtsSpan.VerbatimBuilder | 
+  TtsSpan.VerbatimBuilder | verbatim
+android.text.style.TypefaceSpan
+ Constructors: 2
+  TypefaceSpan | family
+  TypefaceSpan | src
+android.text.style.UnderlineSpan
+ Constructors: 2
+  UnderlineSpan | 
+  UnderlineSpan | src
+android.text.style.URLSpan
+ Constructors: 2
+  URLSpan | url
+  URLSpan | src
+android.text.util.Linkify$MatchFilter
+ Constructors: 0
+android.text.util.Linkify$TransformFilter
+ Constructors: 0
+android.text.util.Linkify
+ Constructors: 1
+  Linkify | 
+android.text.util.Rfc822Token
+ Constructors: 1
+  Rfc822Token | name, address, comment
+android.text.util.Rfc822Tokenizer
+ Constructors: 1
+  Rfc822Tokenizer | 

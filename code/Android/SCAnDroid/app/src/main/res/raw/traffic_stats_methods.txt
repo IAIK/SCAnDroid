@@ -1,0 +1,14 @@
+android.net.TrafficStats
+ Methods: 12
+  getTotalRxBytes |
+  getTotalRxPackets |
+  getTotalTxBytes |
+  getTotalTxPackets |
+  getMobileRxBytes |
+  getMobileRxPackets |
+  getMobileTxBytes |
+  getMobileTxPackets |
+  getUidRxBytes | uid
+  getUidRxPackets | uid
+  getUidTxBytes | uid
+  getUidTxPackets | uid

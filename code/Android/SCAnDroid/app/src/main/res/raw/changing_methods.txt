@@ -1,0 +1,103 @@
+android.content.Context
+ Methods: 2
+  getExternalCacheDir |
+  getSystemService | name
+android.os.Process
+ Methods: 1
+  getElapsedCpuTime |
+android.net.TrafficStats
+ Methods: 30
+  clearThreadStatsTag |
+  getAndSetThreadStatsTag | tag
+  getMobileRxBytes |
+  getMobileRxPackets |
+  getMobileTxBytes |
+  getMobileTxPackets |
+  getThreadStatsTag |
+  getTotalRxBytes |
+  getTotalRxPackets |
+  getTotalTxBytes |
+  getTotalTxPackets |
+  getUidRxBytes | uid
+  getUidRxPackets | uid
+  getUidTcpRxBytes | uid
+  getUidTcpRxSegments | uid
+  getUidTcpTxBytes | uid
+  getUidTcpTxSegments | uid
+  getUidTxBytes | uid
+  getUidTxPackets | uid
+  getUidUdpRxBytes | uid
+  getUidUdpRxPackets | uid
+  getUidUdpTxBytes | uid
+  getUidUdpTxPackets | uid
+  incrementOperationCount | operationCount
+  incrementOperationCount | tag, operationCount
+  setThreadStatsTag | tag
+  tagDatagramSocket | socket
+  tagSocket | socket
+  untagDatagramSocket | socket
+  untagSocket | socket
+android.widget.Scroller
+ Methods: 20
+  abortAnimation |
+  computeScrollOffset |
+  extendDuration | extend
+  fling | startX, startY, velocityX, velocityY, minX, maxX, minY, maxY
+  forceFinished | finished
+  getCurrVelocity |
+  getCurrX |
+  getCurrY |
+  getDuration |
+  getFinalX |
+  getFinalY |
+  getStartX |
+  getStartY |
+  isFinished |
+  setFinalX | newX
+  setFinalY | newY
+  setFriction | friction
+  startScroll | startX, startY, dx, dy, duration
+  startScroll | startX, startY, dx, dy
+  timePassed |
+java.lang.System
+ Methods: 27
+  arraycopy | src, srcPos, dest, destPos, length
+  clearProperty | key
+  console |
+  currentTimeMillis |
+  exit | status
+  gc |
+  getProperties |
+  getProperty | key, def
+  getProperty | key
+  getSecurityManager |
+  getenv | name
+  getenv |
+  identityHashCode | x
+  inheritedChannel |
+  lineSeparator |
+  load | filename
+  loadLibrary | libname
+  mapLibraryName | libname
+  nanoTime |
+  runFinalization |
+  runFinalizersOnExit | value
+  setErr | err
+  setIn | in
+  setOut | out
+  setProperties | props
+  setProperty | key, value
+  setSecurityManager | s
+android.app.usage.NetworkStats$Bucket
+ Methods: 11
+  getEndTimeStamp |
+  getMetered |
+  getRoaming |
+  getRxBytes |
+  getRxPackets |
+  getStartTimeStamp |
+  getState |
+  getTag |
+  getTxBytes |
+  getTxPackets |
+  getUid |

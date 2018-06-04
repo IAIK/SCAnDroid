@@ -1,0 +1,9 @@
+                       precision    recall  f1-score   support
+
+ long_press_character       0.60      0.60      0.60        10
+           long_swipe       0.60      0.90      0.72        10
+          short_swipe       0.33      0.10      0.15        10
+tap_regular_character       0.40      0.40      0.40        10
+            tap_shift       0.42      0.50      0.45        10
+
+          avg / total       0.47      0.50      0.47        50

@@ -1,0 +1,35 @@
+android.net.TrafficStats
+ Methods: 33
+  clearThreadStatsTag |
+  getAndSetThreadStatsTag | tag
+  getMobileRxBytes |
+  getMobileRxPackets |
+  getMobileTxBytes |
+  getMobileTxPackets |
+  getThreadStatsTag |
+  getTotalRxBytes |
+  getTotalRxPackets |
+  getTotalTxBytes |
+  getTotalTxPackets |
+  getUidRxBytes | uid
+  getUidRxPackets | uid
+  getUidTcpRxBytes | uid
+  getUidTcpRxSegments | uid
+  getUidTcpTxBytes | uid
+  getUidTcpTxSegments | uid
+  getUidTxBytes | uid
+  getUidTxPackets | uid
+  getUidUdpRxBytes | uid
+  getUidUdpRxPackets | uid
+  getUidUdpTxBytes | uid
+  getUidUdpTxPackets | uid
+  incrementOperationCount | operationCount
+  incrementOperationCount | tag, operationCount
+  setThreadStatsTag | tag
+  tagDatagramSocket | socket
+  tagSocket | socket
+  untagDatagramSocket | socket
+  untagSocket | socket
+  nativeGetUidStat | uid, type
+  nativeGetTotalStat | type
+  nativeGetIfaceStat | iface, type

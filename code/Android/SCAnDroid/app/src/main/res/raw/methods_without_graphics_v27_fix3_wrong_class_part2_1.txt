@@ -1,0 +1,5780 @@
+android.preference.Preference$OnPreferenceChangeListener
+ Methods: 1
+  onPreferenceChange | preference, newValue
+android.preference.Preference$OnPreferenceClickListener
+ Methods: 1
+  onPreferenceClick | preference
+android.preference.PreferenceDataStore
+ Methods: 12
+  getBoolean | key, defValue
+  getFloat | key, defValue
+  getInt | key, defValue
+  getLong | key, defValue
+  getString | key, defValue
+  getStringSet | key, defValues
+  putBoolean | key, value
+  putFloat | key, value
+  putInt | key, value
+  putLong | key, value
+  putString | key, value
+  putStringSet | key, values
+android.preference.PreferenceFragment$OnPreferenceStartFragmentCallback
+ Methods: 1
+  onPreferenceStartFragment | caller, pref
+android.preference.PreferenceManager$OnActivityDestroyListener
+ Methods: 1
+  onActivityDestroy | 
+android.preference.PreferenceManager$OnActivityResultListener
+ Methods: 1
+  onActivityResult | requestCode, resultCode, data
+android.preference.PreferenceManager$OnActivityStopListener
+ Methods: 1
+  onActivityStop | 
+android.preference.CheckBoxPreference
+ Methods: 0
+android.preference.DialogPreference
+ Methods: 21
+  getDialog | 
+  getDialogIcon | 
+  getDialogLayoutResource | 
+  getDialogMessage | 
+  getDialogTitle | 
+  getNegativeButtonText | 
+  getPositiveButtonText | 
+  onActivityDestroy | 
+  onClick | dialog, which
+  onDismiss | dialog
+  setDialogIcon | dialogIconRes
+  setDialogIcon | dialogIcon
+  setDialogLayoutResource | dialogLayoutResId
+  setDialogMessage | dialogMessage
+  setDialogMessage | dialogMessageResId
+  setDialogTitle | dialogTitleResId
+  setDialogTitle | dialogTitle
+  setNegativeButtonText | negativeButtonText
+  setNegativeButtonText | negativeButtonTextResId
+  setPositiveButtonText | positiveButtonTextResId
+  setPositiveButtonText | positiveButtonText
+android.preference.EditTextPreference
+ Methods: 4
+  getEditText | 
+  getText | 
+  setText | text
+  shouldDisableDependents | 
+android.preference.ListPreference
+ Methods: 13
+  findIndexOfValue | value
+  getEntries | 
+  getEntry | 
+  getEntryValues | 
+  getSummary | 
+  getValue | 
+  setEntries | entries
+  setEntries | entriesResId
+  setEntryValues | entryValuesResId
+  setEntryValues | entryValues
+  setSummary | summary
+  setValue | value
+  setValueIndex | index
+android.preference.MultiSelectListPreference
+ Methods: 9
+  findIndexOfValue | value
+  getEntries | 
+  getEntryValues | 
+  getValues | 
+  setEntries | entries
+  setEntries | entriesResId
+  setEntryValues | entryValuesResId
+  setEntryValues | entryValues
+  setValues | values
+android.preference.Preference
+ Methods: 65
+  compareTo | another
+  getContext | 
+  getDependency | 
+  getEditor | 
+  getExtras | 
+  getFragment | 
+  getIcon | 
+  getIntent | 
+  getKey | 
+  getLayoutResource | 
+  getOnPreferenceChangeListener | 
+  getOnPreferenceClickListener | 
+  getOrder | 
+  getParent | 
+  getPersistedStringSet | defaultReturnValue
+  getPreferenceDataStore | 
+  getPreferenceManager | 
+  getSharedPreferences | 
+  getShouldDisableView | 
+  getSummary | 
+  getTitle | 
+  getTitleRes | 
+  getView | convertView, parent
+  getWidgetLayoutResource | 
+  hasKey | 
+  isEnabled | 
+  isIconSpaceReserved | 
+  isPersistent | 
+  isRecycleEnabled | 
+  isSelectable | 
+  isSingleLineTitle | 
+  notifyDependencyChange | disableDependents
+  onDependencyChanged | dependency, disableDependent
+  onParentChanged | parent, disableChild
+  peekExtras | 
+  persistStringSet | values
+  restoreHierarchyState | container
+  saveHierarchyState | container
+  setDefaultValue | defaultValue
+  setDependency | dependencyKey
+  setEnabled | enabled
+  setFragment | fragment
+  setIcon | icon
+  setIcon | iconResId
+  setIconSpaceReserved | iconSpaceReserved
+  setIntent | intent
+  setKey | key
+  setLayoutResource | layoutResId
+  setOnPreferenceChangeListener | onPreferenceChangeListener
+  setOnPreferenceClickListener | onPreferenceClickListener
+  setOrder | order
+  setPersistent | persistent
+  setPreferenceDataStore | dataStore
+  setRecycleEnabled | enabled
+  setSelectable | selectable
+  setShouldDisableView | shouldDisableView
+  setSingleLineTitle | singleLineTitle
+  setSummary | summary
+  setSummary | summaryResId
+  setTitle | title
+  setTitle | titleResId
+  setWidgetLayoutResource | widgetLayoutResId
+  shouldCommit | 
+  shouldDisableDependents | 
+  toString | 
+android.preference.Preference$BaseSavedState
+ Methods: 0
+android.preference.PreferenceActivity
+ Methods: 32
+  addPreferencesFromIntent | intent
+  addPreferencesFromResource | preferencesResId
+  findPreference | key
+  finishPreferencePanel | caller, resultCode, resultData
+  getPreferenceManager | 
+  getPreferenceScreen | 
+  hasHeaders | 
+  invalidateHeaders | 
+  isMultiPane | 
+  loadHeadersFromResource | resid, target
+  onBackPressed | 
+  onBuildHeaders | target
+  onBuildStartFragmentIntent | fragmentName, args, titleRes, shortTitleRes
+  onContentChanged | 
+  onGetInitialHeader | 
+  onGetNewHeader | 
+  onHeaderClick | header, position
+  onIsHidingHeaders | 
+  onIsMultiPane | 
+  onOptionsItemSelected | item
+  onPreferenceStartFragment | caller, pref
+  onPreferenceTreeClick | preferenceScreen, preference
+  setListFooter | view
+  setParentTitle | title, shortTitle, listener
+  setPreferenceScreen | preferenceScreen
+  showBreadCrumbs | title, shortTitle
+  startPreferenceFragment | fragment, push
+  startPreferencePanel | fragmentClass, args, titleRes, titleText, resultTo, resultRequestCode
+  startWithFragment | fragmentName, args, resultTo, resultRequestCode, titleRes, shortTitleRes
+  startWithFragment | fragmentName, args, resultTo, resultRequestCode
+  switchToHeader | fragmentName, args
+  switchToHeader | header
+android.preference.PreferenceActivity$Header
+ Methods: 7
+  describeContents | 
+  getBreadCrumbShortTitle | res
+  getBreadCrumbTitle | res
+  getSummary | res
+  getTitle | res
+  readFromParcel | in
+  writeToParcel | dest, flags
+android.preference.PreferenceCategory
+ Methods: 2
+  isEnabled | 
+  shouldDisableDependents | 
+android.preference.PreferenceFragment
+ Methods: 17
+  addPreferencesFromIntent | intent
+  addPreferencesFromResource | preferencesResId
+  findPreference | key
+  getPreferenceManager | 
+  getPreferenceScreen | 
+  onActivityCreated | savedInstanceState
+  onActivityResult | requestCode, resultCode, data
+  onCreate | savedInstanceState
+  onCreateView | inflater, container, savedInstanceState
+  onDestroy | 
+  onDestroyView | 
+  onPreferenceTreeClick | preferenceScreen, preference
+  onSaveInstanceState | outState
+  onStart | 
+  onStop | 
+  onViewCreated | view, savedInstanceState
+  setPreferenceScreen | preferenceScreen
+android.preference.PreferenceGroup
+ Methods: 10
+  addItemFromInflater | preference
+  addPreference | preference
+  findPreference | key
+  getPreference | index
+  getPreferenceCount | 
+  isOrderingAsAdded | 
+  notifyDependencyChange | disableDependents
+  removeAll | 
+  removePreference | preference
+  setOrderingAsAdded | orderingAsAdded
+android.preference.PreferenceManager
+ Methods: 17
+  createPreferenceScreen | context
+  findPreference | key
+  getDefaultSharedPreferences | context
+  getDefaultSharedPreferencesName | context
+  getPreferenceDataStore | 
+  getSharedPreferences | 
+  getSharedPreferencesMode | 
+  getSharedPreferencesName | 
+  isStorageDefault | 
+  isStorageDeviceProtected | 
+  setDefaultValues | context, sharedPreferencesName, sharedPreferencesMode, resId, readAgain
+  setDefaultValues | context, resId, readAgain
+  setPreferenceDataStore | dataStore
+  setSharedPreferencesMode | sharedPreferencesMode
+  setSharedPreferencesName | sharedPreferencesName
+  setStorageDefault | 
+  setStorageDeviceProtected | 
+android.preference.PreferenceScreen
+ Methods: 5
+  bind | listView
+  getDialog | 
+  getRootAdapter | 
+  onDismiss | dialog
+  onItemClick | parent, view, position, id
+android.preference.RingtonePreference
+ Methods: 7
+  getRingtoneType | 
+  getShowDefault | 
+  getShowSilent | 
+  onActivityResult | requestCode, resultCode, data
+  setRingtoneType | type
+  setShowDefault | showDefault
+  setShowSilent | showSilent
+android.preference.SwitchPreference
+ Methods: 6
+  getSwitchTextOff | 
+  getSwitchTextOn | 
+  setSwitchTextOff | resId
+  setSwitchTextOff | offText
+  setSwitchTextOn | onText
+  setSwitchTextOn | resId
+android.preference.TwoStatePreference
+ Methods: 11
+  getDisableDependentsState | 
+  getSummaryOff | 
+  getSummaryOn | 
+  isChecked | 
+  setChecked | checked
+  setDisableDependentsState | disableDependentsState
+  setSummaryOff | summary
+  setSummaryOff | summaryResId
+  setSummaryOn | summaryResId
+  setSummaryOn | summary
+  shouldDisableDependents | 
+android.print.PageRange
+ Methods: 7
+  describeContents | 
+  equals | obj
+  getEnd | 
+  getStart | 
+  hashCode | 
+  toString | 
+  writeToParcel | parcel, flags
+android.print.PrintAttributes
+ Methods: 10
+  describeContents | 
+  equals | obj
+  getColorMode | 
+  getDuplexMode | 
+  getMediaSize | 
+  getMinMargins | 
+  getResolution | 
+  hashCode | 
+  toString | 
+  writeToParcel | parcel, flags
+android.print.PrintAttributes$Builder
+ Methods: 6
+  build | 
+  setColorMode | colorMode
+  setDuplexMode | duplexMode
+  setMediaSize | mediaSize
+  setMinMargins | margins
+  setResolution | resolution
+android.print.PrintAttributes$Margins
+ Methods: 7
+  equals | obj
+  getBottomMils | 
+  getLeftMils | 
+  getRightMils | 
+  getTopMils | 
+  hashCode | 
+  toString | 
+android.print.PrintAttributes$MediaSize
+ Methods: 10
+  asLandscape | 
+  asPortrait | 
+  equals | obj
+  getHeightMils | 
+  getId | 
+  getLabel | packageManager
+  getWidthMils | 
+  hashCode | 
+  isPortrait | 
+  toString | 
+android.print.PrintAttributes$Resolution
+ Methods: 7
+  equals | obj
+  getHorizontalDpi | 
+  getId | 
+  getLabel | 
+  getVerticalDpi | 
+  hashCode | 
+  toString | 
+android.print.PrintDocumentAdapter
+ Methods: 4
+  onFinish | 
+  onLayout | oldAttributes, newAttributes, cancellationSignal, callback, extras
+  onStart | 
+  onWrite | pages, destination, cancellationSignal, callback
+android.print.PrintDocumentAdapter$LayoutResultCallback
+ Methods: 3
+  onLayoutCancelled | 
+  onLayoutFailed | error
+  onLayoutFinished | info, changed
+android.print.PrintDocumentAdapter$WriteResultCallback
+ Methods: 3
+  onWriteCancelled | 
+  onWriteFailed | error
+  onWriteFinished | pages
+android.print.PrintDocumentInfo
+ Methods: 9
+  describeContents | 
+  equals | obj
+  getContentType | 
+  getDataSize | 
+  getName | 
+  getPageCount | 
+  hashCode | 
+  toString | 
+  writeToParcel | parcel, flags
+android.print.PrintDocumentInfo$Builder
+ Methods: 3
+  build | 
+  setContentType | type
+  setPageCount | pageCount
+android.print.PrinterCapabilitiesInfo
+ Methods: 11
+  describeContents | 
+  equals | obj
+  getColorModes | 
+  getDefaults | 
+  getDuplexModes | 
+  getMediaSizes | 
+  getMinMargins | 
+  getResolutions | 
+  hashCode | 
+  toString | 
+  writeToParcel | parcel, flags
+android.print.PrinterCapabilitiesInfo$Builder
+ Methods: 6
+  addMediaSize | mediaSize, isDefault
+  addResolution | resolution, isDefault
+  build | 
+  setColorModes | colorModes, defaultColorMode
+  setDuplexModes | duplexModes, defaultDuplexMode
+  setMinMargins | margins
+android.print.PrinterId
+ Methods: 6
+  describeContents | 
+  equals | object
+  getLocalId | 
+  hashCode | 
+  toString | 
+  writeToParcel | parcel, flags
+android.print.PrinterInfo
+ Methods: 10
+  describeContents | 
+  equals | obj
+  getCapabilities | 
+  getDescription | 
+  getId | 
+  getName | 
+  getStatus | 
+  hashCode | 
+  toString | 
+  writeToParcel | parcel, flags
+android.print.PrinterInfo$Builder
+ Methods: 8
+  build | 
+  setCapabilities | capabilities
+  setDescription | description
+  setHasCustomPrinterIcon | hasCustomPrinterIcon
+  setIconResourceId | iconResourceId
+  setInfoIntent | infoIntent
+  setName | name
+  setStatus | status
+android.print.PrintJob
+ Methods: 12
+  cancel | 
+  equals | obj
+  getId | 
+  getInfo | 
+  hashCode | 
+  isBlocked | 
+  isCancelled | 
+  isCompleted | 
+  isFailed | 
+  isQueued | 
+  isStarted | 
+  restart | 
+android.print.PrintJobId
+ Methods: 4
+  describeContents | 
+  equals | obj
+  hashCode | 
+  writeToParcel | parcel, flags
+android.print.PrintJobInfo
+ Methods: 14
+  describeContents | 
+  getAdvancedIntOption | key
+  getAdvancedStringOption | key
+  getAttributes | 
+  getCopies | 
+  getCreationTime | 
+  getId | 
+  getLabel | 
+  getPages | 
+  getPrinterId | 
+  getState | 
+  hasAdvancedOption | key
+  toString | 
+  writeToParcel | parcel, flags
+android.print.PrintJobInfo$Builder
+ Methods: 6
+  build | 
+  putAdvancedOption | key, value
+  putAdvancedOption | key, value
+  setAttributes | attributes
+  setCopies | copies
+  setPages | pages
+android.print.PrintManager
+ Methods: 2
+  getPrintJobs | 
+  print | printJobName, documentAdapter, attributes
+android.print.pdf.PrintedPdfDocument
+ Methods: 4
+  getPageContentRect | 
+  getPageHeight | 
+  getPageWidth | 
+  startPage | pageNumber
+android.printservice.CustomPrinterIconCallback
+ Methods: 1
+  onCustomPrinterIconLoaded | icon
+android.printservice.PrintDocument
+ Methods: 2
+  getData | 
+  getInfo | 
+android.printservice.PrinterDiscoverySession
+ Methods: 13
+  addPrinters | printers
+  getPrinters | 
+  getTrackedPrinters | 
+  isDestroyed | 
+  isPrinterDiscoveryStarted | 
+  onDestroy | 
+  onRequestCustomPrinterIcon | printerId, cancellationSignal, callback
+  onStartPrinterDiscovery | priorityList
+  onStartPrinterStateTracking | printerId
+  onStopPrinterDiscovery | 
+  onStopPrinterStateTracking | printerId
+  onValidatePrinters | printerIds
+  removePrinters | printerIds
+android.printservice.PrintJob
+ Methods: 24
+  block | reason
+  cancel | 
+  complete | 
+  equals | obj
+  fail | error
+  getAdvancedIntOption | key
+  getAdvancedStringOption | key
+  getDocument | 
+  getId | 
+  getInfo | 
+  getTag | 
+  hasAdvancedOption | key
+  hashCode | 
+  isBlocked | 
+  isCancelled | 
+  isCompleted | 
+  isFailed | 
+  isQueued | 
+  isStarted | 
+  setProgress | progress
+  setStatus | status
+  setStatus | statusResId
+  setTag | tag
+  start | 
+android.printservice.PrintService
+ Methods: 3
+  generatePrinterId | localId
+  getActivePrintJobs | 
+  onBind | intent
+android.provider.BaseColumns
+ Methods: 0
+android.provider.CalendarContract$AttendeesColumns
+ Methods: 0
+android.provider.CalendarContract$CalendarAlertsColumns
+ Methods: 0
+android.provider.CalendarContract$CalendarCacheColumns
+ Methods: 0
+android.provider.CalendarContract$CalendarColumns
+ Methods: 0
+android.provider.CalendarContract$CalendarSyncColumns
+ Methods: 0
+android.provider.CalendarContract$ColorsColumns
+ Methods: 0
+android.provider.CalendarContract$EventDaysColumns
+ Methods: 0
+android.provider.CalendarContract$EventsColumns
+ Methods: 0
+android.provider.CalendarContract$ExtendedPropertiesColumns
+ Methods: 0
+android.provider.CalendarContract$RemindersColumns
+ Methods: 0
+android.provider.CalendarContract$SyncColumns
+ Methods: 0
+android.provider.Contacts$ContactMethodsColumns
+ Methods: 0
+android.provider.Contacts$ExtensionsColumns
+ Methods: 0
+android.provider.Contacts$GroupsColumns
+ Methods: 0
+android.provider.Contacts$OrganizationColumns
+ Methods: 0
+android.provider.Contacts$PeopleColumns
+ Methods: 0
+android.provider.Contacts$PhonesColumns
+ Methods: 0
+android.provider.Contacts$PhotosColumns
+ Methods: 0
+android.provider.Contacts$PresenceColumns
+ Methods: 0
+android.provider.Contacts$SettingsColumns
+ Methods: 0
+android.provider.ContactsContract$BaseSyncColumns
+ Methods: 0
+android.provider.ContactsContract$CommonDataKinds$BaseTypes
+ Methods: 0
+android.provider.ContactsContract$CommonDataKinds$CommonColumns
+ Methods: 0
+android.provider.ContactsContract$ContactNameColumns
+ Methods: 0
+android.provider.ContactsContract$ContactOptionsColumns
+ Methods: 0
+android.provider.ContactsContract$ContactsColumns
+ Methods: 0
+android.provider.ContactsContract$ContactStatusColumns
+ Methods: 0
+android.provider.ContactsContract$DataColumns
+ Methods: 0
+android.provider.ContactsContract$DataColumnsWithJoins
+ Methods: 0
+android.provider.ContactsContract$DataUsageStatColumns
+ Methods: 0
+android.provider.ContactsContract$DeletedContactsColumns
+ Methods: 0
+android.provider.ContactsContract$DisplayNameSources
+ Methods: 0
+android.provider.ContactsContract$FullNameStyle
+ Methods: 0
+android.provider.ContactsContract$GroupsColumns
+ Methods: 0
+android.provider.ContactsContract$PhoneLookupColumns
+ Methods: 0
+android.provider.ContactsContract$PhoneticNameStyle
+ Methods: 0
+android.provider.ContactsContract$PresenceColumns
+ Methods: 0
+android.provider.ContactsContract$RawContactsColumns
+ Methods: 0
+android.provider.ContactsContract$SettingsColumns
+ Methods: 0
+android.provider.ContactsContract$StatusColumns
+ Methods: 0
+android.provider.ContactsContract$SyncColumns
+ Methods: 0
+android.provider.MediaStore$Audio$AlbumColumns
+ Methods: 0
+android.provider.MediaStore$Audio$ArtistColumns
+ Methods: 0
+android.provider.MediaStore$Audio$AudioColumns
+ Methods: 0
+android.provider.MediaStore$Audio$GenresColumns
+ Methods: 0
+android.provider.MediaStore$Audio$PlaylistsColumns
+ Methods: 0
+android.provider.MediaStore$Files$FileColumns
+ Methods: 0
+android.provider.MediaStore$Images$ImageColumns
+ Methods: 0
+android.provider.MediaStore$MediaColumns
+ Methods: 0
+android.provider.MediaStore$Video$VideoColumns
+ Methods: 0
+android.provider.OpenableColumns
+ Methods: 0
+android.provider.SyncStateContract$Columns
+ Methods: 0
+android.provider.Telephony$BaseMmsColumns
+ Methods: 0
+android.provider.Telephony$CanonicalAddressesColumns
+ Methods: 0
+android.provider.Telephony$TextBasedSmsColumns
+ Methods: 0
+android.provider.Telephony$ThreadsColumns
+ Methods: 0
+android.provider.AlarmClock
+ Methods: 0
+android.provider.BlockedNumberContract
+ Methods: 3
+  canCurrentUserBlockNumbers | context
+  isBlocked | context, phoneNumber
+  unblock | context, phoneNumber
+android.provider.BlockedNumberContract$BlockedNumbers
+ Methods: 0
+android.provider.Browser
+ Methods: 1
+  sendString | context, string
+android.provider.CalendarContract
+ Methods: 0
+android.provider.CalendarContract$Attendees
+ Methods: 1
+  query | cr, eventId, projection
+android.provider.CalendarContract$CalendarAlerts
+ Methods: 0
+android.provider.CalendarContract$CalendarCache
+ Methods: 0
+android.provider.CalendarContract$CalendarEntity
+ Methods: 1
+  newEntityIterator | cursor
+android.provider.CalendarContract$Calendars
+ Methods: 0
+android.provider.CalendarContract$Colors
+ Methods: 0
+android.provider.CalendarContract$EventDays
+ Methods: 1
+  query | cr, startDay, numDays, projection
+android.provider.CalendarContract$Events
+ Methods: 0
+android.provider.CalendarContract$EventsEntity
+ Methods: 2
+  newEntityIterator | cursor, provider
+  newEntityIterator | cursor, resolver
+android.provider.CalendarContract$ExtendedProperties
+ Methods: 0
+android.provider.CalendarContract$Instances
+ Methods: 2
+  query | cr, projection, begin, end
+  query | cr, projection, begin, end, searchQuery
+android.provider.CalendarContract$Reminders
+ Methods: 1
+  query | cr, eventId, projection
+android.provider.CalendarContract$SyncState
+ Methods: 0
+android.provider.CallLog
+ Methods: 0
+android.provider.CallLog$Calls
+ Methods: 1
+  getLastOutgoingCall | context
+android.provider.Contacts
+ Methods: 0
+android.provider.Contacts$ContactMethods
+ Methods: 5
+  addPostalLocation | context, postalId, latitude, longitude
+  decodeImProtocol | encodedString
+  encodeCustomImProtocol | protocolString
+  encodePredefinedImProtocol | protocol
+  getDisplayLabel | context, kind, type, label
+android.provider.Contacts$Extensions
+ Methods: 0
+android.provider.Contacts$GroupMembership
+ Methods: 0
+android.provider.Contacts$Groups
+ Methods: 0
+android.provider.Contacts$Intents
+ Methods: 0
+android.provider.Contacts$Intents$Insert
+ Methods: 0
+android.provider.Contacts$Intents$UI
+ Methods: 0
+android.provider.Contacts$Organizations
+ Methods: 1
+  getDisplayLabel | context, type, label
+android.provider.Contacts$People
+ Methods: 9
+  addToGroup | resolver, personId, groupId
+  addToGroup | resolver, personId, groupName
+  addToMyContactsGroup | resolver, personId
+  createPersonInMyContactsGroup | resolver, values
+  loadContactPhoto | context, person, placeholderImageResource, options
+  markAsContacted | resolver, personId
+  openContactPhotoInputStream | cr, person
+  queryGroups | resolver, person
+  setPhotoData | cr, person, data
+android.provider.Contacts$People$ContactMethods
+ Methods: 0
+android.provider.Contacts$People$Extensions
+ Methods: 0
+android.provider.Contacts$People$Phones
+ Methods: 0
+android.provider.Contacts$Phones
+ Methods: 2
+  getDisplayLabel | context, type, label, labelArray
+  getDisplayLabel | context, type, label
+android.provider.Contacts$Photos
+ Methods: 0
+android.provider.Contacts$Settings
+ Methods: 2
+  getSetting | cr, account, key
+  setSetting | cr, account, key, value
+android.provider.ContactsContract
+ Methods: 1
+  isProfileId | id
+android.provider.ContactsContract$AggregationExceptions
+ Methods: 0
+android.provider.ContactsContract$CommonDataKinds
+ Methods: 0
+android.provider.ContactsContract$CommonDataKinds$Callable
+ Methods: 0
+android.provider.ContactsContract$CommonDataKinds$Contactables
+ Methods: 0
+android.provider.ContactsContract$CommonDataKinds$Email
+ Methods: 2
+  getTypeLabel | res, type, label
+  getTypeLabelResource | type
+android.provider.ContactsContract$CommonDataKinds$Event
+ Methods: 2
+  getTypeLabel | res, type, label
+  getTypeResource | type
+android.provider.ContactsContract$CommonDataKinds$GroupMembership
+ Methods: 0
+android.provider.ContactsContract$CommonDataKinds$Identity
+ Methods: 0
+android.provider.ContactsContract$CommonDataKinds$Im
+ Methods: 4
+  getProtocolLabel | res, type, label
+  getProtocolLabelResource | type
+  getTypeLabel | res, type, label
+  getTypeLabelResource | type
+android.provider.ContactsContract$CommonDataKinds$Nickname
+ Methods: 0
+android.provider.ContactsContract$CommonDataKinds$Note
+ Methods: 0
+android.provider.ContactsContract$CommonDataKinds$Organization
+ Methods: 2
+  getTypeLabel | res, type, label
+  getTypeLabelResource | type
+android.provider.ContactsContract$CommonDataKinds$Phone
+ Methods: 2
+  getTypeLabel | res, type, label
+  getTypeLabelResource | type
+android.provider.ContactsContract$CommonDataKinds$Photo
+ Methods: 0
+android.provider.ContactsContract$CommonDataKinds$Relation
+ Methods: 2
+  getTypeLabel | res, type, label
+  getTypeLabelResource | type
+android.provider.ContactsContract$CommonDataKinds$SipAddress
+ Methods: 2
+  getTypeLabel | res, type, label
+  getTypeLabelResource | type
+android.provider.ContactsContract$CommonDataKinds$StructuredName
+ Methods: 0
+android.provider.ContactsContract$CommonDataKinds$StructuredPostal
+ Methods: 2
+  getTypeLabel | res, type, label
+  getTypeLabelResource | type
+android.provider.ContactsContract$CommonDataKinds$Website
+ Methods: 0
+android.provider.ContactsContract$Contacts
+ Methods: 7
+  getLookupUri | resolver, contactUri
+  getLookupUri | contactId, lookupKey
+  isEnterpriseContactId | contactId
+  lookupContact | resolver, lookupUri
+  markAsContacted | resolver, contactId
+  openContactPhotoInputStream | cr, contactUri
+  openContactPhotoInputStream | cr, contactUri, preferHighres
+android.provider.ContactsContract$Contacts$AggregationSuggestions
+ Methods: 0
+android.provider.ContactsContract$Contacts$AggregationSuggestions$Builder
+ Methods: 4
+  addNameParameter | name
+  build | 
+  setContactId | contactId
+  setLimit | limit
+android.provider.ContactsContract$Contacts$Data
+ Methods: 0
+android.provider.ContactsContract$Contacts$Entity
+ Methods: 0
+android.provider.ContactsContract$Contacts$Photo
+ Methods: 0
+android.provider.ContactsContract$Data
+ Methods: 1
+  getContactLookupUri | resolver, dataUri
+android.provider.ContactsContract$DataUsageFeedback
+ Methods: 0
+android.provider.ContactsContract$DeletedContacts
+ Methods: 0
+android.provider.ContactsContract$Directory
+ Methods: 3
+  isEnterpriseDirectoryId | directoryId
+  isRemoteDirectoryId | directoryId
+  notifyDirectoryChange | resolver
+android.provider.ContactsContract$DisplayPhoto
+ Methods: 0
+android.provider.ContactsContract$Groups
+ Methods: 1
+  newEntityIterator | cursor
+android.provider.ContactsContract$Intents
+ Methods: 0
+android.provider.ContactsContract$Intents$Insert
+ Methods: 0
+android.provider.ContactsContract$PhoneLookup
+ Methods: 0
+android.provider.ContactsContract$PinnedPositions
+ Methods: 2
+  pin | contentResolver, contactId, pinnedPosition
+  undemote | contentResolver, contactId
+android.provider.ContactsContract$Presence
+ Methods: 0
+android.provider.ContactsContract$Profile
+ Methods: 0
+android.provider.ContactsContract$ProfileSyncState
+ Methods: 4
+  get | provider, account
+  getWithUri | provider, account
+  newSetOperation | account, data
+  set | provider, account, data
+android.provider.ContactsContract$ProviderStatus
+ Methods: 0
+android.provider.ContactsContract$QuickContact
+ Methods: 4
+  showQuickContact | context, target, lookupUri, excludeMimes, prioritizedMimeType
+  showQuickContact | context, target, lookupUri, mode, excludeMimes
+  showQuickContact | context, target, lookupUri, mode, excludeMimes
+  showQuickContact | context, target, lookupUri, excludeMimes, prioritizedMimeType
+android.provider.ContactsContract$RawContacts
+ Methods: 2
+  getContactLookupUri | resolver, rawContactUri
+  newEntityIterator | cursor
+android.provider.ContactsContract$RawContacts$Data
+ Methods: 0
+android.provider.ContactsContract$RawContacts$DisplayPhoto
+ Methods: 0
+android.provider.ContactsContract$RawContacts$Entity
+ Methods: 0
+android.provider.ContactsContract$RawContactsEntity
+ Methods: 0
+android.provider.ContactsContract$SearchSnippets
+ Methods: 0
+android.provider.ContactsContract$Settings
+ Methods: 0
+android.provider.ContactsContract$StatusUpdates
+ Methods: 2
+  getPresenceIconResourceId | status
+  getPresencePrecedence | status
+android.provider.ContactsContract$SyncState
+ Methods: 4
+  get | provider, account
+  getWithUri | provider, account
+  newSetOperation | account, data
+  set | provider, account, data
+android.provider.DocumentsContract
+ Methods: 25
+  buildChildDocumentsUri | authority, parentDocumentId
+  buildChildDocumentsUriUsingTree | treeUri, parentDocumentId
+  buildDocumentUri | authority, documentId
+  buildDocumentUriUsingTree | treeUri, documentId
+  buildRecentDocumentsUri | authority, rootId
+  buildRootUri | authority, rootId
+  buildRootsUri | authority
+  buildSearchDocumentsUri | authority, rootId, query
+  buildTreeDocumentUri | authority, documentId
+  copyDocument | resolver, sourceDocumentUri, targetParentDocumentUri
+  createDocument | resolver, parentDocumentUri, mimeType, displayName
+  createWebLinkIntent | resolver, uri, options
+  deleteDocument | resolver, documentUri
+  ejectRoot | resolver, rootUri
+  findDocumentPath | resolver, treeUri
+  getDocumentId | documentUri
+  getDocumentThumbnail | resolver, documentUri, size, signal
+  getRootId | rootUri
+  getSearchDocumentsQuery | searchDocumentsUri
+  getTreeDocumentId | documentUri
+  isDocumentUri | context, uri
+  isTreeUri | uri
+  moveDocument | resolver, sourceDocumentUri, sourceParentDocumentUri, targetParentDocumentUri
+  removeDocument | resolver, documentUri, parentDocumentUri
+  renameDocument | resolver, documentUri, displayName
+android.provider.DocumentsContract$Document
+ Methods: 0
+android.provider.DocumentsContract$Path
+ Methods: 7
+  describeContents | 
+  equals | o
+  getPath | 
+  getRootId | 
+  hashCode | 
+  toString | 
+  writeToParcel | dest, flags
+android.provider.DocumentsContract$Root
+ Methods: 0
+android.provider.DocumentsProvider
+ Methods: 39
+  attachInfo | context, info
+  call | method, arg, extras
+  canonicalize | uri
+  copyDocument | sourceDocumentId, targetParentDocumentId
+  createDocument | parentDocumentId, mimeType, displayName
+  createWebLinkIntent | documentId, options
+  delete | uri, selection, selectionArgs
+  deleteDocument | documentId
+  ejectRoot | rootId
+  findDocumentPath | parentDocumentId, childDocumentId
+  getDocumentStreamTypes | documentId, mimeTypeFilter
+  getDocumentType | documentId
+  getStreamTypes | uri, mimeTypeFilter
+  getType | uri
+  insert | uri, values
+  isChildDocument | parentDocumentId, documentId
+  moveDocument | sourceDocumentId, sourceParentDocumentId, targetParentDocumentId
+  openAssetFile | uri, mode, signal
+  openAssetFile | uri, mode
+  openDocument | documentId, mode, signal
+  openDocumentThumbnail | documentId, sizeHint, signal
+  openFile | uri, mode, signal
+  openFile | uri, mode
+  openTypedAssetFile | uri, mimeTypeFilter, opts
+  openTypedAssetFile | uri, mimeTypeFilter, opts, signal
+  openTypedDocument | documentId, mimeTypeFilter, opts, signal
+  query | uri, projection, queryArgs, cancellationSignal
+  query | uri, projection, selection, selectionArgs, sortOrder, cancellationSignal
+  query | uri, projection, selection, selectionArgs, sortOrder
+  queryChildDocuments | parentDocumentId, projection, queryArgs
+  queryChildDocuments | parentDocumentId, projection, sortOrder
+  queryDocument | documentId, projection
+  queryRecentDocuments | rootId, projection
+  queryRoots | projection
+  querySearchDocuments | rootId, query, projection
+  removeDocument | documentId, parentDocumentId
+  renameDocument | documentId, displayName
+  revokeDocumentPermission | documentId
+  update | uri, values, selection, selectionArgs
+android.provider.FontRequest
+ Methods: 5
+  getCertificates | 
+  getProviderAuthority | 
+  getProviderPackage | 
+  getQuery | 
+  toString | 
+android.provider.FontsContract
+ Methods: 3
+  buildTypeface | context, cancellationSignal, fonts
+  fetchFonts | context, cancellationSignal, request
+  requestFonts | context, request, handler, cancellationSignal, callback
+android.provider.FontsContract$Columns
+ Methods: 0
+android.provider.FontsContract$FontFamilyResult
+ Methods: 2
+  getFonts | 
+  getStatusCode | 
+android.provider.FontsContract$FontInfo
+ Methods: 6
+  getAxes | 
+  getResultCode | 
+  getTtcIndex | 
+  getUri | 
+  getWeight | 
+  isItalic | 
+android.provider.FontsContract$FontRequestCallback
+ Methods: 2
+  onTypefaceRequestFailed | reason
+  onTypefaceRetrieved | typeface
+android.provider.LiveFolders
+ Methods: 0
+android.provider.MediaStore
+ Methods: 3
+  getDocumentUri | context, mediaUri
+  getMediaScannerUri | 
+  getVersion | context
+android.provider.MediaStore$Audio
+ Methods: 1
+  keyFor | name
+android.provider.MediaStore$Audio$Albums
+ Methods: 1
+  getContentUri | volumeName
+android.provider.MediaStore$Audio$Artists
+ Methods: 1
+  getContentUri | volumeName
+android.provider.MediaStore$Audio$Artists$Albums
+ Methods: 1
+  getContentUri | volumeName, artistId
+android.provider.MediaStore$Audio$Genres
+ Methods: 2
+  getContentUri | volumeName
+  getContentUriForAudioId | volumeName, audioId
+android.provider.MediaStore$Audio$Genres$Members
+ Methods: 1
+  getContentUri | volumeName, genreId
+android.provider.MediaStore$Audio$Media
+ Methods: 2
+  getContentUri | volumeName
+  getContentUriForPath | path
+android.provider.MediaStore$Audio$Playlists
+ Methods: 1
+  getContentUri | volumeName
+android.provider.MediaStore$Audio$Playlists$Members
+ Methods: 2
+  getContentUri | volumeName, playlistId
+  moveItem | res, playlistId, from, to
+android.provider.MediaStore$Audio$Radio
+ Methods: 0
+android.provider.MediaStore$Files
+ Methods: 2
+  getContentUri | volumeName
+  getContentUri | volumeName, rowId
+android.provider.MediaStore$Images
+ Methods: 0
+android.provider.MediaStore$Images$Media
+ Methods: 7
+  getBitmap | cr, url
+  getContentUri | volumeName
+  insertImage | cr, imagePath, name, description
+  insertImage | cr, source, title, description
+  query | cr, uri, projection
+  query | cr, uri, projection, where, orderBy
+  query | cr, uri, projection, selection, selectionArgs, orderBy
+android.provider.MediaStore$Images$Thumbnails
+ Methods: 8
+  cancelThumbnailRequest | cr, origId
+  cancelThumbnailRequest | cr, origId, groupId
+  getContentUri | volumeName
+  getThumbnail | cr, origId, groupId, kind, options
+  getThumbnail | cr, origId, kind, options
+  query | cr, uri, projection
+  queryMiniThumbnail | cr, origId, kind, projection
+  queryMiniThumbnails | cr, uri, kind, projection
+android.provider.MediaStore$Video
+ Methods: 1
+  query | cr, uri, projection
+android.provider.MediaStore$Video$Media
+ Methods: 1
+  getContentUri | volumeName
+android.provider.MediaStore$Video$Thumbnails
+ Methods: 5
+  cancelThumbnailRequest | cr, origId
+  cancelThumbnailRequest | cr, origId, groupId
+  getContentUri | volumeName
+  getThumbnail | cr, origId, groupId, kind, options
+  getThumbnail | cr, origId, kind, options
+android.provider.SearchRecentSuggestions
+ Methods: 2
+  clearHistory | 
+  saveRecentQuery | queryString, line2
+android.provider.Settings
+ Methods: 1
+  canDrawOverlays | context
+android.provider.Settings$Global
+ Methods: 12
+  getFloat | cr, name, def
+  getFloat | cr, name
+  getInt | cr, name
+  getInt | cr, name, def
+  getLong | cr, name
+  getLong | cr, name, def
+  getString | resolver, name
+  getUriFor | name
+  putFloat | cr, name, value
+  putInt | cr, name, value
+  putLong | cr, name, value
+  putString | resolver, name, value
+android.provider.Settings$NameValueTable
+ Methods: 1
+  getUriFor | uri, name
+android.provider.Settings$Secure
+ Methods: 14
+  getFloat | cr, name, def
+  getFloat | cr, name
+  getInt | cr, name, def
+  getInt | cr, name
+  getLong | cr, name
+  getLong | cr, name, def
+  getString | resolver, name
+  getUriFor | name
+  isLocationProviderEnabled | cr, provider
+  putFloat | cr, name, value
+  putInt | cr, name, value
+  putLong | cr, name, value
+  putString | resolver, name, value
+  setLocationProviderEnabled | cr, provider, enabled
+android.provider.Settings$System
+ Methods: 17
+  canWrite | context
+  getConfiguration | cr, outConfig
+  getFloat | cr, name, def
+  getFloat | cr, name
+  getInt | cr, name, def
+  getInt | cr, name
+  getLong | cr, name
+  getLong | cr, name, def
+  getShowGTalkServiceStatus | cr
+  getString | resolver, name
+  getUriFor | name
+  putConfiguration | cr, config
+  putFloat | cr, name, value
+  putInt | cr, name, value
+  putLong | cr, name, value
+  putString | resolver, name, value
+  setShowGTalkServiceStatus | cr, flag
+android.provider.SyncStateContract
+ Methods: 0
+android.provider.SyncStateContract$Constants
+ Methods: 0
+android.provider.SyncStateContract$Helpers
+ Methods: 7
+  get | provider, uri, account
+  getWithUri | provider, uri, account
+  insert | provider, uri, account, data
+  newSetOperation | uri, account, data
+  newUpdateOperation | uri, data
+  set | provider, uri, account, data
+  update | provider, uri, data
+android.provider.Telephony
+ Methods: 0
+android.provider.Telephony$Carriers
+ Methods: 0
+android.provider.Telephony$Mms
+ Methods: 0
+android.provider.Telephony$Mms$Addr
+ Methods: 0
+android.provider.Telephony$Mms$Draft
+ Methods: 0
+android.provider.Telephony$Mms$Inbox
+ Methods: 0
+android.provider.Telephony$Mms$Intents
+ Methods: 0
+android.provider.Telephony$Mms$Outbox
+ Methods: 0
+android.provider.Telephony$Mms$Part
+ Methods: 0
+android.provider.Telephony$Mms$Rate
+ Methods: 0
+android.provider.Telephony$Mms$Sent
+ Methods: 0
+android.provider.Telephony$MmsSms
+ Methods: 0
+android.provider.Telephony$MmsSms$PendingMessages
+ Methods: 0
+android.provider.Telephony$ServiceStateTable
+ Methods: 2
+  getUriForSubscriptionId | subscriptionId
+  getUriForSubscriptionIdAndField | subscriptionId, field
+android.provider.Telephony$Sms
+ Methods: 1
+  getDefaultSmsPackage | context
+android.provider.Telephony$Sms$Conversations
+ Methods: 0
+android.provider.Telephony$Sms$Draft
+ Methods: 0
+android.provider.Telephony$Sms$Inbox
+ Methods: 0
+android.provider.Telephony$Sms$Intents
+ Methods: 1
+  getMessagesFromIntent | intent
+android.provider.Telephony$Sms$Outbox
+ Methods: 0
+android.provider.Telephony$Sms$Sent
+ Methods: 0
+android.provider.Telephony$Threads
+ Methods: 2
+  getOrCreateThreadId | context, recipient
+  getOrCreateThreadId | context, recipients
+android.provider.UserDictionary
+ Methods: 0
+android.provider.UserDictionary$Words
+ Methods: 2
+  addWord | context, word, frequency, localeType
+  addWord | context, word, frequency, shortcut, locale
+android.provider.VoicemailContract
+ Methods: 0
+android.provider.VoicemailContract$Status
+ Methods: 1
+  buildSourceUri | packageName
+android.provider.VoicemailContract$Voicemails
+ Methods: 1
+  buildSourceUri | packageName
+android.provider.Settings$SettingNotFoundException
+ Methods: 0
+android.renderscript.Allocation$OnBufferAvailableListener
+ Methods: 1
+  onBufferAvailable | a
+android.renderscript.Allocation
+ Methods: 90
+  copy1DRangeFrom | off, count, d
+  copy1DRangeFrom | off, count, d
+  copy1DRangeFrom | off, count, array
+  copy1DRangeFrom | off, count, data, dataOff
+  copy1DRangeFrom | off, count, d
+  copy1DRangeFrom | off, count, d
+  copy1DRangeFromUnchecked | off, count, d
+  copy1DRangeFromUnchecked | off, count, d
+  copy1DRangeFromUnchecked | off, count, array
+  copy1DRangeFromUnchecked | off, count, d
+  copy1DRangeFromUnchecked | off, count, d
+  copy1DRangeTo | off, count, d
+  copy1DRangeTo | off, count, array
+  copy1DRangeTo | off, count, d
+  copy1DRangeTo | off, count, d
+  copy1DRangeTo | off, count, d
+  copy1DRangeToUnchecked | off, count, d
+  copy1DRangeToUnchecked | off, count, d
+  copy1DRangeToUnchecked | off, count, array
+  copy1DRangeToUnchecked | off, count, d
+  copy1DRangeToUnchecked | off, count, d
+  copy2DRangeFrom | xoff, yoff, w, h, data, dataXoff, dataYoff
+  copy2DRangeFrom | xoff, yoff, data
+  copy2DRangeFrom | xoff, yoff, w, h, data
+  copy2DRangeFrom | xoff, yoff, w, h, array
+  copy2DRangeFrom | xoff, yoff, w, h, data
+  copy2DRangeFrom | xoff, yoff, w, h, data
+  copy2DRangeFrom | xoff, yoff, w, h, data
+  copy2DRangeTo | xoff, yoff, w, h, data
+  copy2DRangeTo | xoff, yoff, w, h, data
+  copy2DRangeTo | xoff, yoff, w, h, array
+  copy2DRangeTo | xoff, yoff, w, h, data
+  copy2DRangeTo | xoff, yoff, w, h, data
+  copy3DRangeFrom | xoff, yoff, zoff, w, h, d, data, dataXoff, dataYoff, dataZoff
+  copy3DRangeFrom | xoff, yoff, zoff, w, h, d, array
+  copy3DRangeTo | xoff, yoff, zoff, w, h, d, array
+  copyFrom | b
+  copyFrom | d
+  copyFrom | d
+  copyFrom | d
+  copyFrom | d
+  copyFrom | d
+  copyFrom | a
+  copyFrom | array
+  copyFromUnchecked | d
+  copyFromUnchecked | array
+  copyFromUnchecked | d
+  copyFromUnchecked | d
+  copyFromUnchecked | d
+  copyTo | b
+  copyTo | d
+  copyTo | d
+  copyTo | d
+  copyTo | d
+  copyTo | array
+  createAllocations | rs, t, usage, numAlloc
+  createCubemapFromBitmap | rs, b, mips, usage
+  createCubemapFromBitmap | rs, b
+  createCubemapFromCubeFaces | rs, xpos, xneg, ypos, yneg, zpos, zneg
+  createCubemapFromCubeFaces | rs, xpos, xneg, ypos, yneg, zpos, zneg, mips, usage
+  createFromBitmap | rs, b
+  createFromBitmap | rs, b, mips, usage
+  createFromBitmapResource | rs, res, id, mips, usage
+  createFromBitmapResource | rs, res, id
+  createFromString | rs, str, usage
+  createSized | rs, e, count
+  createSized | rs, e, count, usage
+  createTyped | rs, type, mips, usage
+  createTyped | rs, type
+  createTyped | rs, type, usage
+  destroy | 
+  generateMipmaps | 
+  getByteBuffer | 
+  getBytesSize | 
+  getElement | 
+  getStride | 
+  getSurface | 
+  getTimeStamp | 
+  getType | 
+  getUsage | 
+  ioReceive | 
+  ioSend | 
+  resize | dimX
+  setAutoPadding | useAutoPadding
+  setFromFieldPacker | xoff, component_number, fp
+  setFromFieldPacker | xoff, fp
+  setFromFieldPacker | xoff, yoff, zoff, component_number, fp
+  setOnBufferAvailableListener | callback
+  setSurface | sur
+  syncAll | srcLocation
+android.renderscript.AllocationAdapter
+ Methods: 9
+  create1D | rs, a
+  create2D | rs, a
+  createTyped | rs, a, t
+  resize | dimX
+  setFace | cf
+  setLOD | lod
+  setX | x
+  setY | y
+  setZ | z
+android.renderscript.BaseObj
+ Methods: 5
+  destroy | 
+  equals | obj
+  getName | 
+  hashCode | 
+  setName | name
+android.renderscript.Byte2
+ Methods: 0
+android.renderscript.Byte3
+ Methods: 0
+android.renderscript.Byte4
+ Methods: 0
+android.renderscript.Double2
+ Methods: 0
+android.renderscript.Double3
+ Methods: 0
+android.renderscript.Double4
+ Methods: 0
+android.renderscript.Element
+ Methods: 80
+  ALLOCATION | rs
+  A_8 | rs
+  BOOLEAN | rs
+  ELEMENT | rs
+  F16 | rs
+  F16_2 | rs
+  F16_3 | rs
+  F16_4 | rs
+  F32 | rs
+  F32_2 | rs
+  F32_3 | rs
+  F32_4 | rs
+  F64 | rs
+  F64_2 | rs
+  F64_3 | rs
+  F64_4 | rs
+  FONT | rs
+  I16 | rs
+  I16_2 | rs
+  I16_3 | rs
+  I16_4 | rs
+  I32 | rs
+  I32_2 | rs
+  I32_3 | rs
+  I32_4 | rs
+  I64 | rs
+  I64_2 | rs
+  I64_3 | rs
+  I64_4 | rs
+  I8 | rs
+  I8_2 | rs
+  I8_3 | rs
+  I8_4 | rs
+  MATRIX4X4 | rs
+  MATRIX_2X2 | rs
+  MATRIX_3X3 | rs
+  MATRIX_4X4 | rs
+  MESH | rs
+  PROGRAM_FRAGMENT | rs
+  PROGRAM_RASTER | rs
+  PROGRAM_STORE | rs
+  PROGRAM_VERTEX | rs
+  RGBA_4444 | rs
+  RGBA_5551 | rs
+  RGBA_8888 | rs
+  RGB_565 | rs
+  RGB_888 | rs
+  SAMPLER | rs
+  SCRIPT | rs
+  TYPE | rs
+  U16 | rs
+  U16_2 | rs
+  U16_3 | rs
+  U16_4 | rs
+  U32 | rs
+  U32_2 | rs
+  U32_3 | rs
+  U32_4 | rs
+  U64 | rs
+  U64_2 | rs
+  U64_3 | rs
+  U64_4 | rs
+  U8 | rs
+  U8_2 | rs
+  U8_3 | rs
+  U8_4 | rs
+  YUV | rs
+  createPixel | rs, dt, dk
+  createVector | rs, dt, size
+  getBytesSize | 
+  getDataKind | 
+  getDataType | 
+  getSubElement | index
+  getSubElementArraySize | index
+  getSubElementCount | 
+  getSubElementName | index
+  getSubElementOffsetBytes | index
+  getVectorSize | 
+  isCompatible | e
+  isComplex | 
+android.renderscript.Element$Builder
+ Methods: 3
+  add | element, name
+  add | element, name, arraySize
+  create | 
+android.renderscript.FieldPacker
+ Methods: 79
+  addBoolean | v
+  addF32 | v
+  addF32 | v
+  addF32 | v
+  addF32 | v
+  addF64 | v
+  addF64 | v
+  addF64 | v
+  addF64 | v
+  addI16 | v
+  addI16 | v
+  addI16 | v
+  addI16 | v
+  addI32 | v
+  addI32 | v
+  addI32 | v
+  addI32 | v
+  addI64 | v
+  addI64 | v
+  addI64 | v
+  addI64 | v
+  addI8 | v
+  addI8 | v
+  addI8 | v
+  addI8 | v
+  addMatrix | v
+  addMatrix | v
+  addMatrix | v
+  addObj | obj
+  addU16 | v
+  addU16 | v
+  addU16 | v
+  addU16 | v
+  addU32 | v
+  addU32 | v
+  addU32 | v
+  addU32 | v
+  addU64 | v
+  addU64 | v
+  addU64 | v
+  addU64 | v
+  addU8 | v
+  addU8 | v
+  addU8 | v
+  addU8 | v
+  align | v
+  getData | 
+  reset | i
+  reset | 
+  skip | i
+  subBoolean | 
+  subByte2 | 
+  subByte3 | 
+  subByte4 | 
+  subDouble2 | 
+  subDouble3 | 
+  subDouble4 | 
+  subF32 | 
+  subF64 | 
+  subFloat2 | 
+  subFloat3 | 
+  subFloat4 | 
+  subI16 | 
+  subI32 | 
+  subI64 | 
+  subI8 | 
+  subInt2 | 
+  subInt3 | 
+  subInt4 | 
+  subLong2 | 
+  subLong3 | 
+  subLong4 | 
+  subMatrix2f | 
+  subMatrix3f | 
+  subMatrix4f | 
+  subShort2 | 
+  subShort3 | 
+  subShort4 | 
+  subalign | v
+android.renderscript.Float2
+ Methods: 0
+android.renderscript.Float3
+ Methods: 0
+android.renderscript.Float4
+ Methods: 0
+android.renderscript.Int2
+ Methods: 0
+android.renderscript.Int3
+ Methods: 0
+android.renderscript.Int4
+ Methods: 0
+android.renderscript.Long2
+ Methods: 0
+android.renderscript.Long3
+ Methods: 0
+android.renderscript.Long4
+ Methods: 0
+android.renderscript.Matrix2f
+ Methods: 12
+  get | x, y
+  getArray | 
+  load | src
+  loadIdentity | 
+  loadMultiply | lhs, rhs
+  loadRotate | rot
+  loadScale | x, y
+  multiply | rhs
+  rotate | rot
+  scale | x, y
+  set | x, y, v
+  transpose | 
+android.renderscript.Matrix3f
+ Methods: 18
+  get | x, y
+  getArray | 
+  load | src
+  loadIdentity | 
+  loadMultiply | lhs, rhs
+  loadRotate | rot, x, y, z
+  loadRotate | rot
+  loadScale | x, y
+  loadScale | x, y, z
+  loadTranslate | x, y
+  multiply | rhs
+  rotate | rot
+  rotate | rot, x, y, z
+  scale | x, y
+  scale | x, y, z
+  set | x, y, v
+  translate | x, y
+  transpose | 
+android.renderscript.Matrix4f
+ Methods: 21
+  get | x, y
+  getArray | 
+  inverse | 
+  inverseTranspose | 
+  load | src
+  loadFrustum | l, r, b, t, n, f
+  loadIdentity | 
+  loadMultiply | lhs, rhs
+  loadOrtho | l, r, b, t, n, f
+  loadOrthoWindow | w, h
+  loadPerspective | fovy, aspect, near, far
+  loadProjectionNormalized | w, h
+  loadRotate | rot, x, y, z
+  loadScale | x, y, z
+  loadTranslate | x, y, z
+  multiply | rhs
+  rotate | rot, x, y, z
+  scale | x, y, z
+  set | x, y, v
+  translate | x, y, z
+  transpose | 
+android.renderscript.RenderScript
+ Methods: 16
+  contextDump | 
+  create | ctx, ct, flags
+  create | ctx, ct
+  create | ctx
+  createMultiContext | ctx, ct, flags, API_number
+  destroy | 
+  finish | 
+  getApplicationContext | 
+  getErrorHandler | 
+  getMessageHandler | 
+  getMinorVersion | 
+  releaseAllContexts | 
+  sendMessage | id, data
+  setErrorHandler | msg
+  setMessageHandler | msg
+  setPriority | p
+android.renderscript.RenderScript$RSErrorHandler
+ Methods: 1
+  run | 
+android.renderscript.RenderScript$RSMessageHandler
+ Methods: 1
+  run | 
+android.renderscript.Sampler
+ Methods: 14
+  CLAMP_LINEAR | rs
+  CLAMP_LINEAR_MIP_LINEAR | rs
+  CLAMP_NEAREST | rs
+  MIRRORED_REPEAT_LINEAR | rs
+  MIRRORED_REPEAT_LINEAR_MIP_LINEAR | rs
+  MIRRORED_REPEAT_NEAREST | rs
+  WRAP_LINEAR | rs
+  WRAP_LINEAR_MIP_LINEAR | rs
+  WRAP_NEAREST | rs
+  getAnisotropy | 
+  getMagnification | 
+  getMinification | 
+  getWrapS | 
+  getWrapT | 
+android.renderscript.Sampler$Builder
+ Methods: 6
+  create | 
+  setAnisotropy | v
+  setMagnification | v
+  setMinification | v
+  setWrapS | v
+  setWrapT | v
+android.renderscript.Script
+ Methods: 16
+  bindAllocation | va, slot
+  getVarB | index
+  getVarD | index
+  getVarF | index
+  getVarI | index
+  getVarJ | index
+  getVarV | index, v
+  setTimeZone | timeZone
+  setVar | index, v
+  setVar | index, v
+  setVar | index, v, e, dims
+  setVar | index, v
+  setVar | index, v
+  setVar | index, v
+  setVar | index, v
+  setVar | index, o
+android.renderscript.Script$Builder
+ Methods: 0
+android.renderscript.Script$FieldBase
+ Methods: 4
+  getAllocation | 
+  getElement | 
+  getType | 
+  updateAllocation | 
+android.renderscript.Script$FieldID
+ Methods: 0
+android.renderscript.Script$InvokeID
+ Methods: 0
+android.renderscript.Script$KernelID
+ Methods: 0
+android.renderscript.Script$LaunchOptions
+ Methods: 9
+  getXEnd | 
+  getXStart | 
+  getYEnd | 
+  getYStart | 
+  getZEnd | 
+  getZStart | 
+  setX | xstartArg, xendArg
+  setY | ystartArg, yendArg
+  setZ | zstartArg, zendArg
+android.renderscript.ScriptC
+ Methods: 0
+android.renderscript.ScriptGroup
+ Methods: 5
+  destroy | 
+  execute | 
+  execute | inputs
+  setInput | s, a
+  setOutput | s, a
+android.renderscript.ScriptGroup$Binding
+ Methods: 0
+android.renderscript.ScriptGroup$Builder
+ Methods: 4
+  addConnection | t, from, to
+  addConnection | t, from, to
+  addKernel | k
+  create | 
+android.renderscript.ScriptGroup$Builder2
+ Methods: 4
+  addInput | 
+  addInvoke | invoke, argsAndBindings
+  addKernel | k, returnType, argsAndBindings
+  create | name, outputs
+android.renderscript.ScriptGroup$Closure
+ Methods: 3
+  destroy | 
+  getGlobal | field
+  getReturn | 
+android.renderscript.ScriptGroup$Future
+ Methods: 0
+android.renderscript.ScriptGroup$Input
+ Methods: 0
+android.renderscript.ScriptIntrinsic
+ Methods: 0
+android.renderscript.ScriptIntrinsic3DLUT
+ Methods: 5
+  create | rs, e
+  forEach | ain, aout
+  forEach | ain, aout, opt
+  getKernelID | 
+  setLUT | lut
+android.renderscript.ScriptIntrinsicBLAS
+ Methods: 98
+  BNNM | A, a_offset, B, b_offset, C, c_offset, c_mult
+  CGBMV | TransA, KL, KU, alpha, A, X, incX, beta, Y, incY
+  CGEMM | TransA, TransB, alpha, A, B, beta, C
+  CGEMV | TransA, alpha, A, X, incX, beta, Y, incY
+  CGERC | alpha, X, incX, Y, incY, A
+  CGERU | alpha, X, incX, Y, incY, A
+  CHBMV | Uplo, K, alpha, A, X, incX, beta, Y, incY
+  CHEMM | Side, Uplo, alpha, A, B, beta, C
+  CHEMV | Uplo, alpha, A, X, incX, beta, Y, incY
+  CHER | Uplo, alpha, X, incX, A
+  CHER2 | Uplo, alpha, X, incX, Y, incY, A
+  CHER2K | Uplo, Trans, alpha, A, B, beta, C
+  CHERK | Uplo, Trans, alpha, A, beta, C
+  CHPMV | Uplo, alpha, Ap, X, incX, beta, Y, incY
+  CHPR | Uplo, alpha, X, incX, Ap
+  CHPR2 | Uplo, alpha, X, incX, Y, incY, Ap
+  CSYMM | Side, Uplo, alpha, A, B, beta, C
+  CSYR2K | Uplo, Trans, alpha, A, B, beta, C
+  CSYRK | Uplo, Trans, alpha, A, beta, C
+  CTBMV | Uplo, TransA, Diag, K, A, X, incX
+  CTBSV | Uplo, TransA, Diag, K, A, X, incX
+  CTPMV | Uplo, TransA, Diag, Ap, X, incX
+  CTPSV | Uplo, TransA, Diag, Ap, X, incX
+  CTRMM | Side, Uplo, TransA, Diag, alpha, A, B
+  CTRMV | Uplo, TransA, Diag, A, X, incX
+  CTRSM | Side, Uplo, TransA, Diag, alpha, A, B
+  CTRSV | Uplo, TransA, Diag, A, X, incX
+  DGBMV | TransA, KL, KU, alpha, A, X, incX, beta, Y, incY
+  DGEMM | TransA, TransB, alpha, A, B, beta, C
+  DGEMV | TransA, alpha, A, X, incX, beta, Y, incY
+  DGER | alpha, X, incX, Y, incY, A
+  DSBMV | Uplo, K, alpha, A, X, incX, beta, Y, incY
+  DSPMV | Uplo, alpha, Ap, X, incX, beta, Y, incY
+  DSPR | Uplo, alpha, X, incX, Ap
+  DSPR2 | Uplo, alpha, X, incX, Y, incY, Ap
+  DSYMM | Side, Uplo, alpha, A, B, beta, C
+  DSYMV | Uplo, alpha, A, X, incX, beta, Y, incY
+  DSYR | Uplo, alpha, X, incX, A
+  DSYR2 | Uplo, alpha, X, incX, Y, incY, A
+  DSYR2K | Uplo, Trans, alpha, A, B, beta, C
+  DSYRK | Uplo, Trans, alpha, A, beta, C
+  DTBMV | Uplo, TransA, Diag, K, A, X, incX
+  DTBSV | Uplo, TransA, Diag, K, A, X, incX
+  DTPMV | Uplo, TransA, Diag, Ap, X, incX
+  DTPSV | Uplo, TransA, Diag, Ap, X, incX
+  DTRMM | Side, Uplo, TransA, Diag, alpha, A, B
+  DTRMV | Uplo, TransA, Diag, A, X, incX
+  DTRSM | Side, Uplo, TransA, Diag, alpha, A, B
+  DTRSV | Uplo, TransA, Diag, A, X, incX
+  SGBMV | TransA, KL, KU, alpha, A, X, incX, beta, Y, incY
+  SGEMM | TransA, TransB, alpha, A, B, beta, C
+  SGEMV | TransA, alpha, A, X, incX, beta, Y, incY
+  SGER | alpha, X, incX, Y, incY, A
+  SSBMV | Uplo, K, alpha, A, X, incX, beta, Y, incY
+  SSPMV | Uplo, alpha, Ap, X, incX, beta, Y, incY
+  SSPR | Uplo, alpha, X, incX, Ap
+  SSPR2 | Uplo, alpha, X, incX, Y, incY, Ap
+  SSYMM | Side, Uplo, alpha, A, B, beta, C
+  SSYMV | Uplo, alpha, A, X, incX, beta, Y, incY
+  SSYR | Uplo, alpha, X, incX, A
+  SSYR2 | Uplo, alpha, X, incX, Y, incY, A
+  SSYR2K | Uplo, Trans, alpha, A, B, beta, C
+  SSYRK | Uplo, Trans, alpha, A, beta, C
+  STBMV | Uplo, TransA, Diag, K, A, X, incX
+  STBSV | Uplo, TransA, Diag, K, A, X, incX
+  STPMV | Uplo, TransA, Diag, Ap, X, incX
+  STPSV | Uplo, TransA, Diag, Ap, X, incX
+  STRMM | Side, Uplo, TransA, Diag, alpha, A, B
+  STRMV | Uplo, TransA, Diag, A, X, incX
+  STRSM | Side, Uplo, TransA, Diag, alpha, A, B
+  STRSV | Uplo, TransA, Diag, A, X, incX
+  ZGBMV | TransA, KL, KU, alpha, A, X, incX, beta, Y, incY
+  ZGEMM | TransA, TransB, alpha, A, B, beta, C
+  ZGEMV | TransA, alpha, A, X, incX, beta, Y, incY
+  ZGERC | alpha, X, incX, Y, incY, A
+  ZGERU | alpha, X, incX, Y, incY, A
+  ZHBMV | Uplo, K, alpha, A, X, incX, beta, Y, incY
+  ZHEMM | Side, Uplo, alpha, A, B, beta, C
+  ZHEMV | Uplo, alpha, A, X, incX, beta, Y, incY
+  ZHER | Uplo, alpha, X, incX, A
+  ZHER2 | Uplo, alpha, X, incX, Y, incY, A
+  ZHER2K | Uplo, Trans, alpha, A, B, beta, C
+  ZHERK | Uplo, Trans, alpha, A, beta, C
+  ZHPMV | Uplo, alpha, Ap, X, incX, beta, Y, incY
+  ZHPR | Uplo, alpha, X, incX, Ap
+  ZHPR2 | Uplo, alpha, X, incX, Y, incY, Ap
+  ZSYMM | Side, Uplo, alpha, A, B, beta, C
+  ZSYR2K | Uplo, Trans, alpha, A, B, beta, C
+  ZSYRK | Uplo, Trans, alpha, A, beta, C
+  ZTBMV | Uplo, TransA, Diag, K, A, X, incX
+  ZTBSV | Uplo, TransA, Diag, K, A, X, incX
+  ZTPMV | Uplo, TransA, Diag, Ap, X, incX
+  ZTPSV | Uplo, TransA, Diag, Ap, X, incX
+  ZTRMM | Side, Uplo, TransA, Diag, alpha, A, B
+  ZTRMV | Uplo, TransA, Diag, A, X, incX
+  ZTRSM | Side, Uplo, TransA, Diag, alpha, A, B
+  ZTRSV | Uplo, TransA, Diag, A, X, incX
+  create | rs
+android.renderscript.ScriptIntrinsicBlend
+ Methods: 46
+  create | rs, e
+  forEachAdd | ain, aout
+  forEachAdd | ain, aout, opt
+  forEachClear | ain, aout, opt
+  forEachClear | ain, aout
+  forEachDst | ain, aout
+  forEachDst | ain, aout, opt
+  forEachDstAtop | ain, aout, opt
+  forEachDstAtop | ain, aout
+  forEachDstIn | ain, aout
+  forEachDstIn | ain, aout, opt
+  forEachDstOut | ain, aout
+  forEachDstOut | ain, aout, opt
+  forEachDstOver | ain, aout
+  forEachDstOver | ain, aout, opt
+  forEachMultiply | ain, aout
+  forEachMultiply | ain, aout, opt
+  forEachSrc | ain, aout, opt
+  forEachSrc | ain, aout
+  forEachSrcAtop | ain, aout
+  forEachSrcAtop | ain, aout, opt
+  forEachSrcIn | ain, aout
+  forEachSrcIn | ain, aout, opt
+  forEachSrcOut | ain, aout
+  forEachSrcOut | ain, aout, opt
+  forEachSrcOver | ain, aout, opt
+  forEachSrcOver | ain, aout
+  forEachSubtract | ain, aout
+  forEachSubtract | ain, aout, opt
+  forEachXor | ain, aout
+  forEachXor | ain, aout, opt
+  getKernelIDAdd | 
+  getKernelIDClear | 
+  getKernelIDDst | 
+  getKernelIDDstAtop | 
+  getKernelIDDstIn | 
+  getKernelIDDstOut | 
+  getKernelIDDstOver | 
+  getKernelIDMultiply | 
+  getKernelIDSrc | 
+  getKernelIDSrcAtop | 
+  getKernelIDSrcIn | 
+  getKernelIDSrcOut | 
+  getKernelIDSrcOver | 
+  getKernelIDSubtract | 
+  getKernelIDXor | 
+android.renderscript.ScriptIntrinsicBlur
+ Methods: 7
+  create | rs, e
+  forEach | aout
+  forEach | aout, opt
+  getFieldID_Input | 
+  getKernelID | 
+  setInput | ain
+  setRadius | radius
+android.renderscript.ScriptIntrinsicColorMatrix
+ Methods: 12
+  create | rs, e
+  create | rs
+  forEach | ain, aout
+  forEach | ain, aout, opt
+  getKernelID | 
+  setAdd | r, g, b, a
+  setAdd | f
+  setColorMatrix | m
+  setColorMatrix | m
+  setGreyscale | 
+  setRGBtoYUV | 
+  setYUVtoRGB | 
+android.renderscript.ScriptIntrinsicConvolve3x3
+ Methods: 7
+  create | rs, e
+  forEach | aout
+  forEach | aout, opt
+  getFieldID_Input | 
+  getKernelID | 
+  setCoefficients | v
+  setInput | ain
+android.renderscript.ScriptIntrinsicConvolve5x5
+ Methods: 7
+  create | rs, e
+  forEach | aout
+  forEach | aout, opt
+  getFieldID_Input | 
+  getKernelID | 
+  setCoefficients | v
+  setInput | ain
+android.renderscript.ScriptIntrinsicHistogram
+ Methods: 9
+  create | rs, e
+  forEach | ain
+  forEach | ain, opt
+  forEach_Dot | ain, opt
+  forEach_Dot | ain
+  getFieldID_Input | 
+  getKernelID_Separate | 
+  setDotCoefficients | r, g, b, a
+  setOutput | aout
+android.renderscript.ScriptIntrinsicLUT
+ Methods: 9
+  create | rs, e
+  destroy | 
+  forEach | ain, aout
+  forEach | ain, aout, opt
+  getKernelID | 
+  setAlpha | index, value
+  setBlue | index, value
+  setGreen | index, value
+  setRed | index, value
+android.renderscript.ScriptIntrinsicResize
+ Methods: 6
+  create | rs
+  forEach_bicubic | aout, opt
+  forEach_bicubic | aout
+  getFieldID_Input | 
+  getKernelID_bicubic | 
+  setInput | ain
+android.renderscript.ScriptIntrinsicYuvToRGB
+ Methods: 5
+  create | rs, e
+  forEach | aout
+  getFieldID_Input | 
+  getKernelID | 
+  setInput | ain
+android.renderscript.Short2
+ Methods: 0
+android.renderscript.Short3
+ Methods: 0
+android.renderscript.Short4
+ Methods: 0
+android.renderscript.Type
+ Methods: 11
+  createX | rs, e, dimX
+  createXY | rs, e, dimX, dimY
+  createXYZ | rs, e, dimX, dimY, dimZ
+  getCount | 
+  getElement | 
+  getX | 
+  getY | 
+  getYuv | 
+  getZ | 
+  hasFaces | 
+  hasMipmaps | 
+android.renderscript.Type$Builder
+ Methods: 7
+  create | 
+  setFaces | value
+  setMipmaps | value
+  setX | value
+  setY | value
+  setYuvFormat | yuvFormat
+  setZ | value
+android.renderscript.Allocation$MipmapControl
+ Methods: 2
+  valueOf | name
+  values | 
+android.renderscript.Element$DataKind
+ Methods: 2
+  valueOf | name
+  values | 
+android.renderscript.Element$DataType
+ Methods: 2
+  valueOf | name
+  values | 
+android.renderscript.RenderScript$ContextType
+ Methods: 2
+  valueOf | name
+  values | 
+android.renderscript.RenderScript$Priority
+ Methods: 2
+  valueOf | name
+  values | 
+android.renderscript.Sampler$Value
+ Methods: 2
+  valueOf | name
+  values | 
+android.renderscript.Type$CubemapFace
+ Methods: 2
+  valueOf | name
+  values | 
+android.renderscript.RSDriverException
+ Methods: 0
+android.renderscript.RSIllegalArgumentException
+ Methods: 0
+android.renderscript.RSInvalidStateException
+ Methods: 0
+android.renderscript.RSRuntimeException
+ Methods: 0
+android.sax.ElementListener
+ Methods: 0
+android.sax.EndElementListener
+ Methods: 1
+  end | 
+android.sax.EndTextElementListener
+ Methods: 1
+  end | body
+android.sax.StartElementListener
+ Methods: 1
+  start | attributes
+android.sax.TextElementListener
+ Methods: 0
+android.sax.Element
+ Methods: 10
+  getChild | localName
+  getChild | uri, localName
+  requireChild | localName
+  requireChild | uri, localName
+  setElementListener | elementListener
+  setEndElementListener | endElementListener
+  setEndTextElementListener | endTextElementListener
+  setStartElementListener | startElementListener
+  setTextElementListener | elementListener
+  toString | 
+android.sax.RootElement
+ Methods: 1
+  getContentHandler | 
+android.security.KeyChainAliasCallback
+ Methods: 1
+  alias | alias
+android.security.KeyChain
+ Methods: 7
+  choosePrivateKeyAlias | activity, response, keyTypes, issuers, host, port, alias
+  choosePrivateKeyAlias | activity, response, keyTypes, issuers, uri, alias
+  createInstallIntent | 
+  getCertificateChain | context, alias
+  getPrivateKey | context, alias
+  isBoundKeyAlgorithm | algorithm
+  isKeyAlgorithmSupported | algorithm
+android.security.KeyPairGeneratorSpec
+ Methods: 10
+  getAlgorithmParameterSpec | 
+  getContext | 
+  getEndDate | 
+  getKeySize | 
+  getKeyType | 
+  getKeystoreAlias | 
+  getSerialNumber | 
+  getStartDate | 
+  getSubjectDN | 
+  isEncryptionRequired | 
+android.security.KeyPairGeneratorSpec$Builder
+ Methods: 10
+  build | 
+  setAlgorithmParameterSpec | spec
+  setAlias | alias
+  setEncryptionRequired | 
+  setEndDate | endDate
+  setKeySize | keySize
+  setKeyType | keyType
+  setSerialNumber | serialNumber
+  setStartDate | startDate
+  setSubject | subject
+android.security.KeyStoreParameter
+ Methods: 1
+  isEncryptionRequired | 
+android.security.KeyStoreParameter$Builder
+ Methods: 2
+  build | 
+  setEncryptionRequired | required
+android.security.NetworkSecurityPolicy
+ Methods: 3
+  getInstance | 
+  isCleartextTrafficPermitted | hostname
+  isCleartextTrafficPermitted | 
+android.security.KeyChainException
+ Methods: 0
+android.security.keystore.KeyGenParameterSpec
+ Methods: 22
+  getAlgorithmParameterSpec | 
+  getAttestationChallenge | 
+  getBlockModes | 
+  getCertificateNotAfter | 
+  getCertificateNotBefore | 
+  getCertificateSerialNumber | 
+  getCertificateSubject | 
+  getDigests | 
+  getEncryptionPaddings | 
+  getKeySize | 
+  getKeyValidityForConsumptionEnd | 
+  getKeyValidityForOriginationEnd | 
+  getKeyValidityStart | 
+  getKeystoreAlias | 
+  getPurposes | 
+  getSignaturePaddings | 
+  getUserAuthenticationValidityDurationSeconds | 
+  isDigestsSpecified | 
+  isInvalidatedByBiometricEnrollment | 
+  isRandomizedEncryptionRequired | 
+  isUserAuthenticationRequired | 
+  isUserAuthenticationValidWhileOnBody | 
+android.security.keystore.KeyGenParameterSpec$Builder
+ Methods: 21
+  build | 
+  setAlgorithmParameterSpec | spec
+  setAttestationChallenge | attestationChallenge
+  setBlockModes | blockModes
+  setCertificateNotAfter | date
+  setCertificateNotBefore | date
+  setCertificateSerialNumber | serialNumber
+  setCertificateSubject | subject
+  setDigests | digests
+  setEncryptionPaddings | paddings
+  setInvalidatedByBiometricEnrollment | invalidateKey
+  setKeySize | keySize
+  setKeyValidityEnd | endDate
+  setKeyValidityForConsumptionEnd | endDate
+  setKeyValidityForOriginationEnd | endDate
+  setKeyValidityStart | startDate
+  setRandomizedEncryptionRequired | required
+  setSignaturePaddings | paddings
+  setUserAuthenticationRequired | required
+  setUserAuthenticationValidWhileOnBody | remainsValid
+  setUserAuthenticationValidityDurationSeconds | seconds
+android.security.keystore.KeyInfo
+ Methods: 17
+  getBlockModes | 
+  getDigests | 
+  getEncryptionPaddings | 
+  getKeySize | 
+  getKeyValidityForConsumptionEnd | 
+  getKeyValidityForOriginationEnd | 
+  getKeyValidityStart | 
+  getKeystoreAlias | 
+  getOrigin | 
+  getPurposes | 
+  getSignaturePaddings | 
+  getUserAuthenticationValidityDurationSeconds | 
+  isInsideSecureHardware | 
+  isInvalidatedByBiometricEnrollment | 
+  isUserAuthenticationRequired | 
+  isUserAuthenticationRequirementEnforcedBySecureHardware | 
+  isUserAuthenticationValidWhileOnBody | 
+android.security.keystore.KeyProperties
+ Methods: 0
+android.security.keystore.KeyProtection
+ Methods: 14
+  getBlockModes | 
+  getDigests | 
+  getEncryptionPaddings | 
+  getKeyValidityForConsumptionEnd | 
+  getKeyValidityForOriginationEnd | 
+  getKeyValidityStart | 
+  getPurposes | 
+  getSignaturePaddings | 
+  getUserAuthenticationValidityDurationSeconds | 
+  isDigestsSpecified | 
+  isInvalidatedByBiometricEnrollment | 
+  isRandomizedEncryptionRequired | 
+  isUserAuthenticationRequired | 
+  isUserAuthenticationValidWhileOnBody | 
+android.security.keystore.KeyProtection$Builder
+ Methods: 14
+  build | 
+  setBlockModes | blockModes
+  setDigests | digests
+  setEncryptionPaddings | paddings
+  setInvalidatedByBiometricEnrollment | invalidateKey
+  setKeyValidityEnd | endDate
+  setKeyValidityForConsumptionEnd | endDate
+  setKeyValidityForOriginationEnd | endDate
+  setKeyValidityStart | startDate
+  setRandomizedEncryptionRequired | required
+  setSignaturePaddings | paddings
+  setUserAuthenticationRequired | required
+  setUserAuthenticationValidWhileOnBody | remainsValid
+  setUserAuthenticationValidityDurationSeconds | seconds
+android.security.keystore.KeyExpiredException
+ Methods: 0
+android.security.keystore.KeyNotYetValidException
+ Methods: 0
+android.security.keystore.KeyPermanentlyInvalidatedException
+ Methods: 0
+android.security.keystore.UserNotAuthenticatedException
+ Methods: 0
+android.service.autofill.Transformation
+ Methods: 0
+android.service.autofill.Validator
+ Methods: 0
+android.service.autofill.AutofillService
+ Methods: 7
+  getFillEventHistory | 
+  onBind | intent
+  onConnected | 
+  onCreate | 
+  onDisconnected | 
+  onFillRequest | request, cancellationSignal, callback
+  onSaveRequest | request, callback
+android.service.autofill.CharSequenceTransformation
+ Methods: 3
+  describeContents | 
+  toString | 
+  writeToParcel | parcel, flags
+android.service.autofill.CharSequenceTransformation$Builder
+ Methods: 2
+  addField | id, regex, subst
+  build | 
+android.service.autofill.CustomDescription
+ Methods: 3
+  describeContents | 
+  toString | 
+  writeToParcel | dest, flags
+android.service.autofill.CustomDescription$Builder
+ Methods: 2
+  addChild | id, transformation
+  build | 
+android.service.autofill.Dataset
+ Methods: 3
+  describeContents | 
+  toString | 
+  writeToParcel | parcel, flags
+android.service.autofill.Dataset$Builder
+ Methods: 5
+  build | 
+  setAuthentication | authentication
+  setId | id
+  setValue | id, value, presentation
+  setValue | id, value
+android.service.autofill.FillCallback
+ Methods: 2
+  onFailure | message
+  onSuccess | response
+android.service.autofill.FillContext
+ Methods: 5
+  describeContents | 
+  getRequestId | 
+  getStructure | 
+  toString | 
+  writeToParcel | parcel, flags
+android.service.autofill.FillEventHistory
+ Methods: 4
+  describeContents | 
+  getClientState | 
+  getEvents | 
+  writeToParcel | dest, flags
+android.service.autofill.FillEventHistory$Event
+ Methods: 2
+  getDatasetId | 
+  getType | 
+android.service.autofill.FillRequest
+ Methods: 7
+  describeContents | 
+  getClientState | 
+  getFillContexts | 
+  getFlags | 
+  getId | 
+  toString | 
+  writeToParcel | parcel, flags
+android.service.autofill.FillResponse
+ Methods: 3
+  describeContents | 
+  toString | 
+  writeToParcel | parcel, flags
+android.service.autofill.FillResponse$Builder
+ Methods: 6
+  addDataset | dataset
+  build | 
+  setAuthentication | ids, authentication, presentation
+  setClientState | clientState
+  setIgnoredIds | ids
+  setSaveInfo | saveInfo
+android.service.autofill.ImageTransformation
+ Methods: 3
+  describeContents | 
+  toString | 
+  writeToParcel | parcel, flags
+android.service.autofill.ImageTransformation$Builder
+ Methods: 2
+  addOption | regex, resId
+  build | 
+android.service.autofill.LuhnChecksumValidator
+ Methods: 2
+  describeContents | 
+  writeToParcel | parcel, flags
+android.service.autofill.RegexValidator
+ Methods: 3
+  describeContents | 
+  toString | 
+  writeToParcel | parcel, flags
+android.service.autofill.SaveCallback
+ Methods: 2
+  onFailure | message
+  onSuccess | 
+android.service.autofill.SaveInfo
+ Methods: 3
+  describeContents | 
+  toString | 
+  writeToParcel | parcel, flags
+android.service.autofill.SaveInfo$Builder
+ Methods: 7
+  build | 
+  setCustomDescription | customDescription
+  setDescription | description
+  setFlags | flags
+  setNegativeAction | style, listener
+  setOptionalIds | ids
+  setValidator | validator
+android.service.autofill.SaveRequest
+ Methods: 4
+  describeContents | 
+  getClientState | 
+  getFillContexts | 
+  writeToParcel | parcel, flags
+android.service.autofill.Validators
+ Methods: 2
+  and | validators
+  or | validators
+android.service.carrier.CarrierMessagingService$ResultCallback
+ Methods: 1
+  onReceiveResult | result
+android.service.carrier.CarrierIdentifier
+ Methods: 9
+  describeContents | 
+  getGid1 | 
+  getGid2 | 
+  getImsi | 
+  getMcc | 
+  getMnc | 
+  getSpn | 
+  toString | 
+  writeToParcel | out, flags
+android.service.carrier.CarrierMessagingService
+ Methods: 11
+  onBind | intent
+  onDownloadMms | contentUri, subId, location, callback
+  onFilterSms | pdu, format, destPort, subId, callback
+  onReceiveTextSms | pdu, format, destPort, subId, callback
+  onSendDataSms | data, subId, destAddress, destPort, callback
+  onSendDataSms | data, subId, destAddress, destPort, sendSmsFlag, callback
+  onSendMms | pduUri, subId, location, callback
+  onSendMultipartTextSms | parts, subId, destAddress, callback
+  onSendMultipartTextSms | parts, subId, destAddress, sendSmsFlag, callback
+  onSendTextSms | text, subId, destAddress, sendSmsFlag, callback
+  onSendTextSms | text, subId, destAddress, callback
+android.service.carrier.CarrierMessagingService$SendMmsResult
+ Methods: 2
+  getSendConfPdu | 
+  getSendStatus | 
+android.service.carrier.CarrierMessagingService$SendMultipartSmsResult
+ Methods: 2
+  getMessageRefs | 
+  getSendStatus | 
+android.service.carrier.CarrierMessagingService$SendSmsResult
+ Methods: 2
+  getMessageRef | 
+  getSendStatus | 
+android.service.carrier.CarrierService
+ Methods: 3
+  notifyCarrierNetworkChange | active
+  onBind | intent
+  onLoadConfig | id
+android.service.carrier.MessagePdu
+ Methods: 3
+  describeContents | 
+  getPdus | 
+  writeToParcel | dest, flags
+android.service.chooser.ChooserTarget
+ Methods: 8
+  describeContents | 
+  getComponentName | 
+  getIcon | 
+  getIntentExtras | 
+  getScore | 
+  getTitle | 
+  toString | 
+  writeToParcel | dest, flags
+android.service.chooser.ChooserTargetService
+ Methods: 2
+  onBind | intent
+  onGetChooserTargets | targetActivityName, matchedFilter
+android.service.dreams.DreamService
+ Methods: 44
+  addContentView | view, params
+  dispatchGenericMotionEvent | event
+  dispatchKeyEvent | event
+  dispatchKeyShortcutEvent | event
+  dispatchPopulateAccessibilityEvent | event
+  dispatchTouchEvent | event
+  dispatchTrackballEvent | event
+  findViewById | id
+  finish | 
+  getWindow | 
+  getWindowManager | 
+  isFullscreen | 
+  isInteractive | 
+  isScreenBright | 
+  onActionModeFinished | mode
+  onActionModeStarted | mode
+  onAttachedToWindow | 
+  onBind | intent
+  onContentChanged | 
+  onCreate | 
+  onCreatePanelMenu | featureId, menu
+  onCreatePanelView | featureId
+  onDestroy | 
+  onDetachedFromWindow | 
+  onDreamingStarted | 
+  onDreamingStopped | 
+  onMenuItemSelected | featureId, item
+  onMenuOpened | featureId, menu
+  onPanelClosed | featureId, menu
+  onPreparePanel | featureId, view, menu
+  onSearchRequested | 
+  onSearchRequested | event
+  onWakeUp | 
+  onWindowAttributesChanged | attrs
+  onWindowFocusChanged | hasFocus
+  onWindowStartingActionMode | callback
+  onWindowStartingActionMode | callback, type
+  setContentView | view
+  setContentView | layoutResID
+  setContentView | view, params
+  setFullscreen | fullscreen
+  setInteractive | interactive
+  setScreenBright | screenBright
+  wakeUp | 
+android.service.media.CameraPrewarmService
+ Methods: 4
+  onBind | intent
+  onCooldown | cameraIntentFired
+  onPrewarm | 
+  onUnbind | intent
+android.service.media.MediaBrowserService
+ Methods: 12
+  dump | fd, writer, args
+  getBrowserRootHints | 
+  getSessionToken | 
+  notifyChildrenChanged | parentId, options
+  notifyChildrenChanged | parentId
+  onBind | intent
+  onCreate | 
+  onGetRoot | clientPackageName, clientUid, rootHints
+  onLoadChildren | parentId, result
+  onLoadChildren | parentId, result, options
+  onLoadItem | itemId, result
+  setSessionToken | token
+android.service.media.MediaBrowserService$BrowserRoot
+ Methods: 2
+  getExtras | 
+  getRootId | 
+android.service.media.MediaBrowserService$Result
+ Methods: 2
+  detach | 
+  sendResult | result
+android.service.notification.Condition
+ Methods: 10
+  copy | 
+  describeContents | 
+  equals | o
+  hashCode | 
+  isValidId | id, pkg
+  newId | context
+  relevanceToString | flags
+  stateToString | state
+  toString | 
+  writeToParcel | dest, flags
+android.service.notification.ConditionProviderService
+ Methods: 9
+  notifyCondition | condition
+  notifyConditions | conditions
+  onBind | intent
+  onConnected | 
+  onRequestConditions | relevance
+  onSubscribe | conditionId
+  onUnsubscribe | conditionId
+  requestRebind | componentName
+  requestUnbind | 
+android.service.notification.NotificationListenerService
+ Methods: 33
+  cancelAllNotifications | 
+  cancelNotification | pkg, tag, id
+  cancelNotification | key
+  cancelNotifications | keys
+  getActiveNotifications | keys
+  getActiveNotifications | 
+  getCurrentInterruptionFilter | 
+  getCurrentListenerHints | 
+  getCurrentRanking | 
+  getNotificationChannelGroups | pkg, user
+  getNotificationChannels | pkg, user
+  getSnoozedNotifications | 
+  onBind | intent
+  onDestroy | 
+  onInterruptionFilterChanged | interruptionFilter
+  onListenerConnected | 
+  onListenerDisconnected | 
+  onListenerHintsChanged | hints
+  onNotificationChannelGroupModified | pkg, user, group, modificationType
+  onNotificationChannelModified | pkg, user, channel, modificationType
+  onNotificationPosted | sbn, rankingMap
+  onNotificationPosted | sbn
+  onNotificationRankingUpdate | rankingMap
+  onNotificationRemoved | sbn
+  onNotificationRemoved | sbn, rankingMap
+  onNotificationRemoved | sbn, rankingMap, reason
+  requestInterruptionFilter | interruptionFilter
+  requestListenerHints | hints
+  requestRebind | componentName
+  requestUnbind | 
+  setNotificationsShown | keys
+  snoozeNotification | key, durationMs
+  updateNotificationChannel | pkg, user, channel
+android.service.notification.NotificationListenerService$Ranking
+ Methods: 10
+  canShowBadge | 
+  getChannel | 
+  getImportance | 
+  getImportanceExplanation | 
+  getKey | 
+  getOverrideGroupKey | 
+  getRank | 
+  getSuppressedVisualEffects | 
+  isAmbient | 
+  matchesInterruptionFilter | 
+android.service.notification.NotificationListenerService$RankingMap
+ Methods: 4
+  describeContents | 
+  getOrderedKeys | 
+  getRanking | key, outRanking
+  writeToParcel | dest, flags
+android.service.notification.StatusBarNotification
+ Methods: 18
+  clone | 
+  describeContents | 
+  getGroupKey | 
+  getId | 
+  getKey | 
+  getNotification | 
+  getOverrideGroupKey | 
+  getPackageName | 
+  getPostTime | 
+  getTag | 
+  getUser | 
+  getUserId | 
+  isClearable | 
+  isGroup | 
+  isOngoing | 
+  setOverrideGroupKey | overrideGroupKey
+  toString | 
+  writeToParcel | out, flags
+android.service.quicksettings.Tile
+ Methods: 11
+  describeContents | 
+  getContentDescription | 
+  getIcon | 
+  getLabel | 
+  getState | 
+  setContentDescription | contentDescription
+  setIcon | icon
+  setLabel | label
+  setState | state
+  updateTile | 
+  writeToParcel | dest, flags
+android.service.quicksettings.TileService
+ Methods: 14
+  getQsTile | 
+  isLocked | 
+  isSecure | 
+  onBind | intent
+  onClick | 
+  onDestroy | 
+  onStartListening | 
+  onStopListening | 
+  onTileAdded | 
+  onTileRemoved | 
+  requestListeningState | context, component
+  showDialog | dialog
+  startActivityAndCollapse | intent
+  unlockAndRun | runnable
+android.service.restrictions.RestrictionsReceiver
+ Methods: 2
+  onReceive | context, intent
+  onRequestPermission | context, packageName, requestType, requestId, request
+android.service.textservice.SpellCheckerService
+ Methods: 2
+  createSession | 
+  onBind | intent
+android.service.textservice.SpellCheckerService$Session
+ Methods: 8
+  getBundle | 
+  getLocale | 
+  onCancel | 
+  onClose | 
+  onCreate | 
+  onGetSentenceSuggestionsMultiple | textInfos, suggestionsLimit
+  onGetSuggestions | textInfo, suggestionsLimit
+  onGetSuggestionsMultiple | textInfos, suggestionsLimit, sequentialWords
+android.service.voice.AlwaysOnHotwordDetector
+ Methods: 6
+  createEnrollIntent | 
+  createReEnrollIntent | 
+  createUnEnrollIntent | 
+  getSupportedRecognitionModes | 
+  startRecognition | recognitionFlags
+  stopRecognition | 
+android.service.voice.AlwaysOnHotwordDetector$Callback
+ Methods: 5
+  onAvailabilityChanged | status
+  onDetected | eventPayload
+  onError | 
+  onRecognitionPaused | 
+  onRecognitionResumed | 
+android.service.voice.AlwaysOnHotwordDetector$EventPayload
+ Methods: 2
+  getCaptureAudioFormat | 
+  getTriggerAudio | 
+android.service.voice.VoiceInteractionService
+ Methods: 10
+  createAlwaysOnHotwordDetector | keyphrase, locale, callback
+  getDisabledShowContext | 
+  isActiveService | context, service
+  onBind | intent
+  onCreate | 
+  onLaunchVoiceAssistFromKeyguard | 
+  onReady | 
+  onShutdown | 
+  setDisabledShowContext | flags
+  showSession | args, flags
+android.service.voice.VoiceInteractionSession
+ Methods: 47
+  closeSystemDialogs | 
+  dump | prefix, fd, writer, args
+  finish | 
+  getContext | 
+  getDisabledShowContext | 
+  getLayoutInflater | 
+  getUserDisabledShowContext | 
+  getWindow | 
+  hide | 
+  onAssistStructureFailure | failure
+  onBackPressed | 
+  onCancelRequest | request
+  onCloseSystemDialogs | 
+  onComputeInsets | outInsets
+  onConfigurationChanged | newConfig
+  onCreate | 
+  onCreateContentView | 
+  onDestroy | 
+  onGetSupportedCommands | commands
+  onHandleAssist | data, structure, content
+  onHandleAssistSecondary | data, structure, content, index, count
+  onHandleScreenshot | screenshot
+  onHide | 
+  onKeyDown | keyCode, event
+  onKeyLongPress | keyCode, event
+  onKeyMultiple | keyCode, count, event
+  onKeyUp | keyCode, event
+  onLockscreenShown | 
+  onLowMemory | 
+  onPrepareShow | args, showFlags
+  onRequestAbortVoice | request
+  onRequestCommand | request
+  onRequestCompleteVoice | request
+  onRequestConfirmation | request
+  onRequestPickOption | request
+  onShow | args, showFlags
+  onTaskFinished | intent, taskId
+  onTaskStarted | intent, taskId
+  onTrimMemory | level
+  setContentView | view
+  setDisabledShowContext | flags
+  setKeepAwake | keepAwake
+  setTheme | theme
+  setUiEnabled | enabled
+  show | args, flags
+  startAssistantActivity | intent
+  startVoiceActivity | intent
+android.service.voice.VoiceInteractionSession$AbortVoiceRequest
+ Methods: 3
+  getMessage | 
+  getVoicePrompt | 
+  sendAbortResult | result
+android.service.voice.VoiceInteractionSession$CommandRequest
+ Methods: 3
+  getCommand | 
+  sendIntermediateResult | result
+  sendResult | result
+android.service.voice.VoiceInteractionSession$CompleteVoiceRequest
+ Methods: 3
+  getMessage | 
+  getVoicePrompt | 
+  sendCompleteResult | result
+android.service.voice.VoiceInteractionSession$ConfirmationRequest
+ Methods: 3
+  getPrompt | 
+  getVoicePrompt | 
+  sendConfirmationResult | confirmed, result
+android.service.voice.VoiceInteractionSession$Insets
+ Methods: 0
+android.service.voice.VoiceInteractionSession$PickOptionRequest
+ Methods: 5
+  getOptions | 
+  getPrompt | 
+  getVoicePrompt | 
+  sendIntermediatePickOptionResult | selections, result
+  sendPickOptionResult | selections, result
+android.service.voice.VoiceInteractionSession$Request
+ Methods: 6
+  cancel | 
+  getCallingPackage | 
+  getCallingUid | 
+  getExtras | 
+  isActive | 
+  toString | 
+android.service.voice.VoiceInteractionSessionService
+ Methods: 6
+  onBind | intent
+  onConfigurationChanged | newConfig
+  onCreate | 
+  onLowMemory | 
+  onNewSession | args
+  onTrimMemory | level
+android.service.vr.VrListenerService
+ Methods: 3
+  isVrModePackageEnabled | context, requestedComponent
+  onBind | intent
+  onCurrentVrActivityChanged | component
+android.service.wallpaper.WallpaperService
+ Methods: 4
+  onBind | intent
+  onCreate | 
+  onCreateEngine | 
+  onDestroy | 
+android.service.wallpaper.WallpaperService$Engine
+ Methods: 21
+  getDesiredMinimumHeight | 
+  getDesiredMinimumWidth | 
+  getSurfaceHolder | 
+  isPreview | 
+  isVisible | 
+  notifyColorsChanged | 
+  onApplyWindowInsets | insets
+  onCommand | action, x, y, z, extras, resultRequested
+  onComputeColors | 
+  onCreate | surfaceHolder
+  onDesiredSizeChanged | desiredWidth, desiredHeight
+  onDestroy | 
+  onOffsetsChanged | xOffset, yOffset, xOffsetStep, yOffsetStep, xPixelOffset, yPixelOffset
+  onSurfaceChanged | holder, format, width, height
+  onSurfaceCreated | holder
+  onSurfaceDestroyed | holder
+  onSurfaceRedrawNeeded | holder
+  onTouchEvent | event
+  onVisibilityChanged | visible
+  setOffsetNotificationsEnabled | enabled
+  setTouchEventsEnabled | enabled
+android.speech.RecognitionListener
+ Methods: 9
+  onBeginningOfSpeech | 
+  onBufferReceived | buffer
+  onEndOfSpeech | 
+  onError | error
+  onEvent | eventType, params
+  onPartialResults | partialResults
+  onReadyForSpeech | params
+  onResults | results
+  onRmsChanged | rmsdB
+android.speech.RecognitionService
+ Methods: 2
+  onBind | intent
+  onDestroy | 
+android.speech.RecognitionService$Callback
+ Methods: 9
+  beginningOfSpeech | 
+  bufferReceived | buffer
+  endOfSpeech | 
+  error | error
+  getCallingUid | 
+  partialResults | partialResults
+  readyForSpeech | params
+  results | results
+  rmsChanged | rmsdB
+android.speech.RecognizerIntent
+ Methods: 1
+  getVoiceDetailsIntent | context
+android.speech.RecognizerResultsIntent
+ Methods: 0
+android.speech.SpeechRecognizer
+ Methods: 8
+  cancel | 
+  createSpeechRecognizer | context
+  createSpeechRecognizer | context, serviceComponent
+  destroy | 
+  isRecognitionAvailable | context
+  setRecognitionListener | listener
+  startListening | recognizerIntent
+  stopListening | 
+android.speech.tts.SynthesisCallback
+ Methods: 9
+  audioAvailable | buffer, offset, length
+  done | 
+  error | errorCode
+  error | 
+  getMaxBufferSize | 
+  hasFinished | 
+  hasStarted | 
+  rangeStart | markerInFrames, start, end
+  start | sampleRateInHz, audioFormat, channelCount
+android.speech.tts.TextToSpeech$OnInitListener
+ Methods: 1
+  onInit | status
+android.speech.tts.TextToSpeech$OnUtteranceCompletedListener
+ Methods: 1
+  onUtteranceCompleted | utteranceId
+android.speech.tts.SynthesisRequest
+ Methods: 10
+  getCallerUid | 
+  getCharSequenceText | 
+  getCountry | 
+  getLanguage | 
+  getParams | 
+  getPitch | 
+  getSpeechRate | 
+  getText | 
+  getVariant | 
+  getVoiceName | 
+android.speech.tts.TextToSpeech
+ Methods: 38
+  addEarcon | earcon, packagename, resourceId
+  addEarcon | earcon, filename
+  addEarcon | earcon, file
+  addSpeech | text, file
+  addSpeech | text, packagename, resourceId
+  addSpeech | text, packagename, resourceId
+  addSpeech | text, filename
+  areDefaultsEnforced | 
+  getAvailableLanguages | 
+  getDefaultEngine | 
+  getDefaultLanguage | 
+  getDefaultVoice | 
+  getEngines | 
+  getFeatures | locale
+  getLanguage | 
+  getMaxSpeechInputLength | 
+  getVoice | 
+  getVoices | 
+  isLanguageAvailable | loc
+  isSpeaking | 
+  playEarcon | earcon, queueMode, , params
+  playEarcon | earcon, queueMode, params, utteranceId
+  playSilence | durationInMs, queueMode, , params
+  playSilentUtterance | durationInMs, queueMode, utteranceId
+  setAudioAttributes | audioAttributes
+  setEngineByPackageName | enginePackageName
+  setLanguage | loc
+  setOnUtteranceCompletedListener | listener
+  setOnUtteranceProgressListener | listener
+  setPitch | pitch
+  setSpeechRate | speechRate
+  setVoice | voice
+  shutdown | 
+  speak | text, queueMode, params, utteranceId
+  speak | text, queueMode, , params
+  stop | 
+  synthesizeToFile | text, params, file, utteranceId
+  synthesizeToFile | text, , params, filename
+android.speech.tts.TextToSpeech$Engine
+ Methods: 0
+android.speech.tts.TextToSpeech$EngineInfo
+ Methods: 1
+  toString | 
+android.speech.tts.TextToSpeechService
+ Methods: 7
+  onBind | intent
+  onCreate | 
+  onDestroy | 
+  onGetDefaultVoiceNameFor | lang, country, variant
+  onGetVoices | 
+  onIsValidVoiceName | voiceName
+  onLoadVoice | voiceName
+android.speech.tts.UtteranceProgressListener
+ Methods: 8
+  onAudioAvailable | utteranceId, audio
+  onBeginSynthesis | utteranceId, sampleRateInHz, audioFormat, channelCount
+  onDone | utteranceId
+  onError | utteranceId
+  onError | utteranceId, errorCode
+  onRangeStart | utteranceId, start, end, frame
+  onStart | utteranceId
+  onStop | utteranceId, interrupted
+android.speech.tts.Voice
+ Methods: 11
+  describeContents | 
+  equals | obj
+  getFeatures | 
+  getLatency | 
+  getLocale | 
+  getName | 
+  getQuality | 
+  hashCode | 
+  isNetworkConnectionRequired | 
+  toString | 
+  writeToParcel | dest, flags
+android.system.Os
+ Methods: 97
+  accept | fd, peerAddress
+  access | path, mode
+  bind | fd, address, port
+  chmod | path, mode
+  chown | path, uid, gid
+  close | fd
+  connect | fd, address, port
+  dup | oldFd
+  dup2 | oldFd, newFd
+  environ | 
+  execv | filename, argv
+  execve | filename, argv, envp
+  fchmod | fd, mode
+  fchown | fd, uid, gid
+  fdatasync | fd
+  fstat | fd
+  fstatvfs | fd
+  fsync | fd
+  ftruncate | fd, length
+  gai_strerror | error
+  getegid | 
+  getenv | name
+  geteuid | 
+  getgid | 
+  getpeername | fd
+  getpid | 
+  getppid | 
+  getsockname | fd
+  gettid | 
+  getuid | 
+  getxattr | path, name
+  if_indextoname | index
+  if_nametoindex | name
+  inet_pton | family, address
+  isatty | fd
+  kill | pid, signal
+  lchown | path, uid, gid
+  link | oldPath, newPath
+  listen | fd, backlog
+  listxattr | path
+  lseek | fd, offset, whence
+  lstat | path
+  mincore | address, byteCount, vector
+  mkdir | path, mode
+  mkfifo | path, mode
+  mlock | address, byteCount
+  mmap | address, byteCount, prot, flags, fd, offset
+  msync | address, byteCount, flags
+  munlock | address, byteCount
+  munmap | address, byteCount
+  open | path, flags, mode
+  pipe | 
+  poll | fds, timeoutMs
+  posix_fallocate | fd, offset, length
+  prctl | option, arg2, arg3, arg4, arg5
+  pread | fd, bytes, byteOffset, byteCount, offset
+  pread | fd, buffer, offset
+  pwrite | fd, bytes, byteOffset, byteCount, offset
+  pwrite | fd, buffer, offset
+  read | fd, bytes, byteOffset, byteCount
+  read | fd, buffer
+  readlink | path
+  readv | fd, buffers, offsets, byteCounts
+  recvfrom | fd, bytes, byteOffset, byteCount, flags, srcAddress
+  recvfrom | fd, buffer, flags, srcAddress
+  remove | path
+  removexattr | path, name
+  rename | oldPath, newPath
+  sendfile | outFd, inFd, inOffset, byteCount
+  sendto | fd, bytes, byteOffset, byteCount, flags, inetAddress, port
+  sendto | fd, buffer, flags, inetAddress, port
+  setegid | egid
+  setenv | name, value, overwrite
+  seteuid | euid
+  setgid | gid
+  setsid | 
+  setsockoptInt | fd, level, option, value
+  setuid | uid
+  setxattr | path, name, value, flags
+  shutdown | fd, how
+  socket | domain, type, protocol
+  socketpair | domain, type, protocol, fd1, fd2
+  stat | path
+  statvfs | path
+  strerror | errno
+  strsignal | signal
+  symlink | oldPath, newPath
+  sysconf | name
+  tcdrain | fd
+  tcsendbreak | fd, duration
+  umask | mask
+  uname | 
+  unsetenv | name
+  waitpid | pid, status, options
+  write | fd, bytes, byteOffset, byteCount
+  write | fd, buffer
+  writev | fd, buffers, offsets, byteCounts
+android.system.OsConstants
+ Methods: 16
+  S_ISBLK | mode
+  S_ISCHR | mode
+  S_ISDIR | mode
+  S_ISFIFO | mode
+  S_ISLNK | mode
+  S_ISREG | mode
+  S_ISSOCK | mode
+  WCOREDUMP | status
+  WEXITSTATUS | status
+  WIFEXITED | status
+  WIFSIGNALED | status
+  WIFSTOPPED | status
+  WSTOPSIG | status
+  WTERMSIG | status
+  errnoName | errno
+  gaiName | error
+android.system.StructPollfd
+ Methods: 1
+  toString | 
+android.system.StructStat
+ Methods: 1
+  toString | 
+android.system.StructStatVfs
+ Methods: 1
+  toString | 
+android.system.StructTimespec
+ Methods: 4
+  compareTo | other
+  equals | o
+  hashCode | 
+  toString | 
+android.system.StructUtsname
+ Methods: 1
+  toString | 
+android.system.ErrnoException
+ Methods: 1
+  getMessage | 
+android.telecom.Call
+ Methods: 35
+  answer | videoState
+  conference | callToConferenceWith
+  disconnect | 
+  getCannedTextResponses | 
+  getChildren | 
+  getConferenceableCalls | 
+  getDetails | 
+  getParent | 
+  getRemainingPostDialSequence | 
+  getRttCall | 
+  getState | 
+  getVideoCall | 
+  hold | 
+  isRttActive | 
+  mergeConference | 
+  phoneAccountSelected | accountHandle, setDefault
+  playDtmfTone | digit
+  postDialContinue | proceed
+  pullExternalCall | 
+  putExtras | extras
+  registerCallback | callback
+  registerCallback | callback, handler
+  reject | rejectWithMessage, textMessage
+  removeExtras | keys
+  removeExtras | keys
+  respondToRttRequest | id, accept
+  sendCallEvent | event, extras
+  sendRttRequest | 
+  splitFromConference | 
+  stopDtmfTone | 
+  stopRtt | 
+  swapConference | 
+  toString | 
+  unhold | 
+  unregisterCallback | callback
+android.telecom.Call$Callback
+ Methods: 14
+  onCallDestroyed | call
+  onCannedTextResponsesLoaded | call, cannedTextResponses
+  onChildrenChanged | call, children
+  onConferenceableCallsChanged | call, conferenceableCalls
+  onConnectionEvent | call, event, extras
+  onDetailsChanged | call, details
+  onParentChanged | call, parent
+  onPostDialWait | call, remainingPostDialSequence
+  onRttInitiationFailure | call, reason
+  onRttModeChanged | call, mode
+  onRttRequest | call, id
+  onRttStatusChanged | call, enabled, rttCall
+  onStateChanged | call, state
+  onVideoCallChanged | call, videoCall
+android.telecom.Call$Details
+ Methods: 24
+  can | capabilities, capability
+  can | capability
+  capabilitiesToString | capabilities
+  equals | o
+  getAccountHandle | 
+  getCallCapabilities | 
+  getCallProperties | 
+  getCallerDisplayName | 
+  getCallerDisplayNamePresentation | 
+  getConnectTimeMillis | 
+  getCreationTimeMillis | 
+  getDisconnectCause | 
+  getExtras | 
+  getGatewayInfo | 
+  getHandle | 
+  getHandlePresentation | 
+  getIntentExtras | 
+  getStatusHints | 
+  getVideoState | 
+  hasProperty | property
+  hasProperty | properties, property
+  hashCode | 
+  propertiesToString | properties
+  toString | 
+android.telecom.Call$RttCall
+ Methods: 5
+  getRttAudioMode | 
+  read | 
+  readImmediately | 
+  setRttMode | mode
+  write | input
+android.telecom.CallAudioState
+ Methods: 8
+  audioRouteToString | route
+  describeContents | 
+  equals | obj
+  getRoute | 
+  getSupportedRouteMask | 
+  isMuted | 
+  toString | 
+  writeToParcel | destination, flags
+android.telecom.CallScreeningService
+ Methods: 4
+  onBind | intent
+  onScreenCall | callDetails
+  onUnbind | intent
+  respondToCall | callDetails, response
+android.telecom.CallScreeningService$CallResponse
+ Methods: 4
+  getDisallowCall | 
+  getRejectCall | 
+  getSkipCallLog | 
+  getSkipNotification | 
+android.telecom.CallScreeningService$CallResponse$Builder
+ Methods: 5
+  build | 
+  setDisallowCall | shouldDisallowCall
+  setRejectCall | shouldRejectCall
+  setSkipCallLog | shouldSkipCallLog
+  setSkipNotification | shouldSkipNotification
+android.telecom.Conference
+ Methods: 44
+  addConnection | connection
+  destroy | 
+  getCallAudioState | 
+  getConferenceableConnections | 
+  getConnectionCapabilities | 
+  getConnectionProperties | 
+  getConnectionTime | 
+  getConnections | 
+  getDisconnectCause | 
+  getExtras | 
+  getPhoneAccountHandle | 
+  getState | 
+  getStatusHints | 
+  getVideoProvider | 
+  getVideoState | 
+  onCallAudioStateChanged | state
+  onConnectionAdded | connection
+  onDisconnect | 
+  onExtrasChanged | extras
+  onHold | 
+  onMerge | connection
+  onMerge | 
+  onPlayDtmfTone | c
+  onSeparate | connection
+  onStopDtmfTone | 
+  onSwap | 
+  onUnhold | 
+  putExtras | extras
+  removeConnection | connection
+  removeExtras | keys
+  removeExtras | keys
+  setActive | 
+  setConferenceableConnections | conferenceableConnections
+  setConnectionCapabilities | connectionCapabilities
+  setConnectionProperties | connectionProperties
+  setConnectionTime | connectionTimeMillis
+  setDialing | 
+  setDisconnected | disconnectCause
+  setExtras | extras
+  setOnHold | 
+  setStatusHints | statusHints
+  setVideoProvider | c, videoProvider
+  setVideoState | c, videoState
+  toString | 
+android.telecom.Conferenceable
+ Methods: 0
+android.telecom.Connection
+ Methods: 67
+  capabilitiesToString | capabilities
+  createCanceledConnection | 
+  createFailedConnection | disconnectCause
+  destroy | 
+  getAddress | 
+  getAddressPresentation | 
+  getAudioModeIsVoip | 
+  getCallAudioState | 
+  getCallerDisplayName | 
+  getCallerDisplayNamePresentation | 
+  getConference | 
+  getConferenceables | 
+  getConnectionCapabilities | 
+  getConnectionProperties | 
+  getDisconnectCause | 
+  getExtras | 
+  getState | 
+  getStatusHints | 
+  getVideoProvider | 
+  isRingbackRequested | 
+  onAbort | 
+  onAnswer | videoState
+  onAnswer | 
+  onCallAudioStateChanged | state
+  onCallEvent | event, extras
+  onDisconnect | 
+  onExtrasChanged | extras
+  onHold | 
+  onPlayDtmfTone | c
+  onPostDialContinue | proceed
+  onPullExternalCall | 
+  onReject | 
+  onReject | replyMessage
+  onSeparate | 
+  onShowIncomingCallUi | 
+  onStateChanged | state
+  onStopDtmfTone | 
+  onUnhold | 
+  propertiesToString | properties
+  putExtras | extras
+  removeExtras | keys
+  removeExtras | keys
+  sendConnectionEvent | event, extras
+  setActive | 
+  setAddress | address, presentation
+  setAudioModeIsVoip | isVoip
+  setAudioRoute | route
+  setCallerDisplayName | callerDisplayName, presentation
+  setConferenceableConnections | conferenceableConnections
+  setConferenceables | conferenceables
+  setConnectionCapabilities | connectionCapabilities
+  setConnectionProperties | connectionProperties
+  setDialing | 
+  setDisconnected | disconnectCause
+  setExtras | extras
+  setInitialized | 
+  setInitializing | 
+  setNextPostDialChar | nextChar
+  setOnHold | 
+  setPostDialWait | remaining
+  setPulling | 
+  setRingbackRequested | ringback
+  setRinging | 
+  setStatusHints | statusHints
+  setVideoProvider | videoProvider
+  setVideoState | videoState
+  stateToString | state
+android.telecom.Connection$RttModifyStatus
+ Methods: 0
+android.telecom.Connection$VideoProvider
+ Methods: 17
+  changeCameraCapabilities | cameraCapabilities
+  changePeerDimensions | width, height
+  changeVideoQuality | videoQuality
+  handleCallSessionEvent | event
+  onRequestCameraCapabilities | 
+  onRequestConnectionDataUsage | 
+  onSendSessionModifyRequest | fromProfile, toProfile
+  onSendSessionModifyResponse | responseProfile
+  onSetCamera | cameraId
+  onSetDeviceOrientation | rotation
+  onSetDisplaySurface | surface
+  onSetPauseImage | uri
+  onSetPreviewSurface | surface
+  onSetZoom | value
+  receiveSessionModifyRequest | videoProfile
+  receiveSessionModifyResponse | status, requestedProfile, responseProfile
+  setCallDataUsage | dataUsage
+android.telecom.ConnectionRequest
+ Methods: 7
+  describeContents | 
+  getAccountHandle | 
+  getAddress | 
+  getExtras | 
+  getVideoState | 
+  toString | 
+  writeToParcel | destination, flags
+android.telecom.ConnectionService
+ Methods: 16
+  addConference | conference
+  addExistingConnection | phoneAccountHandle, connection
+  conferenceRemoteConnections | remoteConnection1, remoteConnection2
+  createRemoteIncomingConnection | connectionManagerPhoneAccount, request
+  createRemoteOutgoingConnection | connectionManagerPhoneAccount, request
+  getAllConferences | 
+  getAllConnections | 
+  onBind | intent
+  onConference | connection1, connection2
+  onCreateIncomingConnection | connectionManagerPhoneAccount, request
+  onCreateIncomingConnectionFailed | connectionManagerPhoneAccount, request
+  onCreateOutgoingConnection | connectionManagerPhoneAccount, request
+  onCreateOutgoingConnectionFailed | connectionManagerPhoneAccount, request
+  onRemoteConferenceAdded | conference
+  onRemoteExistingConnectionAdded | connection
+  onUnbind | intent
+android.telecom.DisconnectCause
+ Methods: 10
+  describeContents | 
+  equals | o
+  getCode | 
+  getDescription | 
+  getLabel | 
+  getReason | 
+  getTone | 
+  hashCode | 
+  toString | 
+  writeToParcel | destination, flags
+android.telecom.GatewayInfo
+ Methods: 6
+  describeContents | 
+  getGatewayAddress | 
+  getGatewayProviderPackageName | 
+  getOriginalAddress | 
+  isEmpty | 
+  writeToParcel | destination, flags
+android.telecom.InCallService
+ Methods: 14
+  canAddCall | 
+  getCallAudioState | 
+  getCalls | 
+  onBind | intent
+  onBringToForeground | showDialpad
+  onCallAdded | call
+  onCallAudioStateChanged | audioState
+  onCallRemoved | call
+  onCanAddCallChanged | canAddCall
+  onConnectionEvent | call, event, extras
+  onSilenceRinger | 
+  onUnbind | intent
+  setAudioRoute | route
+  setMuted | state
+android.telecom.InCallService$VideoCall
+ Methods: 13
+  registerCallback | callback, handler
+  registerCallback | callback
+  requestCallDataUsage | 
+  requestCameraCapabilities | 
+  sendSessionModifyRequest | requestProfile
+  sendSessionModifyResponse | responseProfile
+  setCamera | cameraId
+  setDeviceOrientation | rotation
+  setDisplaySurface | surface
+  setPauseImage | uri
+  setPreviewSurface | surface
+  setZoom | value
+  unregisterCallback | callback
+android.telecom.InCallService$VideoCall$Callback
+ Methods: 7
+  onCallDataUsageChanged | dataUsage
+  onCallSessionEvent | event
+  onCameraCapabilitiesChanged | cameraCapabilities
+  onPeerDimensionsChanged | width, height
+  onSessionModifyRequestReceived | videoProfile
+  onSessionModifyResponseReceived | status, requestedProfile, responseProfile
+  onVideoQualityChanged | videoQuality
+android.telecom.PhoneAccount
+ Methods: 18
+  builder | accountHandle, label
+  describeContents | 
+  getAccountHandle | 
+  getAddress | 
+  getCapabilities | 
+  getExtras | 
+  getHighlightColor | 
+  getIcon | 
+  getLabel | 
+  getShortDescription | 
+  getSubscriptionAddress | 
+  getSupportedUriSchemes | 
+  hasCapabilities | capability
+  isEnabled | 
+  supportsUriScheme | uriScheme
+  toBuilder | 
+  toString | 
+  writeToParcel | out, flags
+android.telecom.PhoneAccount$Builder
+ Methods: 10
+  addSupportedUriScheme | uriScheme
+  build | 
+  setAddress | value
+  setCapabilities | value
+  setExtras | extras
+  setHighlightColor | value
+  setIcon | icon
+  setShortDescription | value
+  setSubscriptionAddress | value
+  setSupportedUriSchemes | uriSchemes
+android.telecom.PhoneAccountHandle
+ Methods: 8
+  describeContents | 
+  equals | other
+  getComponentName | 
+  getId | 
+  getUserHandle | 
+  hashCode | 
+  toString | 
+  writeToParcel | out, flags
+android.telecom.RemoteConference
+ Methods: 19
+  disconnect | 
+  getConferenceableConnections | 
+  getConnectionCapabilities | 
+  getConnectionProperties | 
+  getConnections | 
+  getDisconnectCause | 
+  getExtras | 
+  getState | 
+  hold | 
+  merge | 
+  playDtmfTone | digit
+  registerCallback | callback, handler
+  registerCallback | callback
+  separate | connection
+  setCallAudioState | state
+  stopDtmfTone | 
+  swap | 
+  unhold | 
+  unregisterCallback | callback
+android.telecom.RemoteConference$Callback
+ Methods: 9
+  onConferenceableConnectionsChanged | conference, conferenceableConnections
+  onConnectionAdded | conference, connection
+  onConnectionCapabilitiesChanged | conference, connectionCapabilities
+  onConnectionPropertiesChanged | conference, connectionProperties
+  onConnectionRemoved | conference, connection
+  onDestroyed | conference
+  onDisconnected | conference, disconnectCause
+  onExtrasChanged | conference, extras
+  onStateChanged | conference, oldState, newState
+android.telecom.RemoteConnection
+ Methods: 30
+  abort | 
+  answer | 
+  disconnect | 
+  getAddress | 
+  getAddressPresentation | 
+  getCallerDisplayName | 
+  getCallerDisplayNamePresentation | 
+  getConference | 
+  getConferenceableConnections | 
+  getConnectionCapabilities | 
+  getConnectionProperties | 
+  getDisconnectCause | 
+  getExtras | 
+  getState | 
+  getStatusHints | 
+  getVideoProvider | 
+  getVideoState | 
+  hold | 
+  isRingbackRequested | 
+  isVoipAudioMode | 
+  playDtmfTone | digit
+  postDialContinue | proceed
+  pullExternalCall | 
+  registerCallback | callback
+  registerCallback | callback, handler
+  reject | 
+  setCallAudioState | state
+  stopDtmfTone | 
+  unhold | 
+  unregisterCallback | callback
+android.telecom.RemoteConnection$Callback
+ Methods: 18
+  onAddressChanged | connection, address, presentation
+  onCallerDisplayNameChanged | connection, callerDisplayName, presentation
+  onConferenceChanged | connection, conference
+  onConferenceableConnectionsChanged | connection, conferenceableConnections
+  onConnectionCapabilitiesChanged | connection, connectionCapabilities
+  onConnectionEvent | connection, event, extras
+  onConnectionPropertiesChanged | connection, connectionProperties
+  onDestroyed | connection
+  onDisconnected | connection, disconnectCause
+  onExtrasChanged | connection, extras
+  onPostDialChar | connection, nextChar
+  onPostDialWait | connection, remainingPostDialSequence
+  onRingbackRequested | connection, ringback
+  onStateChanged | connection, state
+  onStatusHintsChanged | connection, statusHints
+  onVideoProviderChanged | connection, videoProvider
+  onVideoStateChanged | connection, videoState
+  onVoipAudioChanged | connection, isVoip
+android.telecom.RemoteConnection$VideoProvider
+ Methods: 12
+  registerCallback | l
+  requestCallDataUsage | 
+  requestCameraCapabilities | 
+  sendSessionModifyRequest | fromProfile, toProfile
+  sendSessionModifyResponse | responseProfile
+  setCamera | cameraId
+  setDeviceOrientation | rotation
+  setDisplaySurface | surface
+  setPauseImage | uri
+  setPreviewSurface | surface
+  setZoom | value
+  unregisterCallback | l
+android.telecom.RemoteConnection$VideoProvider$Callback
+ Methods: 7
+  onCallDataUsageChanged | videoProvider, dataUsage
+  onCallSessionEvent | videoProvider, event
+  onCameraCapabilitiesChanged | videoProvider, cameraCapabilities
+  onPeerDimensionsChanged | videoProvider, width, height
+  onSessionModifyRequestReceived | videoProvider, videoProfile
+  onSessionModifyResponseReceived | videoProvider, status, requestedProfile, responseProfile
+  onVideoQualityChanged | videoProvider, videoQuality
+android.telecom.StatusHints
+ Methods: 7
+  describeContents | 
+  equals | other
+  getExtras | 
+  getIcon | 
+  getLabel | 
+  hashCode | 
+  writeToParcel | out, flags
+android.telecom.TelecomManager
+ Methods: 26
+  acceptRingingCall | videoState
+  acceptRingingCall | 
+  addNewIncomingCall | phoneAccount, extras
+  cancelMissedCallsNotification | 
+  createManageBlockedNumbersIntent | 
+  getAdnUriForPhoneAccount | accountHandle
+  getCallCapablePhoneAccounts | 
+  getDefaultDialerPackage | 
+  getDefaultOutgoingPhoneAccount | uriScheme
+  getLine1Number | accountHandle
+  getPhoneAccount | account
+  getSelfManagedPhoneAccounts | 
+  getSimCallManager | 
+  getVoiceMailNumber | accountHandle
+  handleMmi | dialString
+  handleMmi | dialString, accountHandle
+  isInCall | 
+  isInManagedCall | 
+  isIncomingCallPermitted | phoneAccountHandle
+  isOutgoingCallPermitted | phoneAccountHandle
+  isVoiceMailNumber | accountHandle, number
+  placeCall | address, extras
+  registerPhoneAccount | account
+  showInCallScreen | showDialpad
+  silenceRinger | 
+  unregisterPhoneAccount | accountHandle
+android.telecom.VideoProfile
+ Methods: 12
+  describeContents | 
+  getQuality | 
+  getVideoState | 
+  isAudioOnly | videoState
+  isBidirectional | videoState
+  isPaused | videoState
+  isReceptionEnabled | videoState
+  isTransmissionEnabled | videoState
+  isVideo | videoState
+  toString | 
+  videoStateToString | videoState
+  writeToParcel | dest, flags
+android.telecom.VideoProfile$CameraCapabilities
+ Methods: 4
+  describeContents | 
+  getHeight | 
+  getWidth | 
+  writeToParcel | dest, flags
+android.telephony.CarrierConfigManager
+ Methods: 3
+  getConfig | 
+  getConfigForSubId | subId
+  notifyConfigChangedForSubId | subId
+android.telephony.CellIdentityCdma
+ Methods: 10
+  describeContents | 
+  equals | other
+  getBasestationId | 
+  getLatitude | 
+  getLongitude | 
+  getNetworkId | 
+  getSystemId | 
+  hashCode | 
+  toString | 
+  writeToParcel | dest, flags
+android.telephony.CellIdentityGsm
+ Methods: 12
+  describeContents | 
+  equals | other
+  getArfcn | 
+  getBsic | 
+  getCid | 
+  getLac | 
+  getMcc | 
+  getMnc | 
+  getPsc | 
+  hashCode | 
+  toString | 
+  writeToParcel | dest, flags
+android.telephony.CellIdentityLte
+ Methods: 11
+  describeContents | 
+  equals | other
+  getCi | 
+  getEarfcn | 
+  getMcc | 
+  getMnc | 
+  getPci | 
+  getTac | 
+  hashCode | 
+  toString | 
+  writeToParcel | dest, flags
+android.telephony.CellIdentityWcdma
+ Methods: 11
+  describeContents | 
+  equals | other
+  getCid | 
+  getLac | 
+  getMcc | 
+  getMnc | 
+  getPsc | 
+  getUarfcn | 
+  hashCode | 
+  toString | 
+  writeToParcel | dest, flags
+android.telephony.CellInfo
+ Methods: 7
+  describeContents | 
+  equals | other
+  getTimeStamp | 
+  hashCode | 
+  isRegistered | 
+  toString | 
+  writeToParcel | dest, flags
+android.telephony.CellInfoCdma
+ Methods: 7
+  describeContents | 
+  equals | other
+  getCellIdentity | 
+  getCellSignalStrength | 
+  hashCode | 
+  toString | 
+  writeToParcel | dest, flags
+android.telephony.CellInfoGsm
+ Methods: 7
+  describeContents | 
+  equals | other
+  getCellIdentity | 
+  getCellSignalStrength | 
+  hashCode | 
+  toString | 
+  writeToParcel | dest, flags
+android.telephony.CellInfoLte
+ Methods: 7
+  describeContents | 
+  equals | other
+  getCellIdentity | 
+  getCellSignalStrength | 
+  hashCode | 
+  toString | 
+  writeToParcel | dest, flags
+android.telephony.CellInfoWcdma
+ Methods: 7
+  describeContents | 
+  equals | other
+  getCellIdentity | 
+  getCellSignalStrength | 
+  hashCode | 
+  toString | 
+  writeToParcel | dest, flags
+android.telephony.CellLocation
+ Methods: 2
+  getEmpty | 
+  requestLocationUpdate | 
+android.telephony.CellSignalStrength
+ Methods: 5
+  equals | o
+  getAsuLevel | 
+  getDbm | 
+  getLevel | 
+  hashCode | 
+android.telephony.CellSignalStrengthCdma
+ Methods: 15
+  describeContents | 
+  equals | o
+  getAsuLevel | 
+  getCdmaDbm | 
+  getCdmaEcio | 
+  getCdmaLevel | 
+  getDbm | 
+  getEvdoDbm | 
+  getEvdoEcio | 
+  getEvdoLevel | 
+  getEvdoSnr | 
+  getLevel | 
+  hashCode | 
+  toString | 
+  writeToParcel | dest, flags
+android.telephony.CellSignalStrengthGsm
+ Methods: 9
+  describeContents | 
+  equals | o
+  getAsuLevel | 
+  getDbm | 
+  getLevel | 
+  getTimingAdvance | 
+  hashCode | 
+  toString | 
+  writeToParcel | dest, flags
+android.telephony.CellSignalStrengthLte
+ Methods: 13
+  describeContents | 
+  equals | o
+  getAsuLevel | 
+  getCqi | 
+  getDbm | 
+  getLevel | 
+  getRsrp | 
+  getRsrq | 
+  getRssnr | 
+  getTimingAdvance | 
+  hashCode | 
+  toString | 
+  writeToParcel | dest, flags
+android.telephony.CellSignalStrengthWcdma
+ Methods: 8
+  describeContents | 
+  equals | o
+  getAsuLevel | 
+  getDbm | 
+  getLevel | 
+  hashCode | 
+  toString | 
+  writeToParcel | dest, flags
+android.telephony.IccOpenLogicalChannelResponse
+ Methods: 6
+  describeContents | 
+  getChannel | 
+  getSelectResponse | 
+  getStatus | 
+  toString | 
+  writeToParcel | out, flags
+android.telephony.NeighboringCellInfo
+ Methods: 10
+  describeContents | 
+  getCid | 
+  getLac | 
+  getNetworkType | 
+  getPsc | 
+  getRssi | 
+  setCid | cid
+  setRssi | rssi
+  toString | 
+  writeToParcel | dest, flags
+android.telephony.PhoneNumberFormattingTextWatcher
+ Methods: 3
+  afterTextChanged | s
+  beforeTextChanged | s, start, count, after
+  onTextChanged | s, start, before, count
+android.telephony.PhoneNumberUtils
+ Methods: 41
+  addTtsSpan | s, start, endExclusive
+  calledPartyBCDFragmentToString | bytes, offset, length
+  calledPartyBCDToString | bytes, offset, length
+  compare | context, a, b
+  compare | a, b
+  convertKeypadLettersToDigits | input
+  createTtsSpan | phoneNumberString
+  createTtsSpannable | phoneNumber
+  extractNetworkPortion | phoneNumber
+  extractPostDialPortion | phoneNumber
+  formatJapaneseNumber | text
+  formatNanpNumber | text
+  formatNumber | phoneNumber, phoneNumberE164, defaultCountryIso
+  formatNumber | text, defaultFormattingType
+  formatNumber | source
+  formatNumber | phoneNumber, defaultCountryIso
+  formatNumberToE164 | phoneNumber, defaultCountryIso
+  formatNumberToRFC3966 | phoneNumber, defaultCountryIso
+  getFormatTypeForLocale | locale
+  getNumberFromIntent | intent, context
+  getStrippedReversed | phoneNumber
+  is12Key | c
+  isDialable | c
+  isEmergencyNumber | number
+  isGlobalPhoneNumber | phoneNumber
+  isISODigit | c
+  isLocalEmergencyNumber | context, number
+  isNonSeparator | c
+  isReallyDialable | c
+  isStartsPostDial | c
+  isVoiceMailNumber | number
+  isWellFormedSmsAddress | address
+  networkPortionToCalledPartyBCD | s
+  networkPortionToCalledPartyBCDWithLength | s
+  normalizeNumber | phoneNumber
+  numberToCalledPartyBCD | number
+  replaceUnicodeDigits | number
+  stringFromStringAndTOA | s, TOA
+  stripSeparators | phoneNumber
+  toCallerIDMinMatch | phoneNumber
+  toaFromString | s
+android.telephony.PhoneStateListener
+ Methods: 11
+  onCallForwardingIndicatorChanged | cfi
+  onCallStateChanged | state, incomingNumber
+  onCellInfoChanged | cellInfo
+  onCellLocationChanged | location
+  onDataActivity | direction
+  onDataConnectionStateChanged | state, networkType
+  onDataConnectionStateChanged | state
+  onMessageWaitingIndicatorChanged | mwi
+  onServiceStateChanged | serviceState
+  onSignalStrengthChanged | asu
+  onSignalStrengthsChanged | signalStrength
+android.telephony.ServiceState
+ Methods: 17
+  describeContents | 
+  equals | o
+  getIsManualSelection | 
+  getOperatorAlphaLong | 
+  getOperatorAlphaShort | 
+  getOperatorNumeric | 
+  getRoaming | 
+  getState | 
+  hashCode | 
+  setIsManualSelection | isManual
+  setOperatorName | longName, shortName, numeric
+  setRoaming | roaming
+  setState | state
+  setStateOff | 
+  setStateOutOfService | 
+  toString | 
+  writeToParcel | out, flags
+android.telephony.SignalStrength
+ Methods: 14
+  describeContents | 
+  equals | o
+  getCdmaDbm | 
+  getCdmaEcio | 
+  getEvdoDbm | 
+  getEvdoEcio | 
+  getEvdoSnr | 
+  getGsmBitErrorRate | 
+  getGsmSignalStrength | 
+  getLevel | 
+  hashCode | 
+  isGsm | 
+  toString | 
+  writeToParcel | out, flags
+android.telephony.SmsManager
+ Methods: 13
+  createAppSpecificSmsToken | intent
+  divideMessage | text
+  downloadMultimediaMessage | context, locationUrl, contentUri, configOverrides, downloadedIntent
+  getCarrierConfigValues | 
+  getDefault | 
+  getDefaultSmsSubscriptionId | 
+  getSmsManagerForSubscriptionId | subId
+  getSubscriptionId | 
+  injectSmsPdu | pdu, format, receivedIntent
+  sendDataMessage | destinationAddress, scAddress, destinationPort, data, sentIntent, deliveryIntent
+  sendMultimediaMessage | context, contentUri, locationUrl, configOverrides, sentIntent
+  sendMultipartTextMessage | destinationAddress, scAddress, parts, sentIntents, deliveryIntents
+  sendTextMessage | destinationAddress, scAddress, text, sentIntent, deliveryIntent
+android.telephony.SmsMessage
+ Methods: 33
+  calculateLength | msgBody, use7bitOnly
+  calculateLength | messageBody, use7bitOnly
+  createFromPdu | pdu
+  createFromPdu | pdu, format
+  getDisplayMessageBody | 
+  getDisplayOriginatingAddress | 
+  getEmailBody | 
+  getEmailFrom | 
+  getIndexOnIcc | 
+  getIndexOnSim | 
+  getMessageBody | 
+  getMessageClass | 
+  getOriginatingAddress | 
+  getPdu | 
+  getProtocolIdentifier | 
+  getPseudoSubject | 
+  getServiceCenterAddress | 
+  getStatus | 
+  getStatusOnIcc | 
+  getStatusOnSim | 
+  getSubmitPdu | scAddress, destinationAddress, message, statusReportRequested
+  getSubmitPdu | scAddress, destinationAddress, destinationPort, data, statusReportRequested
+  getTPLayerLengthForPDU | pdu
+  getTimestampMillis | 
+  getUserData | 
+  isCphsMwiMessage | 
+  isEmail | 
+  isMWIClearMessage | 
+  isMWISetMessage | 
+  isMwiDontStore | 
+  isReplace | 
+  isReplyPathPresent | 
+  isStatusReportMessage | 
+android.telephony.SmsMessage$SubmitPdu
+ Methods: 1
+  toString | 
+android.telephony.SubscriptionInfo
+ Methods: 15
+  createIconBitmap | context
+  describeContents | 
+  getCarrierName | 
+  getCountryIso | 
+  getDataRoaming | 
+  getDisplayName | 
+  getIccId | 
+  getIconTint | 
+  getMcc | 
+  getMnc | 
+  getNumber | 
+  getSimSlotIndex | 
+  getSubscriptionId | 
+  toString | 
+  writeToParcel | dest, flags
+android.telephony.SubscriptionManager
+ Methods: 13
+  addOnSubscriptionsChangedListener | listener
+  from | context
+  getActiveSubscriptionInfo | subId
+  getActiveSubscriptionInfoCount | 
+  getActiveSubscriptionInfoCountMax | 
+  getActiveSubscriptionInfoForSimSlotIndex | slotIndex
+  getActiveSubscriptionInfoList | 
+  getDefaultDataSubscriptionId | 
+  getDefaultSmsSubscriptionId | 
+  getDefaultSubscriptionId | 
+  getDefaultVoiceSubscriptionId | 
+  isNetworkRoaming | subId
+  removeOnSubscriptionsChangedListener | listener
+android.telephony.SubscriptionManager$OnSubscriptionsChangedListener
+ Methods: 1
+  onSubscriptionsChanged | 
+android.telephony.TelephonyManager
+ Methods: 74
+  canChangeDtmfToneLength | 
+  createForPhoneAccountHandle | phoneAccountHandle
+  createForSubscriptionId | subId
+  getAllCellInfo | 
+  getCallState | 
+  getCarrierConfig | 
+  getCellLocation | 
+  getDataActivity | 
+  getDataNetworkType | 
+  getDataState | 
+  getDeviceId | 
+  getDeviceId | slotIndex
+  getDeviceSoftwareVersion | 
+  getForbiddenPlmns | 
+  getGroupIdLevel1 | 
+  getIccAuthentication | appType, authType, data
+  getImei | slotIndex
+  getImei | 
+  getLine1Number | 
+  getMeid | 
+  getMeid | slotIndex
+  getMmsUAProfUrl | 
+  getMmsUserAgent | 
+  getNeighboringCellInfo | 
+  getNetworkCountryIso | 
+  getNetworkOperator | 
+  getNetworkOperatorName | 
+  getNetworkSpecifier | 
+  getNetworkType | 
+  getPhoneCount | 
+  getPhoneType | 
+  getServiceState | 
+  getSimCountryIso | 
+  getSimOperator | 
+  getSimOperatorName | 
+  getSimSerialNumber | 
+  getSimState | 
+  getSimState | slotIndex
+  getSubscriberId | 
+  getVisualVoicemailPackageName | 
+  getVoiceMailAlphaTag | 
+  getVoiceMailNumber | 
+  getVoiceNetworkType | 
+  getVoicemailRingtoneUri | accountHandle
+  hasCarrierPrivileges | 
+  hasIccCard | 
+  iccCloseLogicalChannel | channel
+  iccExchangeSimIO | fileID, command, p1, p2, p3, filePath
+  iccOpenLogicalChannel | AID
+  iccOpenLogicalChannel | AID, p2
+  iccTransmitApduBasicChannel | cla, instruction, p1, p2, p3, data
+  iccTransmitApduLogicalChannel | channel, cla, instruction, p1, p2, p3, data
+  isConcurrentVoiceAndDataSupported | 
+  isDataEnabled | 
+  isHearingAidCompatibilitySupported | 
+  isNetworkRoaming | 
+  isSmsCapable | 
+  isTtyModeSupported | 
+  isVoiceCapable | 
+  isVoicemailVibrationEnabled | accountHandle
+  isWorldPhone | 
+  listen | listener, events
+  sendDialerSpecialCode | inputCode
+  sendEnvelopeWithStatus | content
+  sendUssdRequest | ussdRequest, callback, handler
+  sendVisualVoicemailSms | number, port, text, sentIntent
+  setDataEnabled | enable
+  setLine1NumberForDisplay | alphaTag, number
+  setOperatorBrandOverride | brand
+  setPreferredNetworkTypeToGlobal | 
+  setVisualVoicemailSmsFilterSettings | settings
+  setVoiceMailNumber | alphaTag, number
+  setVoicemailRingtoneUri | phoneAccountHandle, uri
+  setVoicemailVibrationEnabled | phoneAccountHandle, enabled
+android.telephony.TelephonyManager$UssdResponseCallback
+ Methods: 2
+  onReceiveUssdResponse | telephonyManager, request, response
+  onReceiveUssdResponseFailed | telephonyManager, request, failureCode
+android.telephony.VisualVoicemailService
+ Methods: 5
+  onBind | intent
+  onCellServiceConnected | task, phoneAccountHandle
+  onSimRemoved | task, phoneAccountHandle
+  onSmsReceived | task, sms
+  onStopped | task
+android.telephony.VisualVoicemailService$VisualVoicemailTask
+ Methods: 3
+  equals | obj
+  finish | 
+  hashCode | 
+android.telephony.VisualVoicemailSms
+ Methods: 6
+  describeContents | 
+  getFields | 
+  getMessageBody | 
+  getPhoneAccountHandle | 
+  getPrefix | 
+  writeToParcel | dest, flags
+android.telephony.VisualVoicemailSmsFilterSettings
+ Methods: 3
+  describeContents | 
+  toString | 
+  writeToParcel | dest, flags
+android.telephony.VisualVoicemailSmsFilterSettings$Builder
+ Methods: 4
+  build | 
+  setClientPrefix | clientPrefix
+  setDestinationPort | destinationPort
+  setOriginatingNumbers | originatingNumbers
+android.telephony.SmsMessage$MessageClass
+ Methods: 2
+  valueOf | name
+  values | 
+android.telephony.cdma.CdmaCellLocation
+ Methods: 13
+  convertQuartSecToDecDegrees | quartSec
+  equals | o
+  fillInNotifierBundle | bundleToFill
+  getBaseStationId | 
+  getBaseStationLatitude | 
+  getBaseStationLongitude | 
+  getNetworkId | 
+  getSystemId | 
+  hashCode | 
+  setCellLocationData | baseStationId, baseStationLatitude, baseStationLongitude, systemId, networkId
+  setCellLocationData | baseStationId, baseStationLatitude, baseStationLongitude
+  setStateInvalid | 
+  toString | 
+android.telephony.gsm.GsmCellLocation
+ Methods: 9
+  equals | o
+  fillInNotifierBundle | m
+  getCid | 
+  getLac | 
+  getPsc | 
+  hashCode | 
+  setLacAndCid | lac, cid
+  setStateInvalid | 
+  toString | 
+android.telephony.gsm.SmsManager
+ Methods: 5
+  divideMessage | text
+  getDefault | 
+  sendDataMessage | destinationAddress, scAddress, destinationPort, data, sentIntent, deliveryIntent
+  sendMultipartTextMessage | destinationAddress, scAddress, parts, sentIntents, deliveryIntents
+  sendTextMessage | destinationAddress, scAddress, text, sentIntent, deliveryIntent
+android.telephony.gsm.SmsMessage
+ Methods: 30
+  calculateLength | messageBody, use7bitOnly
+  calculateLength | messageBody, use7bitOnly
+  createFromPdu | pdu
+  getDisplayMessageBody | 
+  getDisplayOriginatingAddress | 
+  getEmailBody | 
+  getEmailFrom | 
+  getIndexOnSim | 
+  getMessageBody | 
+  getMessageClass | 
+  getOriginatingAddress | 
+  getPdu | 
+  getProtocolIdentifier | 
+  getPseudoSubject | 
+  getServiceCenterAddress | 
+  getStatus | 
+  getStatusOnSim | 
+  getSubmitPdu | scAddress, destinationAddress, message, statusReportRequested
+  getSubmitPdu | scAddress, destinationAddress, destinationPort, data, statusReportRequested
+  getTPLayerLengthForPDU | pdu
+  getTimestampMillis | 
+  getUserData | 
+  isCphsMwiMessage | 
+  isEmail | 
+  isMWIClearMessage | 
+  isMWISetMessage | 
+  isMwiDontStore | 
+  isReplace | 
+  isReplyPathPresent | 
+  isStatusReportMessage | 
+android.telephony.gsm.SmsMessage$SubmitPdu
+ Methods: 1
+  toString | 
+android.telephony.gsm.SmsMessage$MessageClass
+ Methods: 2
+  valueOf | name
+  values | 
+android.test.FlakyTest
+ Methods: 1
+  tolerance | 
+android.test.UiThreadTest
+ Methods: 0
+android.test.PerformanceTestCase
+ Methods: 2
+  isPerformanceOnly | 
+  startPerformance | intermediates
+android.test.PerformanceTestCase$Intermediates
+ Methods: 5
+  addIntermediate | name
+  addIntermediate | name, timeInNS
+  finishTiming | realTime
+  setInternalIterations | count
+  startTiming | realTime
+android.test.TestSuiteProvider
+ Methods: 1
+  getTestSuite | 
+android.test.ActivityInstrumentationTestCase
+ Methods: 2
+  getActivity | 
+  testActivityTestCaseSetUpProperly | 
+android.test.ActivityInstrumentationTestCase2
+ Methods: 3
+  getActivity | 
+  setActivityInitialTouchMode | initialTouchMode
+  setActivityIntent | i
+android.test.ActivityTestCase
+ Methods: 0
+android.test.ActivityUnitTestCase
+ Methods: 8
+  getActivity | 
+  getFinishedActivityRequest | 
+  getRequestedOrientation | 
+  getStartedActivityIntent | 
+  getStartedActivityRequest | 
+  isFinishCalled | 
+  setActivityContext | activityContext
+  setApplication | application
+android.test.AndroidTestCase
+ Methods: 6
+  assertActivityRequiresPermission | packageName, className, permission
+  assertReadingContentUriRequiresPermission | uri, permission
+  assertWritingContentUriRequiresPermission | uri, permission
+  getContext | 
+  setContext | context
+  testAndroidTestCaseSetupProperly | 
+android.test.AndroidTestRunner
+ Methods: 15
+  addTestListener | testListener
+  clearTestListeners | 
+  getTestCases | 
+  getTestClassName | 
+  getTestResult | 
+  runTest | 
+  runTest | testResult
+  setContext | context
+  setInstrumentaiton | instrumentation
+  setInstrumentation | instrumentation
+  setTest | test
+  setTestClassName | testClassName, testMethodName
+  testEnded | testName
+  testFailed | status, test, t
+  testStarted | testName
+android.test.ApplicationTestCase
+ Methods: 3
+  getApplication | 
+  getSystemContext | 
+  testApplicationTestCaseSetUpProperly | 
+android.test.InstrumentationTestCase
+ Methods: 9
+  getInstrumentation | 
+  injectInsrumentation | instrumentation
+  injectInstrumentation | instrumentation
+  launchActivity | pkg, activityCls, extras
+  launchActivityWithIntent | pkg, activityCls, intent
+  runTestOnUiThread | r
+  sendKeys | keysSequence
+  sendKeys | keys
+  sendRepeatedKeys | keys
+android.test.InstrumentationTestRunner
+ Methods: 6
+  getAllTests | 
+  getArguments | 
+  getLoader | 
+  getTestSuite | 
+  onCreate | arguments
+  onStart | 
+android.test.InstrumentationTestSuite
+ Methods: 2
+  addTestSuite | testClass
+  runTest | test, result
+android.test.IsolatedContext
+ Methods: 11
+  bindService | service, conn, flags
+  checkUriPermission | uri, pid, uid, modeFlags
+  checkUriPermission | uri, readPermission, writePermission, pid, uid, modeFlags
+  getAndClearBroadcastIntents | 
+  getContentResolver | 
+  getFilesDir | 
+  getSystemService | name
+  registerReceiver | receiver, filter
+  sendBroadcast | intent
+  sendOrderedBroadcast | intent, receiverPermission
+  unregisterReceiver | receiver
+android.test.LoaderTestCase
+ Methods: 1
+  getLoaderResultSynchronously | loader
+android.test.MoreAsserts
+ Methods: 36
+  assertAssignableFrom | expected, actual
+  assertAssignableFrom | expected, actual
+  assertContainsRegex | expectedRegex, actual
+  assertContainsRegex | message, expectedRegex, actual
+  assertContentsInAnyOrder | message, actual, expected
+  assertContentsInAnyOrder | actual, expected
+  assertContentsInOrder | actual, expected
+  assertContentsInOrder | message, actual, expected
+  assertEmpty | ?, map
+  assertEmpty | iterable
+  assertEmpty | message, iterable
+  assertEmpty | message, ?, map
+  assertEquals | message, expected, actual
+  assertEquals | message, expected, actual
+  assertEquals | expected, actual
+  assertEquals | expected, actual
+  assertEquals | expected, actual
+  assertEquals | message, expected, actual
+  assertEquals | message, expected, actual
+  assertEquals | message, expected, actual
+  assertEquals | expected, actual
+  assertEquals | expected, actual
+  assertMatchesRegex | expectedRegex, actual
+  assertMatchesRegex | message, expectedRegex, actual
+  assertNotContainsRegex | message, expectedRegex, actual
+  assertNotContainsRegex | expectedRegex, actual
+  assertNotEmpty | iterable
+  assertNotEmpty | message, ?, map
+  assertNotEmpty | message, iterable
+  assertNotEmpty | ?, map
+  assertNotEqual | unexpected, actual
+  assertNotEqual | message, unexpected, actual
+  assertNotMatchesRegex | expectedRegex, actual
+  assertNotMatchesRegex | message, expectedRegex, actual
+  checkEqualsAndHashCodeMethods | message, lhs, rhs, expectedResult
+  checkEqualsAndHashCodeMethods | lhs, rhs, expectedResult
+android.test.ProviderTestCase
+ Methods: 4
+  getMockContentResolver | 
+  getMockContext | 
+  getProvider | 
+  newResolverWithContentProviderFromSql | targetContext, providerClass, authority, databaseName, databaseVersion, sql
+android.test.ProviderTestCase2
+ Methods: 4
+  getMockContentResolver | 
+  getMockContext | 
+  getProvider | 
+  newResolverWithContentProviderFromSql | targetContext, filenamePrefix, providerClass, authority, databaseName, databaseVersion, sql
+android.test.RenamingDelegatingContext
+ Methods: 15
+  databaseList | 
+  deleteDatabase | name
+  deleteFile | name
+  fileList | 
+  getCacheDir | 
+  getDatabasePath | name
+  getDatabasePrefix | 
+  getFileStreamPath | name
+  makeExistingFilesAndDbsAccessible | 
+  openFileInput | name
+  openFileOutput | name, mode
+  openOrCreateDatabase | name, mode, factory
+  openOrCreateDatabase | name, mode, factory, errorHandler
+  providerWithRenamedContext | contentProvider, c, filePrefix, allowAccessToExistingFilesAndDbs
+  providerWithRenamedContext | contentProvider, c, filePrefix
+android.test.ServiceTestCase
+ Methods: 5
+  getApplication | 
+  getService | 
+  getSystemContext | 
+  setApplication | application
+  testServiceTestCaseSetUpProperly | 
+android.test.SingleLaunchActivityTestCase
+ Methods: 2
+  getActivity | 
+  testActivityTestCaseSetUpProperly | 
+android.test.SyncBaseInstrumentation
+ Methods: 0
+android.test.TouchUtils
+ Methods: 31
+  clickView | test, v
+  drag | test, fromX, toX, fromY, toY, stepCount
+  drag | test, fromX, toX, fromY, toY, stepCount
+  dragQuarterScreenDown | test, activity
+  dragQuarterScreenDown | test
+  dragQuarterScreenUp | test
+  dragQuarterScreenUp | test, activity
+  dragViewBy | test, v, gravity, deltaX, deltaY
+  dragViewBy | test, v, gravity, deltaX, deltaY
+  dragViewTo | test, v, gravity, toX, toY
+  dragViewTo | test, v, gravity, toX, toY
+  dragViewToBottom | test, v
+  dragViewToBottom | test, activity, v, stepCount
+  dragViewToBottom | test, v, stepCount
+  dragViewToBottom | test, activity, v
+  dragViewToTop | test, v
+  dragViewToTop | test, v
+  dragViewToTop | test, v, stepCount
+  dragViewToTop | test, v, stepCount
+  dragViewToX | test, v, gravity, toX
+  dragViewToX | test, v, gravity, toX
+  dragViewToY | test, v, gravity, toY
+  dragViewToY | test, v, gravity, toY
+  longClickView | test, v
+  longClickView | test, v
+  scrollToBottom | test, v
+  scrollToBottom | test, activity, v
+  scrollToTop | test, v
+  scrollToTop | test, activity, v
+  tapView | test, v
+  touchAndCancelView | test, v
+android.test.ViewAsserts
+ Methods: 18
+  assertBaselineAligned | first, second
+  assertBottomAligned | first, second, margin
+  assertBottomAligned | first, second
+  assertGroupContains | parent, child
+  assertGroupIntegrity | parent
+  assertGroupNotContains | parent, child
+  assertHasScreenCoordinates | origin, view, x, y
+  assertHorizontalCenterAligned | reference, test
+  assertLeftAligned | first, second
+  assertLeftAligned | first, second, margin
+  assertOffScreenAbove | origin, view
+  assertOffScreenBelow | origin, view
+  assertOnScreen | origin, view
+  assertRightAligned | first, second, margin
+  assertRightAligned | first, second
+  assertTopAligned | first, second, margin
+  assertTopAligned | first, second
+  assertVerticalCenterAligned | reference, test
+android.test.AssertionFailedError
+ Methods: 0
+android.test.ComparisonFailure
+ Methods: 1
+  getMessage | 
+android.test.mock.MockApplication
+ Methods: 3
+  onConfigurationChanged | newConfig
+  onCreate | 
+  onTerminate | 
+android.test.mock.MockContentProvider
+ Methods: 11
+  applyBatch | operations
+  attachInfo | context, info
+  bulkInsert | uri, values
+  delete | uri, selection, selectionArgs
+  getStreamTypes | url, mimeTypeFilter
+  getType | uri
+  insert | uri, values
+  onCreate | 
+  openTypedAssetFile | url, mimeType, opts
+  query | uri, projection, selection, selectionArgs, sortOrder
+  update | uri, values, selection, selectionArgs
+android.test.mock.MockContentResolver
+ Methods: 2
+  addProvider | name, provider
+  notifyChange | uri, observer, syncToNetwork
+android.test.mock.MockContext
+ Methods: 103
+  bindService | service, conn, flags
+  checkCallingOrSelfPermission | permission
+  checkCallingOrSelfUriPermission | uri, modeFlags
+  checkCallingPermission | permission
+  checkCallingUriPermission | uri, modeFlags
+  checkPermission | permission, pid, uid
+  checkSelfPermission | permission
+  checkUriPermission | uri, readPermission, writePermission, pid, uid, modeFlags
+  checkUriPermission | uri, pid, uid, modeFlags
+  clearWallpaper | 
+  createConfigurationContext | overrideConfiguration
+  createDeviceProtectedStorageContext | 
+  createDisplayContext | display
+  createPackageContext | packageName, flags
+  databaseList | 
+  deleteDatabase | name
+  deleteFile | name
+  deleteSharedPreferences | name
+  enforceCallingOrSelfPermission | permission, message
+  enforceCallingOrSelfUriPermission | uri, modeFlags, message
+  enforceCallingPermission | permission, message
+  enforceCallingUriPermission | uri, modeFlags, message
+  enforcePermission | permission, pid, uid, message
+  enforceUriPermission | uri, readPermission, writePermission, pid, uid, modeFlags, message
+  enforceUriPermission | uri, pid, uid, modeFlags, message
+  fileList | 
+  getApplicationContext | 
+  getApplicationInfo | 
+  getAssets | 
+  getCacheDir | 
+  getClassLoader | 
+  getCodeCacheDir | 
+  getContentResolver | 
+  getDataDir | 
+  getDatabasePath | name
+  getDir | name, mode
+  getExternalCacheDir | 
+  getExternalCacheDirs | 
+  getExternalFilesDir | type
+  getExternalFilesDirs | type
+  getExternalMediaDirs | 
+  getFileStreamPath | name
+  getFilesDir | 
+  getMainLooper | 
+  getNoBackupFilesDir | 
+  getObbDir | 
+  getObbDirs | 
+  getPackageCodePath | 
+  getPackageManager | 
+  getPackageName | 
+  getPackageResourcePath | 
+  getResources | 
+  getSharedPreferences | name, mode
+  getSystemService | name
+  getSystemServiceName | serviceClass
+  getTheme | 
+  getWallpaper | 
+  getWallpaperDesiredMinimumHeight | 
+  getWallpaperDesiredMinimumWidth | 
+  grantUriPermission | toPackage, uri, modeFlags
+  isDeviceProtectedStorage | 
+  isRestricted | 
+  moveDatabaseFrom | sourceContext, name
+  moveSharedPreferencesFrom | sourceContext, name
+  openFileInput | name
+  openFileOutput | name, mode
+  openOrCreateDatabase | file, mode, factory, errorHandler
+  openOrCreateDatabase | file, mode, factory
+  peekWallpaper | 
+  registerReceiver | receiver, filter
+  registerReceiver | receiver, filter, flags
+  registerReceiver | receiver, filter, broadcastPermission, scheduler, flags
+  registerReceiver | receiver, filter, broadcastPermission, scheduler
+  removeStickyBroadcast | intent
+  removeStickyBroadcastAsUser | intent, user
+  revokeUriPermission | uri, modeFlags
+  revokeUriPermission | targetPackage, uri, modeFlags
+  sendBroadcast | intent, receiverPermission
+  sendBroadcast | intent
+  sendBroadcastAsUser | intent, user
+  sendBroadcastAsUser | intent, user, receiverPermission
+  sendOrderedBroadcast | intent, receiverPermission, resultReceiver, scheduler, initialCode, initialData, initialExtras
+  sendOrderedBroadcast | intent, receiverPermission
+  sendOrderedBroadcastAsUser | intent, user, receiverPermission, resultReceiver, scheduler, initialCode, initialData, initialExtras
+  sendStickyBroadcast | intent
+  sendStickyBroadcastAsUser | intent, user
+  sendStickyOrderedBroadcast | intent, resultReceiver, scheduler, initialCode, initialData, initialExtras
+  sendStickyOrderedBroadcastAsUser | intent, user, resultReceiver, scheduler, initialCode, initialData, initialExtras
+  setTheme | resid
+  setWallpaper | bitmap
+  setWallpaper | data
+  startActivities | intents, options
+  startActivities | intents
+  startActivity | intent
+  startActivity | intent, options
+  startForegroundService | service
+  startInstrumentation | className, profileFile, arguments
+  startIntentSender | intent, fillInIntent, flagsMask, flagsValues, extraFlags
+  startIntentSender | intent, fillInIntent, flagsMask, flagsValues, extraFlags, options
+  startService | service
+  stopService | service
+  unbindService | conn
+  unregisterReceiver | receiver
+android.test.mock.MockCursor
+ Methods: 41
+  close | 
+  copyStringToBuffer | columnIndex, buffer
+  deactivate | 
+  getBlob | columnIndex
+  getColumnCount | 
+  getColumnIndex | columnName
+  getColumnIndexOrThrow | columnName
+  getColumnName | columnIndex
+  getColumnNames | 
+  getCount | 
+  getDouble | columnIndex
+  getExtras | 
+  getFloat | columnIndex
+  getInt | columnIndex
+  getLong | columnIndex
+  getNotificationUri | 
+  getPosition | 
+  getShort | columnIndex
+  getString | columnIndex
+  getType | columnIndex
+  getWantsAllOnMoveCalls | 
+  isAfterLast | 
+  isBeforeFirst | 
+  isClosed | 
+  isFirst | 
+  isLast | 
+  isNull | columnIndex
+  move | offset
+  moveToFirst | 
+  moveToLast | 
+  moveToNext | 
+  moveToPosition | position
+  moveToPrevious | 
+  registerContentObserver | observer
+  registerDataSetObserver | observer
+  requery | 
+  respond | extras
+  setExtras | extras
+  setNotificationUri | cr, uri
+  unregisterContentObserver | observer
+  unregisterDataSetObserver | observer
+android.test.mock.MockDialogInterface
+ Methods: 2
+  cancel | 
+  dismiss | 
+android.test.mock.MockPackageManager
+ Methods: 87
+  addPackageToPreferred | packageName
+  addPermission | info
+  addPermissionAsync | info
+  addPreferredActivity | filter, match, set, activity
+  canRequestPackageInstalls | 
+  canonicalToCurrentPackageNames | names
+  checkPermission | permName, pkgName
+  checkSignatures | pkg1, pkg2
+  checkSignatures | uid1, uid2
+  clearPackagePreferredActivities | packageName
+  currentToCanonicalPackageNames | names
+  extendVerificationTimeout | id, verificationCodeAtTimeout, millisecondsToDelay
+  getActivityBanner | intent
+  getActivityBanner | activityName
+  getActivityIcon | intent
+  getActivityIcon | activityName
+  getActivityInfo | className, flags
+  getActivityLogo | intent
+  getActivityLogo | activityName
+  getAllIntentFilters | packageName
+  getAllPermissionGroups | flags
+  getApplicationBanner | info
+  getApplicationBanner | packageName
+  getApplicationEnabledSetting | packageName
+  getApplicationIcon | packageName
+  getApplicationIcon | info
+  getApplicationInfo | packageName, flags
+  getApplicationLabel | info
+  getApplicationLogo | packageName
+  getApplicationLogo | info
+  getComponentEnabledSetting | componentName
+  getDefaultActivityIcon | 
+  getDrawable | packageName, resid, appInfo
+  getInstalledApplications | flags
+  getInstalledPackages | flags
+  getInstallerPackageName | packageName
+  getInstrumentationInfo | className, flags
+  getLaunchIntentForPackage | packageName
+  getLeanbackLaunchIntentForPackage | packageName
+  getNameForUid | uid
+  getPackageArchiveInfo | archiveFilePath, flags
+  getPackageGids | packageName
+  getPackageGids | packageName, flags
+  getPackageInfo | packageName, flags
+  getPackageInfo | versionedPackage, flags
+  getPackageUid | packageName, flags
+  getPackagesForUid | uid
+  getPackagesHoldingPermissions | permissions, flags
+  getPermissionGroupInfo | name, flags
+  getPermissionInfo | name, flags
+  getPreferredActivities | outFilters, outActivities, packageName
+  getPreferredPackages | flags
+  getProviderInfo | className, flags
+  getReceiverInfo | className, flags
+  getResourcesForActivity | activityName
+  getResourcesForApplication | appPackageName
+  getResourcesForApplication | app
+  getServiceInfo | className, flags
+  getSharedLibraries | flags
+  getSystemAvailableFeatures | 
+  getSystemSharedLibraryNames | 
+  getText | packageName, resid, appInfo
+  getUserBadgedDrawableForDensity | drawable, user, badgeLocation, badgeDensity
+  getUserBadgedIcon | icon, user
+  getUserBadgedLabel | label, user
+  getXml | packageName, resid, appInfo
+  hasSystemFeature | name
+  hasSystemFeature | name, version
+  isPermissionRevokedByPolicy | permName, pkgName
+  isSafeMode | 
+  queryBroadcastReceivers | intent, flags
+  queryContentProviders | processName, uid, flags
+  queryInstrumentation | targetPackage, flags
+  queryIntentActivities | intent, flags
+  queryIntentActivityOptions | caller, specifics, intent, flags
+  queryIntentContentProviders | intent, flags
+  queryIntentServices | intent, flags
+  queryPermissionsByGroup | group, flags
+  removePackageFromPreferred | packageName
+  removePermission | name
+  resolveActivity | intent, flags
+  resolveContentProvider | name, flags
+  resolveService | intent, flags
+  setApplicationEnabledSetting | packageName, newState, flags
+  setComponentEnabledSetting | componentName, newState, flags
+  setInstallerPackageName | targetPackage, installerPackageName
+  verifyPendingInstall | id, verificationCode
+android.test.mock.MockResources
+ Methods: 35
+  getAnimation | id
+  getColor | id
+  getColorStateList | id
+  getConfiguration | 
+  getDimension | id
+  getDimensionPixelOffset | id
+  getDimensionPixelSize | id
+  getDisplayMetrics | 
+  getDrawable | id
+  getIdentifier | name, defType, defPackage
+  getIntArray | id
+  getInteger | id
+  getLayout | id
+  getMovie | id
+  getQuantityString | id, quantity, formatArgs
+  getQuantityString | id, quantity
+  getQuantityText | id, quantity
+  getResourceEntryName | resid
+  getResourceName | resid
+  getResourcePackageName | resid
+  getResourceTypeName | resid
+  getString | id
+  getString | id, formatArgs
+  getStringArray | id
+  getText | id, def
+  getText | id
+  getTextArray | id
+  getValue | name, outValue, resolveRefs
+  getValue | id, outValue, resolveRefs
+  getXml | id
+  obtainAttributes | set, attrs
+  obtainTypedArray | id
+  openRawResource | id
+  openRawResourceFd | id
+  updateConfiguration | config, metrics
+android.test.suitebuilder.TestMethod
+ Methods: 8
+  createTest | 
+  equals | o
+  getAnnotation | annotationClass
+  getEnclosingClass | 
+  getEnclosingClassname | 
+  getName | 
+  hashCode | 
+  toString | 
+android.test.suitebuilder.TestSuiteBuilder
+ Methods: 7
+  addRequirements | predicates
+  addRequirements | predicates
+  build | 
+  excludePackages | packageNames
+  includeAllPackagesUnderHere | 
+  includePackages | packageNames
+  named | newSuiteName
+android.test.suitebuilder.TestSuiteBuilder$FailedToCreateTests
+ Methods: 1
+  testSuiteConstructionFailed | 
+android.test.suitebuilder.annotation.LargeTest
+ Methods: 0
+android.test.suitebuilder.annotation.MediumTest
+ Methods: 0
+android.test.suitebuilder.annotation.SmallTest
+ Methods: 0
+android.test.suitebuilder.annotation.Smoke
+ Methods: 0
+android.test.suitebuilder.annotation.Suppress
+ Methods: 0
+android.text.Editable
+ Methods: 12
+  append | text
+  append | text, start, end
+  append | text
+  clear | 
+  clearSpans | 
+  delete | st, en
+  getFilters | 
+  insert | where, text
+  insert | where, text, start, end
+  replace | st, en, source, start, end
+  replace | st, en, text
+  setFilters | filters
+android.text.GetChars
+ Methods: 1
+  getChars | start, end, dest, destoff
+android.text.Html$ImageGetter
+ Methods: 1
+  getDrawable | source
+android.text.Html$TagHandler
+ Methods: 1
+  handleTag | opening, tag, output, xmlReader
+android.text.InputFilter
+ Methods: 1
+  filter | source, start, end, dest, dstart, dend
+android.text.InputType
+ Methods: 0
+android.text.NoCopySpan
+ Methods: 0
+android.text.ParcelableSpan
+ Methods: 1
+  getSpanTypeId | 
+android.text.Spannable
+ Methods: 2
+  removeSpan | what
+  setSpan | what, start, end, flags
+android.text.Spanned
+ Methods: 5
+  getSpanEnd | tag
+  getSpanFlags | tag
+  getSpanStart | tag
+  getSpans | start, end, type
+  nextSpanTransition | start, limit, type
+android.text.SpanWatcher
+ Methods: 3
+  onSpanAdded | text, what, start, end
+  onSpanChanged | text, what, ostart, oend, nstart, nend
+  onSpanRemoved | text, what, start, end
+android.text.TextDirectionHeuristic
+ Methods: 2
+  isRtl | array, start, count
+  isRtl | cs, start, count
+android.text.TextUtils$EllipsizeCallback
+ Methods: 1
+  ellipsized | start, end
+android.text.TextUtils$StringSplitter
+ Methods: 1
+  setString | string
+android.text.TextWatcher
+ Methods: 3
+  afterTextChanged | s
+  beforeTextChanged | s, start, count, after
+  onTextChanged | s, start, before, count
+android.text.AlteredCharSequence
+ Methods: 6
+  charAt | off
+  getChars | start, end, dest, off
+  length | 
+  make | source, sub, substart, subend
+  subSequence | start, end
+  toString | 
+android.text.AndroidCharacter
+ Methods: 5
+  getDirectionalities | src, dest, count
+  getEastAsianWidth | input
+  getEastAsianWidths | src, start, count, dest
+  getMirror | ch
+  mirror | text, start, count
+android.text.Annotation
+ Methods: 5
+  describeContents | 
+  getKey | 
+  getSpanTypeId | 
+  getValue | 
+  writeToParcel | dest, flags
+android.text.AutoText
+ Methods: 2
+  get | src, start, end, view
+  getSize | view
+android.text.BidiFormatter
+ Methods: 15
+  getInstance | 
+  getInstance | locale
+  getInstance | rtlContext
+  getStereoReset | 
+  isRtl | str
+  isRtl | str
+  isRtlContext | 
+  unicodeWrap | str
+  unicodeWrap | str, heuristic
+  unicodeWrap | str, heuristic, isolate
+  unicodeWrap | str, heuristic, isolate
+  unicodeWrap | str, isolate
+  unicodeWrap | str, isolate
+  unicodeWrap | str, heuristic
+  unicodeWrap | str
+android.text.BidiFormatter$Builder
+ Methods: 3
+  build | 
+  setTextDirectionHeuristic | heuristic
+  stereoReset | stereoReset
+android.text.BoringLayout
+ Methods: 23
+  draw | c, highlight, highlightpaint, cursorOffset
+  ellipsized | start, end
+  getBottomPadding | 
+  getEllipsisCount | line
+  getEllipsisStart | line
+  getEllipsizedWidth | 
+  getHeight | 
+  getLineContainsTab | line
+  getLineCount | 
+  getLineDescent | line
+  getLineDirections | line
+  getLineMax | line
+  getLineStart | line
+  getLineTop | line
+  getLineWidth | line
+  getParagraphDirection | line
+  getTopPadding | 
+  isBoring | text, paint
+  isBoring | text, paint, metrics
+  make | source, paint, outerwidth, align, spacingmult, spacingadd, metrics, includepad, ellipsize, ellipsizedWidth
+  make | source, paint, outerwidth, align, spacingmult, spacingadd, metrics, includepad
+  replaceOrMake | source, paint, outerwidth, align, spacingmult, spacingadd, metrics, includepad, ellipsize, ellipsizedWidth
+  replaceOrMake | source, paint, outerwidth, align, spacingmult, spacingadd, metrics, includepad
+android.text.BoringLayout$Metrics
+ Methods: 1
+  toString | 
+android.text.ClipboardManager
+ Methods: 3
+  getText | 
+  hasText | 
+  setText | text
+android.text.DynamicLayout
+ Methods: 12
+  getBottomPadding | 
+  getEllipsisCount | line
+  getEllipsisStart | line
+  getEllipsizedWidth | 
+  getLineContainsTab | line
+  getLineCount | 
+  getLineDescent | line
+  getLineDirections | line
+  getLineStart | line
+  getLineTop | line
+  getParagraphDirection | line
+  getTopPadding | 
+android.text.Editable$Factory
+ Methods: 2
+  getInstance | 
+  newEditable | source
+android.text.Html
+ Methods: 7
+  escapeHtml | text
+  fromHtml | source, flags
+  fromHtml | source, imageGetter, tagHandler
+  fromHtml | source, flags, imageGetter, tagHandler
+  fromHtml | source
+  toHtml | text, option
+  toHtml | text
+android.text.InputFilter$AllCaps
+ Methods: 1
+  filter | source, start, end, dest, dstart, dend
+android.text.InputFilter$LengthFilter
+ Methods: 2
+  filter | source, start, end, dest, dstart, dend
+  getMax | 
+android.text.Layout
+ Methods: 47
+  draw | c
+  draw | canvas, highlight, highlightPaint, cursorOffsetVertical
+  getAlignment | 
+  getBottomPadding | 
+  getCursorPath | point, dest, editingBuffer
+  getDesiredWidth | source, paint
+  getDesiredWidth | source, start, end, paint
+  getEllipsisCount | line
+  getEllipsisStart | line
+  getEllipsizedWidth | 
+  getHeight | 
+  getLineAscent | line
+  getLineBaseline | line
+  getLineBottom | line
+  getLineBounds | line, bounds
+  getLineContainsTab | line
+  getLineCount | 
+  getLineDescent | line
+  getLineDirections | line
+  getLineEnd | line
+  getLineForOffset | offset
+  getLineForVertical | vertical
+  getLineLeft | line
+  getLineMax | line
+  getLineRight | line
+  getLineStart | line
+  getLineTop | line
+  getLineVisibleEnd | line
+  getLineWidth | line
+  getOffsetForHorizontal | line, horiz
+  getOffsetToLeftOf | offset
+  getOffsetToRightOf | offset
+  getPaint | 
+  getParagraphAlignment | line
+  getParagraphDirection | line
+  getParagraphLeft | line
+  getParagraphRight | line
+  getPrimaryHorizontal | offset
+  getSecondaryHorizontal | offset
+  getSelectionPath | start, end, dest
+  getSpacingAdd | 
+  getSpacingMultiplier | 
+  getText | 
+  getTopPadding | 
+  getWidth | 
+  increaseWidthTo | wid
+  isRtlCharAt | offset
+android.text.Layout$Directions
+ Methods: 0
+android.text.LoginFilter
+ Methods: 5
+  filter | source, start, end, dest, dstart, dend
+  isAllowed | c
+  onInvalidCharacter | c
+  onStart | 
+  onStop | 
+android.text.LoginFilter$PasswordFilterGMail
+ Methods: 1
+  isAllowed | c
+android.text.LoginFilter$UsernameFilterGeneric
+ Methods: 1
+  isAllowed | c
+android.text.LoginFilter$UsernameFilterGMail
+ Methods: 1
+  isAllowed | c
+android.text.NoCopySpan$Concrete
+ Methods: 0
+android.text.Selection
+ Methods: 19
+  extendDown | text, layout
+  extendLeft | text, layout
+  extendRight | text, layout
+  extendSelection | text, index
+  extendToLeftEdge | text, layout
+  extendToRightEdge | text, layout
+  extendUp | text, layout
+  getSelectionEnd | text
+  getSelectionStart | text
+  moveDown | text, layout
+  moveLeft | text, layout
+  moveRight | text, layout
+  moveToLeftEdge | text, layout
+  moveToRightEdge | text, layout
+  moveUp | text, layout
+  removeSelection | text
+  selectAll | text
+  setSelection | text, start, stop
+  setSelection | text, index
+android.text.Spannable$Factory
+ Methods: 2
+  getInstance | 
+  newSpannable | source
+android.text.SpannableString
+ Methods: 15
+  charAt | i
+  equals | o
+  getChars | start, end, dest, off
+  getSpanEnd | what
+  getSpanFlags | what
+  getSpanStart | what
+  getSpans | queryStart, queryEnd, kind
+  hashCode | 
+  length | 
+  nextSpanTransition | start, limit, kind
+  removeSpan | what
+  setSpan | what, start, end, flags
+  subSequence | start, end
+  toString | 
+  valueOf | source
+android.text.SpannableStringBuilder
+ Methods: 30
+  append | text
+  append | text, what, flags
+  append | text, start, end
+  append | text
+  charAt | where
+  clear | 
+  clearSpans | 
+  delete | start, end
+  equals | o
+  getChars | start, end, dest, destoff
+  getFilters | 
+  getSpanEnd | what
+  getSpanFlags | what
+  getSpanStart | what
+  getSpans | queryStart, queryEnd, kind
+  getTextRunCursor | contextStart, contextEnd, dir, offset, cursorOpt, p
+  getTextWatcherDepth | 
+  hashCode | 
+  insert | where, tb
+  insert | where, tb, start, end
+  length | 
+  nextSpanTransition | start, limit, kind
+  removeSpan | what
+  replace | start, end, tb, tbstart, tbend
+  replace | start, end, tb
+  setFilters | filters
+  setSpan | what, start, end, flags
+  subSequence | start, end
+  toString | 
+  valueOf | source
+android.text.SpannedString
+ Methods: 13
+  charAt | i
+  equals | o
+  getChars | start, end, dest, off
+  getSpanEnd | what
+  getSpanFlags | what
+  getSpanStart | what
+  getSpans | queryStart, queryEnd, kind
+  hashCode | 
+  length | 
+  nextSpanTransition | start, limit, kind
+  subSequence | start, end
+  toString | 
+  valueOf | source
+android.text.StaticLayout
+ Methods: 13
+  getBottomPadding | 
+  getEllipsisCount | line
+  getEllipsisStart | line
+  getEllipsizedWidth | 
+  getLineContainsTab | line
+  getLineCount | 
+  getLineDescent | line
+  getLineDirections | line
+  getLineForVertical | vertical
+  getLineStart | line
+  getLineTop | line
+  getParagraphDirection | line
+  getTopPadding | 
+android.text.StaticLayout$Builder
+ Methods: 14
+  build | 
+  obtain | source, start, end, paint, width
+  setAlignment | alignment
+  setBreakStrategy | breakStrategy
+  setEllipsize | ellipsize
+  setEllipsizedWidth | ellipsizedWidth
+  setHyphenationFrequency | hyphenationFrequency
+  setIncludePad | includePad
+  setIndents | leftIndents, rightIndents
+  setJustificationMode | justificationMode
+  setLineSpacing | spacingAdd, spacingMult
+  setMaxLines | maxLines
+  setText | source
+  setTextDirection | textDir
+android.text.TextDirectionHeuristics
+ Methods: 0
+android.text.TextPaint
+ Methods: 1
+  set | tp
+android.text.TextUtils
+ Methods: 39
+  commaEllipsize | text, p, avail, oneMore, more
+  concat | text
+  copySpansFrom | source, start, end, kind, dest, destoff
+  dumpSpans | cs, printer, prefix
+  ellipsize | text, p, avail, where
+  ellipsize | text, paint, avail, where, preserveLength, callback
+  equals | a, b
+  expandTemplate | template, values
+  getCapsMode | cs, off, reqModes
+  getChars | s, start, end, dest, destoff
+  getLayoutDirectionFromLocale | locale
+  getOffsetAfter | text, offset
+  getOffsetBefore | text, offset
+  getReverse | source, start, end
+  getTrimmedLength | s
+  htmlEncode | s
+  indexOf | s, ch, start, end
+  indexOf | s, needle, start, end
+  indexOf | s, needle, start
+  indexOf | s, needle
+  indexOf | s, ch, start
+  indexOf | s, ch
+  isDigitsOnly | str
+  isEmpty | str
+  isGraphic | str
+  isGraphic | c
+  join | delimiter, tokens
+  join | delimiter, tokens
+  lastIndexOf | s, ch, last
+  lastIndexOf | s, ch
+  lastIndexOf | s, ch, start, last
+  listEllipsize | context, elements, separator, paint, avail, moreId
+  regionMatches | one, toffset, two, ooffset, len
+  replace | template, sources, destinations
+  split | text, pattern
+  split | text, expression
+  stringOrSpannedString | source
+  substring | source, start, end
+  writeToParcel | cs, p, parcelableFlags
+android.text.TextUtils$SimpleStringSplitter
+ Methods: 5
+  hasNext | 
+  iterator | 
+  next | 
+  remove | 
+  setString | string
+android.text.Layout$Alignment
+ Methods: 2
+  valueOf | name
+  values | 
+android.text.TextUtils$TruncateAt
+ Methods: 2
+  valueOf | name
+  values | 
+android.text.format.DateFormat
+ Methods: 10
+  format | inFormat, inDate
+  format | inFormat, inDate
+  format | inFormat, inTimeInMillis
+  getBestDateTimePattern | locale, skeleton
+  getDateFormat | context
+  getDateFormatOrder | context
+  getLongDateFormat | context
+  getMediumDateFormat | context
+  getTimeFormat | context
+  is24HourFormat | context
+android.text.format.DateUtils
+ Methods: 17
+  formatDateRange | context, formatter, startMillis, endMillis, flags, timeZone
+  formatDateRange | context, formatter, startMillis, endMillis, flags
+  formatDateRange | context, startMillis, endMillis, flags
+  formatDateTime | context, millis, flags
+  formatElapsedTime | recycle, elapsedSeconds
+  formatElapsedTime | elapsedSeconds
+  formatSameDayTime | then, now, dateStyle, timeStyle
+  getAMPMString | ampm
+  getDayOfWeekString | dayOfWeek, abbrev
+  getMonthString | month, abbrev
+  getRelativeDateTimeString | c, time, minResolution, transitionResolution, flags
+  getRelativeTimeSpanString | c, millis, withPreposition
+  getRelativeTimeSpanString | time, now, minResolution, flags
+  getRelativeTimeSpanString | startTime
+  getRelativeTimeSpanString | time, now, minResolution
+  getRelativeTimeSpanString | c, millis
+  isToday | when
+android.text.format.Formatter
+ Methods: 3
+  formatFileSize | context, sizeBytes
+  formatIpAddress | ipv4Address
+  formatShortFileSize | context, sizeBytes
+android.text.format.Time
+ Methods: 26
+  after | that
+  before | that
+  clear | timezoneId
+  compare | a, b
+  format | format
+  format2445 | 
+  format3339 | allDay
+  getActualMaximum | field
+  getCurrentTimezone | 
+  getJulianDay | millis, gmtoff
+  getJulianMondayFromWeeksSinceEpoch | week
+  getWeekNumber | 
+  getWeeksSinceEpochFromJulianDay | julianDay, firstDayOfWeek
+  isEpoch | time
+  normalize | ignoreDst
+  parse | s
+  parse3339 | s
+  set | that
+  set | second, minute, hour, monthDay, month, year
+  set | monthDay, month, year
+  set | millis
+  setJulianDay | julianDay
+  setToNow | 
+  switchTimezone | timezone
+  toMillis | ignoreDst
+  toString | 
+android.text.method.KeyListener
+ Methods: 5
+  clearMetaKeyState | view, content, states
+  getInputType | 
+  onKeyDown | view, text, keyCode, event
+  onKeyOther | view, text, event
+  onKeyUp | view, text, keyCode, event
+android.text.method.MovementMethod
+ Methods: 9
+  canSelectArbitrarily | 
+  initialize | widget, text
+  onGenericMotionEvent | widget, text, event
+  onKeyDown | widget, text, keyCode, event
+  onKeyOther | view, text, event
+  onKeyUp | widget, text, keyCode, event
+  onTakeFocus | widget, text, direction
+  onTouchEvent | widget, text, event
+  onTrackballEvent | widget, text, event
+android.text.method.TransformationMethod
+ Methods: 2
+  getTransformation | source, view
+  onFocusChanged | view, sourceText, focused, direction, previouslyFocusedRect
+android.text.method.ArrowKeyMovementMethod
+ Methods: 5
+  canSelectArbitrarily | 
+  getInstance | 
+  initialize | widget, text
+  onTakeFocus | view, text, dir
+  onTouchEvent | widget, buffer, event
+android.text.method.BaseKeyListener
+ Methods: 4
+  backspace | view, content, keyCode, event
+  forwardDelete | view, content, keyCode, event
+  onKeyDown | view, content, keyCode, event
+  onKeyOther | view, content, event
+android.text.method.BaseMovementMethod
+ Methods: 9
+  canSelectArbitrarily | 
+  initialize | widget, text
+  onGenericMotionEvent | widget, text, event
+  onKeyDown | widget, text, keyCode, event
+  onKeyOther | widget, text, event
+  onKeyUp | widget, text, keyCode, event
+  onTakeFocus | widget, text, direction
+  onTouchEvent | widget, text, event
+  onTrackballEvent | widget, text, event
+android.text.method.CharacterPickerDialog
+ Methods: 2
+  onClick | v
+  onItemClick | parent, view, position, id
+android.text.method.DateKeyListener
+ Methods: 3
+  getInputType | 
+  getInstance | 
+  getInstance | locale
+android.text.method.DateTimeKeyListener
+ Methods: 3
+  getInputType | 
+  getInstance | 
+  getInstance | locale
+android.text.method.DialerKeyListener
+ Methods: 2
+  getInputType | 
+  getInstance | 
+android.text.method.DigitsKeyListener
+ Methods: 7
+  filter | source, start, end, dest, dstart, dend
+  getInputType | 
+  getInstance | accepted
+  getInstance | 
+  getInstance | locale
+  getInstance | locale, sign, decimal
+  getInstance | sign, decimal
+android.text.method.HideReturnsTransformationMethod
+ Methods: 1
+  getInstance | 
+android.text.method.LinkMovementMethod
+ Methods: 5
+  canSelectArbitrarily | 
+  getInstance | 
+  initialize | widget, text
+  onTakeFocus | view, text, dir
+  onTouchEvent | widget, buffer, event
+android.text.method.MetaKeyKeyListener
+ Methods: 19
+  adjustMetaAfterKeypress | content
+  adjustMetaAfterKeypress | state
+  clearMetaKeyState | content, states
+  clearMetaKeyState | state, which
+  clearMetaKeyState | view, content, states
+  getMetaState | text
+  getMetaState | text, meta
+  getMetaState | state
+  getMetaState | text, event
+  getMetaState | state, meta
+  getMetaState | text, meta, event
+  handleKeyDown | state, keyCode, event
+  handleKeyUp | state, keyCode, event
+  isMetaTracker | text, what
+  isSelectingMetaTracker | text, what
+  onKeyDown | view, content, keyCode, event
+  onKeyUp | view, content, keyCode, event
+  resetLockedMeta | state
+  resetMetaState | text
+android.text.method.MultiTapKeyListener
+ Methods: 6
+  getInputType | 
+  getInstance | autotext, cap
+  onKeyDown | view, content, keyCode, event
+  onSpanAdded | s, what, start, end
+  onSpanChanged | buf, what, s, e, start, stop
+  onSpanRemoved | s, what, start, end
+android.text.method.NumberKeyListener
+ Methods: 2
+  filter | source, start, end, dest, dstart, dend
+  onKeyDown | view, content, keyCode, event
+android.text.method.PasswordTransformationMethod
+ Methods: 6
+  afterTextChanged | s
+  beforeTextChanged | s, start, count, after
+  getInstance | 
+  getTransformation | source, view
+  onFocusChanged | view, sourceText, focused, direction, previouslyFocusedRect
+  onTextChanged | s, start, before, count
+android.text.method.QwertyKeyListener
+ Methods: 5
+  getInputType | 
+  getInstance | autoText, cap
+  getInstanceForFullKeyboard | 
+  markAsReplaced | content, start, end, original
+  onKeyDown | view, content, keyCode, event
+android.text.method.ReplacementTransformationMethod
+ Methods: 2
+  getTransformation | source, v
+  onFocusChanged | view, sourceText, focused, direction, previouslyFocusedRect
+android.text.method.ScrollingMovementMethod
+ Methods: 3
+  getInstance | 
+  onTakeFocus | widget, text, dir
+  onTouchEvent | widget, buffer, event
+android.text.method.SingleLineTransformationMethod
+ Methods: 1
+  getInstance | 
+android.text.method.TextKeyListener
+ Methods: 12
+  clear | e
+  getInputType | 
+  getInstance | autotext, cap
+  getInstance | 
+  onKeyDown | view, content, keyCode, event
+  onKeyOther | view, content, event
+  onKeyUp | view, content, keyCode, event
+  onSpanAdded | s, what, start, end
+  onSpanChanged | s, what, start, end, st, en
+  onSpanRemoved | s, what, start, end
+  release | 
+  shouldCap | cap, cs, off
+android.text.method.TimeKeyListener
+ Methods: 3
+  getInputType | 
+  getInstance | 
+  getInstance | locale
+android.text.method.Touch
+ Methods: 4
+  getInitialScrollX | widget, buffer
+  getInitialScrollY | widget, buffer
+  onTouchEvent | widget, buffer, event
+  scrollTo | widget, layout, x, y
+android.text.method.TextKeyListener$Capitalize
+ Methods: 2
+  valueOf | name
+  values | 
+android.text.style.AlignmentSpan
+ Methods: 1
+  getAlignment | 
+android.text.style.LeadingMarginSpan
+ Methods: 2
+  drawLeadingMargin | c, p, x, dir, top, baseline, bottom, text, start, end, first, layout
+  getLeadingMargin | first
+android.text.style.LeadingMarginSpan$LeadingMarginSpan2
+ Methods: 1
+  getLeadingMarginLineCount | 
+android.text.style.LineBackgroundSpan
+ Methods: 1
+  drawBackground | c, p, left, right, top, baseline, bottom, text, start, end, lnum
+android.text.style.LineHeightSpan
+ Methods: 1
+  chooseHeight | text, start, end, spanstartv, v, fm
+android.text.style.LineHeightSpan$WithDensity
+ Methods: 1
+  chooseHeight | text, start, end, spanstartv, v, fm, paint
+android.text.style.ParagraphStyle
+ Methods: 0
+android.text.style.TabStopSpan
+ Methods: 1
+  getTabStop | 
+android.text.style.UpdateAppearance
+ Methods: 0
+android.text.style.UpdateLayout
+ Methods: 0
+android.text.style.WrapTogetherSpan
+ Methods: 0
+android.text.style.AbsoluteSizeSpan
+ Methods: 7
+  describeContents | 
+  getDip | 
+  getSize | 
+  getSpanTypeId | 
+  updateDrawState | ds
+  updateMeasureState | ds
+  writeToParcel | dest, flags
+android.text.style.AlignmentSpan$Standard
+ Methods: 4
+  describeContents | 
+  getAlignment | 
+  getSpanTypeId | 
+  writeToParcel | dest, flags
+android.text.style.BackgroundColorSpan
+ Methods: 5
+  describeContents | 
+  getBackgroundColor | 
+  getSpanTypeId | 
+  updateDrawState | ds
+  writeToParcel | dest, flags
+android.text.style.BulletSpan
+ Methods: 5
+  describeContents | 
+  drawLeadingMargin | c, p, x, dir, top, baseline, bottom, text, start, end, first, l
+  getLeadingMargin | first
+  getSpanTypeId | 
+  writeToParcel | dest, flags
+android.text.style.CharacterStyle
+ Methods: 3
+  getUnderlying | 
+  updateDrawState | tp
+  wrap | cs
+android.text.style.ClickableSpan
+ Methods: 2
+  onClick | widget
+  updateDrawState | ds
+android.text.style.DrawableMarginSpan
+ Methods: 3
+  chooseHeight | text, start, end, istartv, v, fm
+  drawLeadingMargin | c, p, x, dir, top, baseline, bottom, text, start, end, first, layout
+  getLeadingMargin | first
+android.text.style.DynamicDrawableSpan
+ Methods: 4
+  draw | canvas, text, start, end, x, top, y, bottom, paint
+  getDrawable | 
+  getSize | paint, text, start, end, fm
+  getVerticalAlignment | 
+android.text.style.EasyEditSpan
+ Methods: 3
+  describeContents | 
+  getSpanTypeId | 
+  writeToParcel | dest, flags
+android.text.style.ForegroundColorSpan
+ Methods: 5
+  describeContents | 
+  getForegroundColor | 
+  getSpanTypeId | 
+  updateDrawState | ds
+  writeToParcel | dest, flags
+android.text.style.IconMarginSpan
+ Methods: 3
+  chooseHeight | text, start, end, istartv, v, fm
+  drawLeadingMargin | c, p, x, dir, top, baseline, bottom, text, start, end, first, layout
+  getLeadingMargin | first
+android.text.style.ImageSpan
+ Methods: 2
+  getDrawable | 
+  getSource | 
+android.text.style.LeadingMarginSpan$Standard
+ Methods: 5
+  describeContents | 
+  drawLeadingMargin | c, p, x, dir, top, baseline, bottom, text, start, end, first, layout
+  getLeadingMargin | first
+  getSpanTypeId | 
+  writeToParcel | dest, flags
+android.text.style.LocaleSpan
+ Methods: 7
+  describeContents | 
+  getLocale | 
+  getLocales | 
+  getSpanTypeId | 
+  updateDrawState | ds
+  updateMeasureState | paint
+  writeToParcel | dest, flags
+android.text.style.MaskFilterSpan
+ Methods: 2
+  getMaskFilter | 
+  updateDrawState | ds
+android.text.style.MetricAffectingSpan
+ Methods: 2
+  getUnderlying | 
+  updateMeasureState | p
+android.text.style.QuoteSpan
+ Methods: 6
+  describeContents | 
+  drawLeadingMargin | c, p, x, dir, top, baseline, bottom, text, start, end, first, layout
+  getColor | 
+  getLeadingMargin | first
+  getSpanTypeId | 
+  writeToParcel | dest, flags
+android.text.style.RelativeSizeSpan
+ Methods: 6
+  describeContents | 
+  getSizeChange | 
+  getSpanTypeId | 
+  updateDrawState | ds
+  updateMeasureState | ds
+  writeToParcel | dest, flags
+android.text.style.ReplacementSpan
+ Methods: 4
+  draw | canvas, text, start, end, x, top, y, bottom, paint
+  getSize | paint, text, start, end, fm
+  updateDrawState | ds
+  updateMeasureState | p
+android.text.style.ScaleXSpan
+ Methods: 6
+  describeContents | 
+  getScaleX | 
+  getSpanTypeId | 
+  updateDrawState | ds
+  updateMeasureState | ds
+  writeToParcel | dest, flags
+android.text.style.StrikethroughSpan
+ Methods: 4
+  describeContents | 
+  getSpanTypeId | 
+  updateDrawState | ds
+  writeToParcel | dest, flags
+android.text.style.StyleSpan
+ Methods: 6
+  describeContents | 
+  getSpanTypeId | 
+  getStyle | 
+  updateDrawState | ds
+  updateMeasureState | paint
+  writeToParcel | dest, flags
+android.text.style.SubscriptSpan
+ Methods: 5
+  describeContents | 
+  getSpanTypeId | 
+  updateDrawState | tp
+  updateMeasureState | tp
+  writeToParcel | dest, flags
+android.text.style.SuggestionSpan
+ Methods: 11
+  describeContents | 
+  equals | o
+  getFlags | 
+  getLocale | 
+  getLocaleObject | 
+  getSpanTypeId | 
+  getSuggestions | 
+  hashCode | 
+  setFlags | flags
+  updateDrawState | tp
+  writeToParcel | dest, flags
+android.text.style.SuperscriptSpan
+ Methods: 5
+  describeContents | 
+  getSpanTypeId | 
+  updateDrawState | tp
+  updateMeasureState | tp
+  writeToParcel | dest, flags
+android.text.style.TabStopSpan$Standard
+ Methods: 1
+  getTabStop | 
+android.text.style.TextAppearanceSpan
+ Methods: 10
+  describeContents | 
+  getFamily | 
+  getLinkTextColor | 
+  getSpanTypeId | 
+  getTextColor | 
+  getTextSize | 
+  getTextStyle | 
+  updateDrawState | ds
+  updateMeasureState | ds
+  writeToParcel | dest, flags
+android.text.style.TtsSpan
+ Methods: 5
+  describeContents | 
+  getArgs | 
+  getSpanTypeId | 
+  getType | 
+  writeToParcel | dest, flags
+android.text.style.TtsSpan$Builder
+ Methods: 4
+  build | 
+  setIntArgument | arg, value
+  setLongArgument | arg, value
+  setStringArgument | arg, value
+android.text.style.TtsSpan$CardinalBuilder
+ Methods: 2
+  setNumber | number
+  setNumber | number
+android.text.style.TtsSpan$DateBuilder
+ Methods: 4
+  setDay | day
+  setMonth | month
+  setWeekday | weekday
+  setYear | year
+android.text.style.TtsSpan$DecimalBuilder
+ Methods: 4
+  setArgumentsFromDouble | number, minimumFractionDigits, maximumFractionDigits
+  setFractionalPart | fractionalPart
+  setIntegerPart | integerPart
+  setIntegerPart | integerPart
+android.text.style.TtsSpan$DigitsBuilder
+ Methods: 1
+  setDigits | digits
+android.text.style.TtsSpan$ElectronicBuilder
+ Methods: 9
+  setDomain | domain
+  setEmailArguments | username, domain
+  setFragmentId | fragmentId
+  setPassword | password
+  setPath | path
+  setPort | port
+  setProtocol | protocol
+  setQueryString | queryString
+  setUsername | username
+android.text.style.TtsSpan$FractionBuilder
+ Methods: 6
+  setDenominator | denominator
+  setDenominator | denominator
+  setIntegerPart | integerPart
+  setIntegerPart | integerPart
+  setNumerator | numerator
+  setNumerator | numerator
+android.text.style.TtsSpan$MeasureBuilder
+ Methods: 10
+  setDenominator | denominator
+  setDenominator | denominator
+  setFractionalPart | fractionalPart
+  setIntegerPart | integerPart
+  setIntegerPart | integerPart
+  setNumber | number
+  setNumber | number
+  setNumerator | numerator
+  setNumerator | numerator
+  setUnit | unit
+android.text.style.TtsSpan$MoneyBuilder
+ Methods: 5
+  setCurrency | currency
+  setFractionalPart | fractionalPart
+  setIntegerPart | integerPart
+  setIntegerPart | integerPart
+  setQuantity | quantity
+android.text.style.TtsSpan$OrdinalBuilder
+ Methods: 2
+  setNumber | number
+  setNumber | number
+android.text.style.TtsSpan$SemioticClassBuilder
+ Methods: 4
+  setAnimacy | animacy
+  setCase | grammaticalCase
+  setGender | gender
+  setMultiplicity | multiplicity
+android.text.style.TtsSpan$TelephoneBuilder
+ Methods: 3
+  setCountryCode | countryCode
+  setExtension | extension
+  setNumberParts | numberParts
+android.text.style.TtsSpan$TextBuilder
+ Methods: 1
+  setText | text
+android.text.style.TtsSpan$TimeBuilder
+ Methods: 2
+  setHours | hours
+  setMinutes | minutes
+android.text.style.TtsSpan$VerbatimBuilder
+ Methods: 1
+  setVerbatim | verbatim
+android.text.style.TypefaceSpan
+ Methods: 6
+  describeContents | 
+  getFamily | 
+  getSpanTypeId | 
+  updateDrawState | ds
+  updateMeasureState | paint
+  writeToParcel | dest, flags
+android.text.style.UnderlineSpan
+ Methods: 4
+  describeContents | 
+  getSpanTypeId | 
+  updateDrawState | ds
+  writeToParcel | dest, flags
+android.text.style.URLSpan
+ Methods: 5
+  describeContents | 
+  getSpanTypeId | 
+  getURL | 
+  onClick | widget
+  writeToParcel | dest, flags
+android.text.util.Linkify$MatchFilter
+ Methods: 1
+  acceptMatch | s, start, end
+android.text.util.Linkify$TransformFilter
+ Methods: 1
+  transformUrl | match, url
+android.text.util.Linkify
+ Methods: 8
+  addLinks | text, pattern, scheme, matchFilter, transformFilter
+  addLinks | text, pattern, defaultScheme, schemes, matchFilter, transformFilter
+  addLinks | spannable, pattern, defaultScheme, schemes, matchFilter, transformFilter
+  addLinks | text, pattern, scheme
+  addLinks | text, mask
+  addLinks | text, pattern, scheme
+  addLinks | spannable, pattern, scheme, matchFilter, transformFilter
+  addLinks | text, mask
+android.text.util.Rfc822Token
+ Methods: 12
+  equals | o
+  getAddress | 
+  getComment | 
+  getName | 
+  hashCode | 
+  quoteComment | comment
+  quoteName | name
+  quoteNameIfNecessary | name
+  setAddress | address
+  setComment | comment
+  setName | name
+  toString | 
+android.text.util.Rfc822Tokenizer
+ Methods: 5
+  findTokenEnd | text, cursor
+  findTokenStart | text, cursor
+  terminateToken | text
+  tokenize | text, out
+  tokenize | text

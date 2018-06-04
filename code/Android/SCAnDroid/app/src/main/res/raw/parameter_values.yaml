@@ -1,0 +1,38 @@
+# Constructor name e.g.: android.net.Credentials.pid
+# Assigning null is not supported
+primitiveParameterValues:
+    android.net.TrafficStats:
+      "*":
+        uid: 10062
+    android.content.Context:
+      getSystemService:
+        name: {value: ["storagestats", "netstats", "storage", "batterymanager", "sensor",
+        "systemhealth", "account", "alarm", "appops",  "bluetooth", "camera", "captioning", "carrier_config",
+        "clipboard", "companiondevice", "connectivity", "consumer_ir", "device_policy", "display", "download",
+        "dropbox", "fingerprint", "hardware_properties", "input_method", "input", "jobscheduler", "keyguard",
+        "launcherapps", "layout_inflater", "location", "media_projection", "media_router", "media_session",
+        "midi", "nfc", "notification", "servicediscovery", "power", "print", "restrictions",  "shortcut", "telecom",
+        "phone", "telephony_subscription_service", "textclassification", "textservices", "tv_input", "uimode", "usagestats",
+        "usb", "user", "vibrator", "wallpaper", "wifiaware", "wifip2p", "wifi", "window", "accessibility", "activity", "search", "audio"],
+         parameter_is_array: false}
+    android.app.usage.NetworkStatsManager:
+      "*":
+        networkType: {value: [0, 1], parameter_is_array: false} # MOBILE: 0 WIFI: 1
+        uid: {value: [10062, 10098, 10099], parameter_is_array: false}
+        tag: 0 # TAG_NONE
+    uid: {value: [10062, 10098, 10099], parameter_is_array: false}
+    pids: [10795]
+parameterStatements:
+    android.app.usage.NetworkStatsManager:
+      "*":
+        startTime: "System.currentTimeMillis()"
+        endTime: "System.currentTimeMillis() + 1000 * 60 * 60"
+        subscriberId: "((android.telephony.TelephonyManager)context.getSystemService(\"phone\")).getSubscriberId();" # remove when profiling without permission/add when profiling with permission
+    android.os.storage.StorageManager:
+      "*":
+        storageUuid: "UUID.fromString(\"41217664-9172-527a-b3d5-edabb50a7d69\");"
+    android.app.usage.StorageStatsManager:
+      "*":
+        storageUuid: "UUID.fromString(\"41217664-9172-527a-b3d5-edabb50a7d69\");"
+    storageUuid: "UUID.fromString(\"41217664-9172-527a-b3d5-edabb50a7d69\");"
+    context: context

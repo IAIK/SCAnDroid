@@ -1,0 +1,3 @@
+android.content.Context
+ Methods: 1
+  getExternalCacheDir |

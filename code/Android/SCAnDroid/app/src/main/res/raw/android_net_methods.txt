@@ -1,0 +1,1115 @@
+android.net.ConnectivityManager.OnNetworkActiveListener
+ Methods: 1
+  onNetworkActive |
+android.net.UrlQuerySanitizer.ValueSanitizer
+ Methods: 1
+  sanitize | value
+android.net.CaptivePortal
+ Methods: 4
+  describeContents |
+  ignoreNetwork |
+  reportCaptivePortalDismissed |
+  writeToParcel | out, flags
+android.net.ConnectivityManager
+ Methods: 39
+  addDefaultNetworkActiveListener | l
+  bindProcessToNetwork | network
+  getActiveNetwork |
+  getActiveNetworkInfo |
+  getAllNetworkInfo |
+  getAllNetworks |
+  getBackgroundDataSetting |
+  getBoundNetworkForProcess |
+  getDefaultProxy |
+  getLinkProperties | network
+  getMultipathPreference | network
+  getNetworkCapabilities | network
+  getNetworkInfo | networkType
+  getNetworkInfo | network
+  getNetworkPreference |
+  getProcessDefaultNetwork |
+  getRestrictBackgroundStatus |
+  isActiveNetworkMetered |
+  isDefaultNetworkActive |
+  isNetworkTypeValid | networkType
+  registerDefaultNetworkCallback | networkCallback
+  registerDefaultNetworkCallback | networkCallback, handler
+  registerNetworkCallback | request, networkCallback
+  registerNetworkCallback | request, operation
+  registerNetworkCallback | request, networkCallback, handler
+  releaseNetworkRequest | operation
+  removeDefaultNetworkActiveListener | l
+  reportBadNetwork | network
+  reportNetworkConnectivity | network, hasConnectivity
+  requestBandwidthUpdate | network
+  requestNetwork | request, networkCallback
+  requestNetwork | request, networkCallback, timeoutMs
+  requestNetwork | request, networkCallback, handler
+  requestNetwork | request, operation
+  requestNetwork | request, networkCallback, handler, timeoutMs
+  setNetworkPreference | preference
+  setProcessDefaultNetwork | network
+  unregisterNetworkCallback | networkCallback
+  unregisterNetworkCallback | operation
+android.net.ConnectivityManager.NetworkCallback
+ Methods: 6
+  onAvailable | network
+  onCapabilitiesChanged | network, networkCapabilities
+  onLinkPropertiesChanged | network, linkProperties
+  onLosing | network, maxMsToLive
+  onLost | network
+  onUnavailable |
+android.net.Credentials
+ Methods: 3
+  getGid |
+  getPid |
+  getUid |
+android.net.DhcpInfo
+ Methods: 1
+  toString |
+android.net.IpPrefix
+ Methods: 9
+  contains | address
+  describeContents |
+  equals | obj
+  getAddress |
+  getPrefixLength |
+  getRawAddress |
+  hashCode |
+  toString |
+  writeToParcel | dest, flags
+android.net.LinkAddress
+ Methods: 9
+  describeContents |
+  equals | obj
+  getAddress |
+  getFlags |
+  getPrefixLength |
+  getScope |
+  hashCode |
+  toString |
+  writeToParcel | dest, flags
+android.net.LinkProperties
+ Methods: 11
+  describeContents |
+  equals | obj
+  getDnsServers |
+  getDomains |
+  getHttpProxy |
+  getInterfaceName |
+  getLinkAddresses |
+  getRoutes |
+  hashCode |
+  toString |
+  writeToParcel | dest, flags
+android.net.LocalServerSocket
+ Methods: 4
+  accept |
+  close |
+  getFileDescriptor |
+  getLocalSocketAddress |
+android.net.LocalSocket
+ Methods: 26
+  bind | bindpoint
+  close |
+  connect | endpoint, timeout
+  connect | endpoint
+  getAncillaryFileDescriptors |
+  getFileDescriptor |
+  getInputStream |
+  getLocalSocketAddress |
+  getOutputStream |
+  getPeerCredentials |
+  getReceiveBufferSize |
+  getRemoteSocketAddress |
+  getSendBufferSize |
+  getSoTimeout |
+  isBound |
+  isClosed |
+  isConnected |
+  isInputShutdown |
+  isOutputShutdown |
+  setFileDescriptorsForSend | fds
+  setReceiveBufferSize | size
+  setSendBufferSize | n
+  setSoTimeout | n
+  shutdownInput |
+  shutdownOutput |
+  toString |
+android.net.LocalSocketAddress
+ Methods: 2
+  getName |
+  getNamespace |
+android.net.MailTo
+ Methods: 8
+  getBody |
+  getCc |
+  getHeaders |
+  getSubject |
+  getTo |
+  isMailTo | url
+  parse | url
+  toString |
+android.net.Network
+ Methods: 14
+  bindSocket | socket
+  bindSocket | socket
+  bindSocket | fd
+  describeContents |
+  equals | obj
+  getAllByName | host
+  getByName | host
+  getNetworkHandle |
+  getSocketFactory |
+  hashCode |
+  openConnection | url
+  openConnection | url, proxy
+  toString |
+  writeToParcel | dest, flags
+android.net.NetworkCapabilities
+ Methods: 9
+  describeContents |
+  equals | obj
+  getLinkDownstreamBandwidthKbps |
+  getLinkUpstreamBandwidthKbps |
+  hasCapability | capability
+  hasTransport | transportType
+  hashCode |
+  toString |
+  writeToParcel | dest, flags
+android.net.NetworkInfo
+ Methods: 16
+  describeContents |
+  getDetailedState |
+  getExtraInfo |
+  getReason |
+  getState |
+  getSubtype |
+  getSubtypeName |
+  getType |
+  getTypeName |
+  isAvailable |
+  isConnected |
+  isConnectedOrConnecting |
+  isFailover |
+  isRoaming |
+  toString |
+  writeToParcel | dest, flags
+android.net.NetworkRequest
+ Methods: 5
+  describeContents |
+  equals | obj
+  hashCode |
+  toString |
+  writeToParcel | dest, flags
+android.net.NetworkRequest.Builder
+ Methods: 7
+  addCapability | capability
+  addTransportType | transportType
+  build |
+  removeCapability | capability
+  removeTransportType | transportType
+  setNetworkSpecifier | networkSpecifier
+  setNetworkSpecifier | networkSpecifier
+android.net.NetworkSpecifier
+ Methods: 0
+android.net.Proxy
+ Methods: 4
+  getDefaultHost |
+  getDefaultPort |
+  getHost | ctx
+  getPort | ctx
+android.net.ProxyInfo
+ Methods: 10
+  buildDirectProxy | host, port, exclList
+  buildDirectProxy | host, port
+  buildPacProxy | pacUri
+  equals | o
+  getExclusionList |
+  getHost |
+  getPacFileUrl |
+  getPort |
+  hashCode |
+  toString |
+android.net.RouteInfo
+ Methods: 10
+  describeContents |
+  equals | obj
+  getDestination |
+  getGateway |
+  getInterface |
+  hashCode |
+  isDefaultRoute |
+  matches | destination
+  toString |
+  writeToParcel | dest, flags
+android.net.SSLCertificateSocketFactory
+ Methods: 17
+  createSocket | host, port
+  createSocket | k, host, port, close
+  createSocket |
+  createSocket | addr, port, localAddr, localPort
+  createSocket | addr, port
+  createSocket | host, port, localAddr, localPort
+  getDefault | handshakeTimeoutMillis
+  getDefault | handshakeTimeoutMillis, cache
+  getDefaultCipherSuites |
+  getInsecure | handshakeTimeoutMillis, cache
+  getNpnSelectedProtocol | socket
+  getSupportedCipherSuites |
+  setHostname | socket, hostName
+  setKeyManagers | keyManagers
+  setNpnProtocols | byte[][] npnProtocols
+  setTrustManagers | trustManager
+  setUseSessionTickets | socket, useSessionTickets
+android.net.SSLSessionCache
+ Methods: 0
+android.net.TrafficStats
+ Methods: 30
+  clearThreadStatsTag |
+  getAndSetThreadStatsTag | tag
+  getMobileRxBytes |
+  getMobileRxPackets |
+  getMobileTxBytes |
+  getMobileTxPackets |
+  getThreadStatsTag |
+  getTotalRxBytes |
+  getTotalRxPackets |
+  getTotalTxBytes |
+  getTotalTxPackets |
+  getUidRxBytes | uid
+  getUidRxPackets | uid
+  getUidTcpRxBytes | uid
+  getUidTcpRxSegments | uid
+  getUidTcpTxBytes | uid
+  getUidTcpTxSegments | uid
+  getUidTxBytes | uid
+  getUidTxPackets | uid
+  getUidUdpRxBytes | uid
+  getUidUdpRxPackets | uid
+  getUidUdpTxBytes | uid
+  getUidUdpTxPackets | uid
+  incrementOperationCount | operationCount
+  incrementOperationCount | tag, operationCount
+  setThreadStatsTag | tag
+  tagDatagramSocket | socket
+  tagSocket | socket
+  untagDatagramSocket | socket
+  untagSocket | socket
+android.net.Uri
+ Methods: 39
+  buildUpon |
+  compareTo | other
+  decode | s
+  encode | s, allow
+  encode | s
+  equals | o
+  fromFile | file
+  fromParts | scheme, ssp, fragment
+  getAuthority |
+  getBooleanQueryParameter | key, defaultValue
+  getEncodedAuthority |
+  getEncodedFragment |
+  getEncodedPath |
+  getEncodedQuery |
+  getEncodedSchemeSpecificPart |
+  getEncodedUserInfo |
+  getFragment |
+  getHost |
+  getLastPathSegment |
+  getPath |
+  getPathSegments |
+  getPort |
+  getQuery |
+  getQueryParameter | key
+  getQueryParameterNames |
+  getQueryParameters | key
+  getScheme |
+  getSchemeSpecificPart |
+  getUserInfo |
+  hashCode |
+  isAbsolute |
+  isHierarchical |
+  isOpaque |
+  isRelative |
+  normalizeScheme |
+  parse | uriString
+  toString |
+  withAppendedPath | baseUri, pathSegment
+  writeToParcel | out, uri
+android.net.Uri.Builder
+ Methods: 17
+  appendEncodedPath | newSegment
+  appendPath | newSegment
+  appendQueryParameter | key, value
+  authority | authority
+  build |
+  clearQuery |
+  encodedAuthority | authority
+  encodedFragment | fragment
+  encodedOpaquePart | opaquePart
+  encodedPath | path
+  encodedQuery | query
+  fragment | fragment
+  opaquePart | opaquePart
+  path | path
+  query | query
+  scheme | scheme
+  toString |
+android.net.UrlQuerySanitizer
+ Methods: 26
+  getAllButNulAndAngleBracketsLegal |
+  getAllButNulLegal |
+  getAllButWhitespaceLegal |
+  getAllIllegal |
+  getAllowUnregisteredParamaters |
+  getAmpAndSpaceLegal |
+  getAmpLegal |
+  getEffectiveValueSanitizer | parameter
+  getParameterList |
+  getParameterSet |
+  getPreferFirstRepeatedParameter |
+  getSpaceLegal |
+  getUnregisteredParameterValueSanitizer |
+  getUrlAndSpaceLegal |
+  getUrlLegal |
+  getValue | parameter
+  getValueSanitizer | parameter
+  hasParameter | parameter
+  parseQuery | query
+  parseUrl | url
+  registerParameter | parameter, valueSanitizer
+  registerParameters | parameters, valueSanitizer
+  setAllowUnregisteredParamaters | allowUnregisteredParamaters
+  setPreferFirstRepeatedParameter | preferFirstRepeatedParameter
+  setUnregisteredParameterValueSanitizer | sanitizer
+  unescape | string
+android.net.UrlQuerySanitizer.IllegalCharacterValueSanitizer
+ Methods: 1
+  sanitize | value
+android.net.UrlQuerySanitizer.ParameterValuePair
+ Methods: 0
+android.net.VpnService
+ Methods: 7
+  onBind | intent
+  onRevoke |
+  prepare | context
+  protect | socket
+  protect | socket
+  protect | socket
+  setUnderlyingNetworks | networks
+android.net.VpnService.Builder
+ Methods: 17
+  addAddress | address, prefixLength
+  addAddress | address, prefixLength
+  addAllowedApplication | packageName
+  addDisallowedApplication | packageName
+  addDnsServer | address
+  addDnsServer | address
+  addRoute | address, prefixLength
+  addRoute | address, prefixLength
+  addSearchDomain | domain
+  allowBypass |
+  allowFamily | family
+  establish |
+  setBlocking | blocking
+  setConfigureIntent | intent
+  setMtu | mtu
+  setSession | session
+  setUnderlyingNetworks | networks
+android.net.LocalSocketAddress.Namespace
+ Methods: 2
+  valueOf | name
+  values |
+android.net.NetworkInfo.DetailedState
+ Methods: 2
+  valueOf | name
+  values |
+android.net.NetworkInfo.State
+ Methods: 2
+  valueOf | name
+  values |
+android.net.ParseException
+ Methods: 0
+android.net.http.HttpResponseCache
+ Methods: 12
+  close |
+  delete |
+  flush |
+  get | uri, requestMethod, , requestHeaders
+  getHitCount |
+  getInstalled |
+  getNetworkCount |
+  getRequestCount |
+  install | directory, maxSize
+  maxSize |
+  put | uri, urlConnection
+  size |
+android.net.http.SslCertificate
+ Methods: 9
+  getIssuedBy |
+  getIssuedTo |
+  getValidNotAfter |
+  getValidNotAfterDate |
+  getValidNotBefore |
+  getValidNotBeforeDate |
+  restoreState | bundle
+  saveState | certificate
+  toString |
+android.net.http.SslCertificate.DName
+ Methods: 4
+  getCName |
+  getDName |
+  getOName |
+  getUName |
+android.net.http.SslError
+ Methods: 6
+  addError | error
+  getCertificate |
+  getPrimaryError |
+  getUrl |
+  hasError | error
+  toString |
+android.net.http.X509TrustManagerExtensions
+ Methods: 2
+  checkServerTrusted | chain, authType, host
+  isUserAddedCertificate | cert
+android.net.nsd.NsdManager.DiscoveryListener
+ Methods: 6
+  onDiscoveryStarted | serviceType
+  onDiscoveryStopped | serviceType
+  onServiceFound | serviceInfo
+  onServiceLost | serviceInfo
+  onStartDiscoveryFailed | serviceType, errorCode
+  onStopDiscoveryFailed | serviceType, errorCode
+android.net.nsd.NsdManager.RegistrationListener
+ Methods: 4
+  onRegistrationFailed | serviceInfo, errorCode
+  onServiceRegistered | serviceInfo
+  onServiceUnregistered | serviceInfo
+  onUnregistrationFailed | serviceInfo, errorCode
+android.net.nsd.NsdManager.ResolveListener
+ Methods: 2
+  onResolveFailed | serviceInfo, errorCode
+  onServiceResolved | serviceInfo
+android.net.nsd.NsdManager
+ Methods: 5
+  discoverServices | serviceType, protocolType, listener
+  registerService | serviceInfo, protocolType, listener
+  resolveService | serviceInfo, listener
+  stopServiceDiscovery | listener
+  unregisterService | listener
+android.net.nsd.NsdServiceInfo
+ Methods: 14
+  describeContents |
+  getAttributes |
+  getHost |
+  getPort |
+  getServiceName |
+  getServiceType |
+  removeAttribute | key
+  setAttribute | key, value
+  setHost | s
+  setPort | p
+  setServiceName | s
+  setServiceType | s
+  toString |
+  writeToParcel | dest, flags
+android.net.rtp.AudioCodec
+ Methods: 2
+  getCodec | type, rtpmap, fmtp
+  getCodecs |
+android.net.rtp.AudioGroup
+ Methods: 5
+  clear |
+  getMode |
+  getStreams |
+  sendDtmf | event
+  setMode | mode
+android.net.rtp.AudioStream
+ Methods: 7
+  getCodec |
+  getDtmfType |
+  getGroup |
+  isBusy |
+  join | group
+  setCodec | codec
+  setDtmfType | type
+android.net.rtp.RtpStream
+ Methods: 9
+  associate | address, port
+  getLocalAddress |
+  getLocalPort |
+  getMode |
+  getRemoteAddress |
+  getRemotePort |
+  isBusy |
+  release |
+  setMode | mode
+android.net.sip.SipRegistrationListener
+ Methods: 3
+  onRegistering | localProfileUri
+  onRegistrationDone | localProfileUri, expiryTime
+  onRegistrationFailed | localProfileUri, errorCode, errorMessage
+android.net.sip.SipAudioCall
+ Methods: 20
+  answerCall | timeout
+  attachCall | session, sessionDescription
+  close |
+  continueCall | timeout
+  endCall |
+  getLocalProfile |
+  getPeerProfile |
+  getState |
+  holdCall | timeout
+  isInCall |
+  isMuted |
+  isOnHold |
+  makeCall | peerProfile, sipSession, timeout
+  sendDtmf | code
+  sendDtmf | code, result
+  setListener | listener, callbackImmediately
+  setListener | listener
+  setSpeakerMode | speakerMode
+  startAudio |
+  toggleMute |
+android.net.sip.SipAudioCall.Listener
+ Methods: 10
+  onCallBusy | call
+  onCallEnded | call
+  onCallEstablished | call
+  onCallHeld | call
+  onCalling | call
+  onChanged | call
+  onError | call, errorCode, errorMessage
+  onReadyToCall | call
+  onRinging | call, caller
+  onRingingBack | call
+android.net.sip.SipErrorCode
+ Methods: 1
+  toString | errorCode
+android.net.sip.SipManager
+ Methods: 20
+  close | localProfileUri
+  createSipSession | localProfile, listener
+  getCallId | incomingCallIntent
+  getOfferSessionDescription | incomingCallIntent
+  getSessionFor | incomingCallIntent
+  isApiSupported | context
+  isIncomingCallIntent | intent
+  isOpened | localProfileUri
+  isRegistered | localProfileUri
+  isSipWifiOnly | context
+  isVoipSupported | context
+  makeAudioCall | localProfileUri, peerProfileUri, listener, timeout
+  makeAudioCall | localProfile, peerProfile, listener, timeout
+  newInstance | context
+  open | localProfile, incomingCallPendingIntent, listener
+  open | localProfile
+  register | localProfile, expiryTime, listener
+  setRegistrationListener | localProfileUri, listener
+  takeAudioCall | incomingCallIntent, listener
+  unregister | localProfile, listener
+android.net.sip.SipProfile
+ Methods: 14
+  describeContents |
+  getAuthUserName |
+  getAutoRegistration |
+  getDisplayName |
+  getPassword |
+  getPort |
+  getProfileName |
+  getProtocol |
+  getProxyAddress |
+  getSendKeepAlive |
+  getSipDomain |
+  getUriString |
+  getUserName |
+  writeToParcel | out, flags
+android.net.sip.SipProfile.Builder
+ Methods: 10
+  build |
+  setAuthUserName | name
+  setAutoRegistration | flag
+  setDisplayName | displayName
+  setOutboundProxy | outboundProxy
+  setPassword | password
+  setPort | port
+  setProfileName | name
+  setProtocol | protocol
+  setSendKeepAlive | flag
+android.net.sip.SipSession
+ Methods: 13
+  answerCall | sessionDescription, timeout
+  changeCall | sessionDescription, timeout
+  endCall |
+  getCallId |
+  getLocalIp |
+  getLocalProfile |
+  getPeerProfile |
+  getState |
+  isInCall |
+  makeCall | callee, sessionDescription, timeout
+  register | duration
+  setListener | listener
+  unregister |
+android.net.sip.SipSession.Listener
+ Methods: 12
+  onCallBusy | session
+  onCallChangeFailed | session, errorCode, errorMessage
+  onCallEnded | session
+  onCallEstablished | session, sessionDescription
+  onCalling | session
+  onError | session, errorCode, errorMessage
+  onRegistering | session
+  onRegistrationDone | session, duration
+  onRegistrationFailed | session, errorCode, errorMessage
+  onRegistrationTimeout | session
+  onRinging | session, caller, sessionDescription
+  onRingingBack | session
+android.net.sip.SipSession.State
+ Methods: 1
+  toString | state
+android.net.sip.SipException
+ Methods: 0
+android.net.wifi.ScanResult
+ Methods: 3
+  is80211mcResponder |
+  isPasspointNetwork |
+  toString |
+android.net.wifi.WifiConfiguration
+ Methods: 4
+  getHttpProxy |
+  isPasspoint |
+  setHttpProxy | httpProxy
+  toString |
+android.net.wifi.WifiConfiguration.AuthAlgorithm
+ Methods: 0
+android.net.wifi.WifiConfiguration.GroupCipher
+ Methods: 0
+android.net.wifi.WifiConfiguration.KeyMgmt
+ Methods: 0
+android.net.wifi.WifiConfiguration.PairwiseCipher
+ Methods: 0
+android.net.wifi.WifiConfiguration.Protocol
+ Methods: 0
+android.net.wifi.WifiConfiguration.Status
+ Methods: 0
+android.net.wifi.WifiEnterpriseConfig
+ Methods: 31
+  describeContents |
+  getAltSubjectMatch |
+  getAnonymousIdentity |
+  getCaCertificate |
+  getCaCertificates |
+  getClientCertificate |
+  getClientCertificateChain |
+  getDomainSuffixMatch |
+  getEapMethod |
+  getIdentity |
+  getPassword |
+  getPhase2Method |
+  getPlmn |
+  getRealm |
+  getSubjectMatch |
+  setAltSubjectMatch | altSubjectMatch
+  setAnonymousIdentity | anonymousIdentity
+  setCaCertificate | cert
+  setCaCertificates | certs
+  setClientKeyEntry | privateKey, clientCertificate
+  setClientKeyEntryWithCertificateChain | privateKey, clientCertificateChain
+  setDomainSuffixMatch | domain
+  setEapMethod | eapMethod
+  setIdentity | identity
+  setPassword | password
+  setPhase2Method | phase2Method
+  setPlmn | plmn
+  setRealm | realm
+  setSubjectMatch | subjectMatch
+  toString |
+  writeToParcel | dest, flags
+android.net.wifi.WifiEnterpriseConfig.Eap
+ Methods: 0
+android.net.wifi.WifiEnterpriseConfig.Phase2
+ Methods: 0
+android.net.wifi.WifiInfo
+ Methods: 12
+  getBSSID |
+  getDetailedStateOf | suppState
+  getFrequency |
+  getHiddenSSID |
+  getIpAddress |
+  getLinkSpeed |
+  getMacAddress |
+  getNetworkId |
+  getRssi |
+  getSSID |
+  getSupplicantState |
+  toString |
+android.net.wifi.WifiManager
+ Methods: 38
+  addNetwork | config
+  addOrUpdatePasspointConfiguration | config
+  calculateSignalLevel | rssi, numLevels
+  cancelWps | listener
+  compareSignalLevel | rssiA, rssiB
+  createMulticastLock | tag
+  createWifiLock | tag
+  createWifiLock | lockType, tag
+  disableNetwork | netId
+  disconnect |
+  enableNetwork | netId, attemptConnect
+  getConfiguredNetworks |
+  getConnectionInfo |
+  getDhcpInfo |
+  getPasspointConfigurations |
+  getScanResults |
+  getWifiState |
+  is5GHzBandSupported |
+  isDeviceToApRttSupported |
+  isEnhancedPowerReportingSupported |
+  isP2pSupported |
+  isPreferredNetworkOffloadSupported |
+  isScanAlwaysAvailable |
+  isTdlsSupported |
+  isWifiEnabled |
+  pingSupplicant |
+  reassociate |
+  reconnect |
+  removeNetwork | netId
+  removePasspointConfiguration | fqdn
+  saveConfiguration |
+  setTdlsEnabled | remoteIPAddress, enable
+  setTdlsEnabledWithMacAddress | remoteMacAddress, enable
+  setWifiEnabled | enabled
+  startLocalOnlyHotspot | callback, handler
+  startScan |
+  startWps | config, listener
+  updateNetwork | config
+android.net.wifi.WifiManager.LocalOnlyHotspotCallback
+ Methods: 3
+  onFailed | reason
+  onStarted | reservation
+  onStopped |
+android.net.wifi.WifiManager.LocalOnlyHotspotReservation
+ Methods: 2
+  close |
+  getWifiConfiguration |
+android.net.wifi.WifiManager.MulticastLock
+ Methods: 5
+  acquire |
+  isHeld |
+  release |
+  setReferenceCounted | refCounted
+  toString |
+android.net.wifi.WifiManager.WifiLock
+ Methods: 6
+  acquire |
+  isHeld |
+  release |
+  setReferenceCounted | refCounted
+  setWorkSource | ws
+  toString |
+android.net.wifi.WifiManager.WpsCallback
+ Methods: 3
+  onFailed | reason
+  onStarted | pin
+  onSucceeded |
+android.net.wifi.WpsInfo
+ Methods: 3
+  describeContents |
+  toString |
+  writeToParcel | dest, flags
+android.net.wifi.SupplicantState
+ Methods: 3
+  isValidState | state
+  valueOf | name
+  values |
+android.net.wifi.aware.AttachCallback
+ Methods: 2
+  onAttachFailed |
+  onAttached | session
+android.net.wifi.aware.Characteristics
+ Methods: 5
+  describeContents |
+  getMaxMatchFilterLength |
+  getMaxServiceNameLength |
+  getMaxServiceSpecificInfoLength |
+  writeToParcel | dest, flags
+android.net.wifi.aware.DiscoverySession
+ Methods: 4
+  close |
+  createNetworkSpecifierOpen | peerHandle
+  createNetworkSpecifierPassphrase | peerHandle, passphrase
+  sendMessage | peerHandle, messageId, byte[] message
+android.net.wifi.aware.DiscoverySessionCallback
+ Methods: 9
+  onMessageReceived | peerHandle, byte[] message
+  onMessageSendFailed | messageId
+  onMessageSendSucceeded | messageId
+  onPublishStarted | session
+  onServiceDiscovered | peerHandle, byte[] serviceSpecificInfo, byte[] matchFilter
+  onSessionConfigFailed |
+  onSessionConfigUpdated |
+  onSessionTerminated |
+  onSubscribeStarted | session
+android.net.wifi.aware.IdentityChangedListener
+ Methods: 1
+  onIdentityChanged | byte[] mac
+android.net.wifi.aware.PeerHandle
+ Methods: 0
+android.net.wifi.aware.PublishConfig
+ Methods: 5
+  describeContents |
+  equals | o
+  hashCode |
+  toString |
+  writeToParcel | dest, flags
+android.net.wifi.aware.PublishConfig.Builder
+ Methods: 7
+  build |
+  setMatchFilter | byte[] matchFilter
+  setPublishType | publishType
+  setServiceName | serviceName
+  setServiceSpecificInfo | byte[] serviceSpecificInfo
+  setTerminateNotificationEnabled | enable
+  setTtlSec | ttlSec
+android.net.wifi.aware.PublishDiscoverySession
+ Methods: 1
+  updatePublish | publishConfig
+android.net.wifi.aware.SubscribeConfig
+ Methods: 5
+  describeContents |
+  equals | o
+  hashCode |
+  toString |
+  writeToParcel | dest, flags
+android.net.wifi.aware.SubscribeConfig.Builder
+ Methods: 7
+  build |
+  setMatchFilter | byte[] matchFilter
+  setServiceName | serviceName
+  setServiceSpecificInfo | byte[] serviceSpecificInfo
+  setSubscribeType | subscribeType
+  setTerminateNotificationEnabled | enable
+  setTtlSec | ttlSec
+android.net.wifi.aware.SubscribeDiscoverySession
+ Methods: 1
+  updateSubscribe | subscribeConfig
+android.net.wifi.aware.WifiAwareManager
+ Methods: 4
+  attach | attachCallback, handler
+  attach | attachCallback, identityChangedListener, handler
+  getCharacteristics |
+  isAvailable |
+android.net.wifi.aware.WifiAwareSession
+ Methods: 5
+  close |
+  createNetworkSpecifierOpen | role, byte[] peer
+  createNetworkSpecifierPassphrase | role, byte[] peer, passphrase
+  publish | publishConfig, callback, handler
+  subscribe | subscribeConfig, callback, handler
+android.net.wifi.hotspot2.ConfigParser
+ Methods: 1
+  parsePasspointConfig | mimeType, byte[] data
+android.net.wifi.hotspot2.PasspointConfiguration
+ Methods: 9
+  describeContents |
+  equals | thatObject
+  getCredential |
+  getHomeSp |
+  hashCode |
+  setCredential | credential
+  setHomeSp | homeSp
+  toString |
+  writeToParcel | dest, flags
+android.net.wifi.hotspot2.omadm.PpsMoParser
+ Methods: 1
+  parseMoText | xmlString
+android.net.wifi.hotspot2.pps.Credential
+ Methods: 19
+  describeContents |
+  equals | thatObject
+  getCaCertificate |
+  getCertCredential |
+  getClientCertificateChain |
+  getClientPrivateKey |
+  getRealm |
+  getSimCredential |
+  getUserCredential |
+  hashCode |
+  setCaCertificate | caCertificate
+  setCertCredential | certCredential
+  setClientCertificateChain | certificateChain
+  setClientPrivateKey | clientPrivateKey
+  setRealm | realm
+  setSimCredential | simCredential
+  setUserCredential | userCredential
+  toString |
+  writeToParcel | dest, flags
+android.net.wifi.hotspot2.pps.Credential.CertificateCredential
+ Methods: 9
+  describeContents |
+  equals | thatObject
+  getCertSha256Fingerprint |
+  getCertType |
+  hashCode |
+  setCertSha256Fingerprint | byte[] certSha256Fingerprint
+  setCertType | certType
+  toString |
+  writeToParcel | dest, flags
+android.net.wifi.hotspot2.pps.Credential.SimCredential
+ Methods: 9
+  describeContents |
+  equals | thatObject
+  getEapType |
+  getImsi |
+  hashCode |
+  setEapType | eapType
+  setImsi | imsi
+  toString |
+  writeToParcel | dest, flags
+android.net.wifi.hotspot2.pps.Credential.UserCredential
+ Methods: 13
+  describeContents |
+  equals | thatObject
+  getEapType |
+  getNonEapInnerMethod |
+  getPassword |
+  getUsername |
+  hashCode |
+  setEapType | eapType
+  setNonEapInnerMethod | nonEapInnerMethod
+  setPassword | password
+  setUsername | username
+  toString |
+  writeToParcel | dest, flags
+android.net.wifi.hotspot2.pps.HomeSp
+ Methods: 11
+  describeContents |
+  equals | thatObject
+  getFqdn |
+  getFriendlyName |
+  getRoamingConsortiumOis |
+  hashCode |
+  setFqdn | fqdn
+  setFriendlyName | friendlyName
+  setRoamingConsortiumOis | long[] roamingConsortiumOis
+  toString |
+  writeToParcel | dest, flags
+android.net.wifi.p2p.WifiP2pManager.ActionListener
+ Methods: 2
+  onFailure | reason
+  onSuccess |
+android.net.wifi.p2p.WifiP2pManager.ChannelListener
+ Methods: 1
+  onChannelDisconnected |
+android.net.wifi.p2p.WifiP2pManager.ConnectionInfoListener
+ Methods: 1
+  onConnectionInfoAvailable | info
+android.net.wifi.p2p.WifiP2pManager.DnsSdServiceResponseListener
+ Methods: 1
+  onDnsSdServiceAvailable | instanceName, registrationType, srcDevice
+android.net.wifi.p2p.WifiP2pManager.DnsSdTxtRecordListener
+ Methods: 1
+  onDnsSdTxtRecordAvailable | fullDomainName, , txtRecordMap, srcDevice
+android.net.wifi.p2p.WifiP2pManager.GroupInfoListener
+ Methods: 1
+  onGroupInfoAvailable | group
+android.net.wifi.p2p.WifiP2pManager.PeerListListener
+ Methods: 1
+  onPeersAvailable | peers
+android.net.wifi.p2p.WifiP2pManager.ServiceResponseListener
+ Methods: 1
+  onServiceAvailable | protocolType, byte[] responseData, srcDevice
+android.net.wifi.p2p.WifiP2pManager.UpnpServiceResponseListener
+ Methods: 1
+  onUpnpServiceAvailable | uniqueServiceNames, srcDevice
+android.net.wifi.p2p.WifiP2pConfig
+ Methods: 3
+  describeContents |
+  toString |
+  writeToParcel | dest, flags
+android.net.wifi.p2p.WifiP2pDevice
+ Methods: 9
+  describeContents |
+  equals | obj
+  isGroupOwner |
+  isServiceDiscoveryCapable |
+  toString |
+  wpsDisplaySupported |
+  wpsKeypadSupported |
+  wpsPbcSupported |
+  writeToParcel | dest, flags
+android.net.wifi.p2p.WifiP2pDeviceList
+ Methods: 5
+  describeContents |
+  get | deviceAddress
+  getDeviceList |
+  toString |
+  writeToParcel | dest, flags
+android.net.wifi.p2p.WifiP2pGroup
+ Methods: 9
+  describeContents |
+  getClientList |
+  getInterface |
+  getNetworkName |
+  getOwner |
+  getPassphrase |
+  isGroupOwner |
+  toString |
+  writeToParcel | dest, flags
+android.net.wifi.p2p.WifiP2pInfo
+ Methods: 3
+  describeContents |
+  toString |
+  writeToParcel | dest, flags
+android.net.wifi.p2p.WifiP2pManager
+ Methods: 20
+  addLocalService | c, servInfo, listener
+  addServiceRequest | c, req, listener
+  cancelConnect | c, listener
+  clearLocalServices | c, listener
+  clearServiceRequests | c, listener
+  connect | c, config, listener
+  createGroup | c, listener
+  discoverPeers | c, listener
+  discoverServices | c, listener
+  initialize | srcContext, srcLooper, listener
+  removeGroup | c, listener
+  removeLocalService | c, servInfo, listener
+  removeServiceRequest | c, req, listener
+  requestConnectionInfo | c, listener
+  requestGroupInfo | c, listener
+  requestPeers | c, listener
+  setDnsSdResponseListeners | c, servListener, txtListener
+  setServiceResponseListener | c, listener
+  setUpnpServiceResponseListener | c, listener
+  stopPeerDiscovery | c, listener
+android.net.wifi.p2p.WifiP2pManager.Channel
+ Methods: 0
+android.net.wifi.p2p.nsd.WifiP2pDnsSdServiceInfo
+ Methods: 1
+  newInstance | instanceName, serviceType, , txtMap
+android.net.wifi.p2p.nsd.WifiP2pDnsSdServiceRequest
+ Methods: 3
+  newInstance |
+  newInstance | serviceType
+  newInstance | instanceName, serviceType
+android.net.wifi.p2p.nsd.WifiP2pServiceInfo
+ Methods: 2
+  equals | o
+  hashCode |
+android.net.wifi.p2p.nsd.WifiP2pServiceRequest
+ Methods: 4
+  equals | o
+  hashCode |
+  newInstance | protocolType, queryData
+  newInstance | protocolType
+android.net.wifi.p2p.nsd.WifiP2pUpnpServiceInfo
+ Methods: 1
+  newInstance | uuid, device, services
+android.net.wifi.p2p.nsd.WifiP2pUpnpServiceRequest
+ Methods: 2
+  newInstance |
+  newInstance | st

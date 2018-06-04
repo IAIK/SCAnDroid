@@ -1,0 +1,24 @@
+                         precision    recall  f1-score   support
+
+    acropolis+of+athens       0.56      0.62      0.59         8
+                big+ben       1.00      0.50      0.67         8
+           burj+khalifa       0.88      0.88      0.88         8
+              cape+town       0.75      0.75      0.75         8
+         colosseum+rome       0.86      0.75      0.80         8
+           eiffel+tower       1.00      0.88      0.93         8
+  empire+state+building       1.00      1.00      1.00         8
+       mirabell+gardens       1.00      0.88      0.93         8
+            mt.+everest       0.55      0.75      0.63         8
+                 peking       1.00      0.75      0.86         8
+        petronas+towers       0.70      0.88      0.78         8
+            pyeongchang       0.67      0.75      0.71         8
+              pyongyang       0.89      1.00      0.94         8
+       pyramids+of+giza       0.78      0.88      0.82         8
+              singapore       0.50      0.38      0.43         8
+         sydney+harbour       0.62      0.62      0.62         8
+             taipei+101       0.67      0.75      0.71         8
+the+great+wall+of+china       0.80      1.00      0.89         8
+         toronto+canada       0.67      0.50      0.57         8
+ wencelas+square+prague       0.89      1.00      0.94         8
+
+            avg / total       0.79      0.78      0.77       160

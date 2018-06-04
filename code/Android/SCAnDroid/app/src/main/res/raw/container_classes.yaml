@@ -1,0 +1,4 @@
+container_classes: [
+  "android.app.usage.NetworkStats$Bucket",
+  #"android.app.usage.NetworkStats",
+  ]
